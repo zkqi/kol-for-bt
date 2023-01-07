@@ -878,8 +878,8 @@ NTIPAliasClassID["s764"] = 764; //
 NTIPAliasClassID["s765"] = 765; //
 NTIPAliasClassID["s766"] = 766; //
 NTIPAliasClassID["s767"] = 767; //
-NTIPAliasClassID["s768"] = 768; //
-NTIPAliasClassID["s769"] = 769; //
+NTIPAliasClassID["s768"] = 768; //技能转换石
+NTIPAliasClassID["s769"] = 769; //技能石碎片
 NTIPAliasClassID["s770"] = 770; //闪电之怒强化石
 NTIPAliasClassID["s771"] = 771; //
 NTIPAliasClassID["s772"] = 772; //
@@ -1637,7 +1637,6 @@ NTIPAliasStat["plus63"] = [97,63];//闪支
 NTIPAliasStat["plus65"] = [97,65];//冰支
 NTIPAliasStat["plus66"] = [97,66];//伤害加深
 NTIPAliasStat["plus78"] = [97,78];//骨墙
-NTIPAliasStat["plus88"] = [97,88];//骨牢
 NTIPAliasStat["plus91"] = [97,91];//降抗
 NTIPAliasStat["plus117"] = [97,117];//圣盾
 NTIPAliasStat["plus123"] = [97,123];//信念
@@ -1645,6 +1644,7 @@ NTIPAliasStat["plus138"] = [97,138];//大叫
 NTIPAliasStat["plus145"] = [97,145];//铁布衫
 NTIPAliasStat["plus154"] = [97,154];//WC
 NTIPAliasStat["plus226"] = [97,226];//oak
+NTIPAliasStat["plus235"] = [97,235];//飓风装甲
 NTIPAliasStat["plus267"] = [97,267];//消解
 
 
