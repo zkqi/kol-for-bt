@@ -121,7 +121,8 @@ var Attack = {
 	
 	checkInfinity: function () {
 		var item,
-			level = 0;
+			level = 0,
+			levela = 0;
 		// Check player infinity
 		item = me.getItem(-1, 1);
 
@@ -132,8 +133,12 @@ var Attack = {
 				}
 			} while (item.getNext());
 		}
+		
+		if (Config.AttackSkill[2] == 123 && Config.AttackSkill[4] == 123) {
+			levela = me.getSkill(123, 1);
+		}
 
-		return level;
+		return Math.max(level,levela);
 	},
 
 	// Kill a monster based on its classId, can pass a unit as well
@@ -217,6 +222,26 @@ var Attack = {
 			throw new Error("Failed to kill " + target.name + errorInfo);
 		}
 
+		return true;
+	},
+	
+	killall: function (classId) {
+		var monsterList = [],
+		target = getUnit(1, classId);
+		if (target) {
+			do {
+				monsterList.push(copyUnit(target));
+			} while (target.getNext());
+		}
+		
+		while (monsterList.length > 0) {
+			target = copyUnit(monsterList[0]);
+			this.kill(target);
+			Pickit.pickItems();
+			monsterList.shift();
+			delay(100);
+		}
+		
 		return true;
 	},
 
@@ -1337,7 +1362,7 @@ AuraLoop: // Skip monsters with auras
 
 		if ((this.checkmercInfinity() || this.checkInfinity()) && ["fire", "lightning", "cold", "magic", "poison"].indexOf(damageType) > -1) {
 			if (!unit.getState(28)) {
-				return this.getResist(unit, damageType) < (105 + Math.max(this.checkmercInfinity(),this.checkInfinity()));
+				return this.getResist(unit, damageType) < (100 + Math.max(this.checkmercInfinity(),this.checkInfinity()));
 			}
 
 			return this.getResist(unit, damageType) < maxres;

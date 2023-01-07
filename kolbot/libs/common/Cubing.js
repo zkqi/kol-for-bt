@@ -97,7 +97,9 @@ var Recipe = {
 	Zkqib: 57,
 	Zkqic: 58,
 	Zkqid: 59,
-	Zkqie: 60
+	Zkqie: 60,
+	Zkqif: 61,
+	Zkqig: 62
 };
 
 var Cubing = {
@@ -598,6 +600,17 @@ var Cubing = {
 				this.recipes.push({Ingredients: [Config.Recipes[i][1], 598], Index: Recipe.Zkqie});
 
 				break;
+			case Recipe.Zkqif:
+				this.recipes.push({Ingredients: ["jineng", 603], Index: Recipe.Zkqif,
+				NeedPickupSet: true,
+				NeedPickupItems:[723,724,725,726,727,728,729,730,731,732,733,734,735,736,746]
+				});
+
+				break;
+			case Recipe.Zkqig:
+				this.recipes.push({Ingredients: [769, 769, 769], Index: Recipe.Zkqig, AlwaysEnabled: true});
+
+				break;
 			}	
 		}
 	},
@@ -634,7 +647,7 @@ var Cubing = {
 	},
 
 	buildLists: function () {
-		var i, j, k, items;
+		var i, j, k, m, items;
 
 		CraftingSystem.checkSubrecipes();
 
@@ -651,7 +664,8 @@ IngredientLoop:
 				for (k = 0; k < items.length; k += 1) {
 					if (((this.recipes[i].Ingredients[j] === "pgem" && this.gemList.indexOf(items[k].classid) > -1) ||
 						(this.recipes[i].Ingredients[j] === "cgem" && [557, 562, 567, 572, 577, 582, 597].indexOf(items[k].classid) > -1) ||
-						items[k].classid === this.recipes[i].Ingredients[j]) && this.validItem(items[k], this.recipes[i])) {
+						items[k].classid === this.recipes[i].Ingredients[j]) && this.validItem(items[k], this.recipes[i]) ||
+						(this.recipes[i].Ingredients[j] === "jineng" && this.recipes[i].NeedPickupItems.indexOf(items[k].classid) > -1)) {
 
 						// push the item's info into the valid ingredients array. this will be used to find items when checking recipes
 						this.validIngredients.push({classid: items[k].classid, gid: items[k].gid});
@@ -676,6 +690,14 @@ IngredientLoop:
 
 				// add the item to needed list - enable pickup
 				this.neededIngredients.push({classid: this.recipes[i].Ingredients[j], recipe: this.recipes[i]});
+				
+				if (this.recipes[i].hasOwnProperty("NeedPickupSet") && this.recipes[i].NeedPickupSet) {
+					for (m = 0; m < this.recipes[i].NeedPickupItems.length; m += 1) {
+						if (this.neededIngredients.indexOf(this.recipes[i].NeedPickupItems[m]) === -1) {
+							this.neededIngredients.push({classid: this.recipes[i].NeedPickupItems[m], recipe: this.recipes[i]})
+						}
+					}
+				}
 
 				// skip flawless gems adding if we don't have the main item (Recipe.Gem and Recipe.Rune for el-ort are always enabled)
 				if (!this.recipes[i].Enabled) {
@@ -759,7 +781,8 @@ IngredientLoop:
 				if (usedGids.indexOf(this.validIngredients[j].gid) === -1 && (
 						this.validIngredients[j].classid === recipe.Ingredients[i] ||
 						(recipe.Ingredients[i] === "pgem" && this.gemList.indexOf(this.validIngredients[j].classid) > -1) ||
-						(recipe.Ingredients[i] === "cgem" && [557, 562, 567, 572, 577, 582, 597].indexOf(this.validIngredients[j].classid) > -1)
+						(recipe.Ingredients[i] === "cgem" && [557, 562, 567, 572, 577, 582, 597].indexOf(this.validIngredients[j].classid) > -1) ||
+						(recipe.Ingredients[i] === "jineng" && recipe.NeedPickupItems.indexOf(this.validIngredients[j].classid) > -1)
 					)) {
 					item = me.getItem(this.validIngredients[j].classid, -1, this.validIngredients[j].gid);
 
@@ -850,7 +873,7 @@ IngredientLoop:
 		}
 
 		// Gems and runes
-		if ((unit.itemType >= 96 && unit.itemType <= 102) || unit.itemType === 74 || unit.itemType === 81 || unit.classid === 598) {
+		if ((unit.itemType >= 96 && unit.itemType <= 102) || unit.itemType === 74 || unit.itemType === 81 || unit.classid === 598 || unit.classid === 603) {
 			if (!recipe.Enabled && recipe.Ingredients[0] !== unit.classid && recipe.Ingredients[1] !== unit.classid) {
 				return false;
 			}
@@ -965,7 +988,7 @@ IngredientLoop:
 			return true;
 		}
 		
-		if (recipe.Index === Recipe.Zkqia || recipe.Index === Recipe.Zkqid) {//抽奖和合成旗帜
+		if (recipe.Index === Recipe.Zkqia || recipe.Index === Recipe.Zkqid || recipe.Index === Recipe.Zkqig) {//抽奖、合成旗帜、合成技能石碎片
 			return true;
 		}
 		
@@ -992,6 +1015,14 @@ IngredientLoop:
 		
 		if (recipe.Index === Recipe.Zkqie) {//回收ugc ulc usc
 			if (unit.quality === 7 && NTIP.CheckItem(unit) === 0 && unit.getStat(378) >= 3) {
+				return true;
+			}
+			
+			return false;
+		}
+		
+		if (recipe.Index === Recipe.Zkqif) {//回收强化技能石
+			if (NTIP.CheckItem(unit) === 0) {
 				return true;
 			}
 			
@@ -1058,7 +1089,7 @@ IngredientLoop:
 
 							break;
 						case 1:
-							if ([568,573,578,583,588,593,608,637,638,639,640,641,642,643,644,645,646,647,648].indexOf(items[j].classid) > -1) {
+							if ([568,573,578,583,588,593,608,637,638,639,640,641,642,643,644,645,646,647,648,769].indexOf(items[j].classid) > -1) {
 								break;
 							}
 							Misc.itemLogger("Cubing Kept", items[j]);
