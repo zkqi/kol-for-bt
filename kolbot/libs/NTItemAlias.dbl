@@ -1,0 +1,1678 @@
+var NTIPAliasType = {};
+NTIPAliasType["shield"] = 2;
+NTIPAliasType["armor"] = 3;
+NTIPAliasType["gold"] = 4;
+NTIPAliasType["bowquiver"] = 5;
+NTIPAliasType["crossbowquiver"] = 6;
+NTIPAliasType["playerbodypart"] = 7;
+NTIPAliasType["herb"] = 8;
+NTIPAliasType["potion"] = 9;
+NTIPAliasType["ring"] = 10;
+NTIPAliasType["elixir"] = 11;
+NTIPAliasType["amulet"] = 12;
+NTIPAliasType["charm"] = 13;
+NTIPAliasType["notused"] = 14;
+NTIPAliasType["boots"] = 15;
+NTIPAliasType["gloves"] = 16;
+NTIPAliasType["notused"] = 17;
+NTIPAliasType["book"] = 18;
+NTIPAliasType["belt"] = 19;
+NTIPAliasType["gem"] = 20;
+NTIPAliasType["torch"] = 21;
+NTIPAliasType["scroll"] = 22;
+NTIPAliasType["notused"] = 23;
+NTIPAliasType["scepter"] = 24;
+NTIPAliasType["wand"] = 25;
+NTIPAliasType["staff"] = 26;
+NTIPAliasType["bow"] = 27;
+NTIPAliasType["axe"] = 28;
+NTIPAliasType["club"] = 29;
+NTIPAliasType["sword"] = 30;
+NTIPAliasType["hammer"] = 31;
+NTIPAliasType["knife"] = 32;
+NTIPAliasType["spear"] = 33;
+NTIPAliasType["polearm"] = 34;
+NTIPAliasType["crossbow"] = 35;
+NTIPAliasType["mace"] = 36;
+NTIPAliasType["helm"] = 37;
+NTIPAliasType["missilepotion"] = 38;
+NTIPAliasType["quest"] = 39;
+NTIPAliasType["bodypart"] = 40;
+NTIPAliasType["key"] = 41;
+NTIPAliasType["throwingknife"] = 42;
+NTIPAliasType["throwingaxe"] = 43;
+NTIPAliasType["javelin"] = 44;
+NTIPAliasType["weapon"] = 45;
+NTIPAliasType["meleeweapon"] = 46;
+NTIPAliasType["missileweapon"] = 47;
+NTIPAliasType["thrownweapon"] = 48;
+NTIPAliasType["comboweapon"] = 49;
+NTIPAliasType["anyarmor"] = 50;
+NTIPAliasType["anyshield"] = 51;
+NTIPAliasType["miscellaneous"] = 52;
+NTIPAliasType["socketfiller"] = 53;
+NTIPAliasType["secondhand"] = 54;
+NTIPAliasType["stavesandrods"] = 55;
+NTIPAliasType["missile"] = 56;
+NTIPAliasType["blunt"] = 57;
+NTIPAliasType["jewel"] = 58;
+NTIPAliasType["classspecific"] = 59;
+NTIPAliasType["amazonitem"] = 60;
+NTIPAliasType["barbarianitem"] = 61;
+NTIPAliasType["necromanceritem"] = 62;
+NTIPAliasType["paladinitem"] = 63;
+NTIPAliasType["sorceressitem"] = 64;
+NTIPAliasType["assassinitem"] = 65;
+NTIPAliasType["druiditem"] = 66;
+NTIPAliasType["handtohand"] = 67;
+NTIPAliasType["orb"] = 68;
+NTIPAliasType["voodooheads"] = 69;
+NTIPAliasType["auricshields"] = 70;
+NTIPAliasType["primalhelm"] = 71;
+NTIPAliasType["pelt"] = 72;
+NTIPAliasType["cloak"] = 73;
+NTIPAliasType["rune"] = 74;
+NTIPAliasType["circlet"] = 75;
+NTIPAliasType["healingpotion"] = 76;
+NTIPAliasType["manapotion"] = 77;
+NTIPAliasType["rejuvpotion"] = 78;
+NTIPAliasType["staminapotion"] = 79;
+NTIPAliasType["antidotepotion"] = 80;
+NTIPAliasType["thawingpotion"] = 81;
+NTIPAliasType["smallcharm"] = 82;
+NTIPAliasType["mediumcharm"] = 83;
+NTIPAliasType["largecharm"] = 84;
+NTIPAliasType["amazonbow"] = 85;
+NTIPAliasType["amazonspear"] = 86;
+NTIPAliasType["amazonjavelin"] = 87;
+NTIPAliasType["assassinclaw"] = 88;
+NTIPAliasType["magicbowquiv"] = 89;
+NTIPAliasType["magicxbowquiv"] = 90;
+NTIPAliasType["chippedgem"] = 91;
+NTIPAliasType["flawedgem"] = 92;
+NTIPAliasType["standardgem"] = 93;
+NTIPAliasType["flawlessgem"] = 94;
+NTIPAliasType["perfectgem"] = 95;
+NTIPAliasType["amethyst"] = 96;
+NTIPAliasType["diamond"] = 97;
+NTIPAliasType["emerald"] = 98;
+NTIPAliasType["ruby"] = 99;
+NTIPAliasType["sapphire"] = 100;
+NTIPAliasType["topaz"] = 101;
+NTIPAliasType["skull"] = 102;
+
+var NTIPAliasClassID = {};
+NTIPAliasClassID["hax"] = 0;    NTIPAliasClassID["handaxe"] = 0;//
+NTIPAliasClassID["axe"] = 1;    NTIPAliasClassID["axe"] = 1;//
+NTIPAliasClassID["2ax"] = 2;    NTIPAliasClassID["doubleaxe"] = 2;//
+NTIPAliasClassID["mpi"] = 3;    NTIPAliasClassID["militarypick"] = 3;//
+NTIPAliasClassID["wax"] = 4;    NTIPAliasClassID["waraxe"] = 4;//
+NTIPAliasClassID["lax"] = 5;    NTIPAliasClassID["largeaxe"] = 5;//
+NTIPAliasClassID["bax"] = 6;    NTIPAliasClassID["broadaxe"] = 6;//
+NTIPAliasClassID["btx"] = 7;    NTIPAliasClassID["battleaxe"] = 7;//
+NTIPAliasClassID["gax"] = 8;    NTIPAliasClassID["greataxe"] = 8;//
+NTIPAliasClassID["gix"] = 9;    NTIPAliasClassID["giantaxe"] = 9;//
+NTIPAliasClassID["wnd"] = 10;    NTIPAliasClassID["wand"] = 10;//
+NTIPAliasClassID["ywn"] = 11;    NTIPAliasClassID["yewwand"] = 11;//
+NTIPAliasClassID["bwn"] = 12;    NTIPAliasClassID["bonewand"] = 12;//
+NTIPAliasClassID["gwn"] = 13;    NTIPAliasClassID["grimwand"] = 13;//
+NTIPAliasClassID["clb"] = 14;    NTIPAliasClassID["club"] = 14;//
+NTIPAliasClassID["scp"] = 15;    NTIPAliasClassID["scepter"] = 15;//
+NTIPAliasClassID["gsc"] = 16;    NTIPAliasClassID["grandscepter"] = 16;//
+NTIPAliasClassID["wsp"] = 17;    NTIPAliasClassID["warscepter"] = 17;//
+NTIPAliasClassID["spc"] = 18;    NTIPAliasClassID["spikedclub"] = 18;//
+NTIPAliasClassID["mac"] = 19;    NTIPAliasClassID["mace"] = 19;//
+NTIPAliasClassID["mst"] = 20;    NTIPAliasClassID["morningstar"] = 20;//
+NTIPAliasClassID["fla"] = 21;    NTIPAliasClassID["flail"] = 21;//
+NTIPAliasClassID["whm"] = 22;    NTIPAliasClassID["warhammer"] = 22;//
+NTIPAliasClassID["mau"] = 23;    NTIPAliasClassID["maul"] = 23;//
+NTIPAliasClassID["gma"] = 24;    NTIPAliasClassID["greatmaul"] = 24;//
+NTIPAliasClassID["ssd"] = 25;    NTIPAliasClassID["shortsword"] = 25;//
+NTIPAliasClassID["scm"] = 26;    NTIPAliasClassID["scimitar"] = 26;//
+NTIPAliasClassID["sbr"] = 27;    NTIPAliasClassID["sabre"] = 27;//
+NTIPAliasClassID["flc"] = 28;    NTIPAliasClassID["falchion"] = 28;//
+NTIPAliasClassID["crs"] = 29;    NTIPAliasClassID["crystalsword"] = 29;//
+NTIPAliasClassID["bsd"] = 30;    NTIPAliasClassID["broadsword"] = 30;//
+NTIPAliasClassID["lsd"] = 31;    NTIPAliasClassID["longsword"] = 31;//
+NTIPAliasClassID["wsd"] = 32;    NTIPAliasClassID["warsword"] = 32;//
+NTIPAliasClassID["2hs"] = 33;    NTIPAliasClassID["twohandedsword"] = 33;//
+NTIPAliasClassID["clm"] = 34;    NTIPAliasClassID["claymore"] = 34;//
+NTIPAliasClassID["gis"] = 35;    NTIPAliasClassID["giantsword"] = 35;//
+NTIPAliasClassID["bsw"] = 36;    NTIPAliasClassID["bastardsword"] = 36;//
+NTIPAliasClassID["flb"] = 37;    NTIPAliasClassID["flamberge"] = 37;//
+NTIPAliasClassID["gsd"] = 38;    NTIPAliasClassID["greatsword"] = 38;//
+NTIPAliasClassID["dgr"] = 39;    NTIPAliasClassID["dagger"] = 39;//
+NTIPAliasClassID["dir"] = 40;    NTIPAliasClassID["dirk"] = 40;//
+NTIPAliasClassID["kri"] = 41;    NTIPAliasClassID["kris"] = 41;//
+NTIPAliasClassID["bld"] = 42;    NTIPAliasClassID["blade"] = 42;//
+NTIPAliasClassID["tkf"] = 43;    NTIPAliasClassID["throwingknife"] = 43;//
+NTIPAliasClassID["tax"] = 44;    NTIPAliasClassID["throwingaxe"] = 44;//
+NTIPAliasClassID["bkf"] = 45;    NTIPAliasClassID["balancedknife"] = 45;//
+NTIPAliasClassID["bal"] = 46;    NTIPAliasClassID["balancedaxe"] = 46;//
+NTIPAliasClassID["jav"] = 47;    NTIPAliasClassID["javelin"] = 47;//
+NTIPAliasClassID["pil"] = 48;    NTIPAliasClassID["pilum"] = 48;//
+NTIPAliasClassID["ssp"] = 49;    NTIPAliasClassID["shortspear"] = 49;//
+NTIPAliasClassID["glv"] = 50;    NTIPAliasClassID["glaive"] = 50;//
+NTIPAliasClassID["tsp"] = 51;    NTIPAliasClassID["throwingspear"] = 51;//
+NTIPAliasClassID["spr"] = 52;    NTIPAliasClassID["spear"] = 52;//
+NTIPAliasClassID["tri"] = 53;    NTIPAliasClassID["trident"] = 53;//
+NTIPAliasClassID["brn"] = 54;    NTIPAliasClassID["brandistock"] = 54;//
+NTIPAliasClassID["spt"] = 55;    NTIPAliasClassID["spetum"] = 55;//
+NTIPAliasClassID["pik"] = 56;    NTIPAliasClassID["pike"] = 56;//
+NTIPAliasClassID["bar"] = 57;    NTIPAliasClassID["bardiche"] = 57;//
+NTIPAliasClassID["vou"] = 58;    NTIPAliasClassID["voulge"] = 58;//
+NTIPAliasClassID["scy"] = 59;    NTIPAliasClassID["scythe"] = 59;//
+NTIPAliasClassID["pax"] = 60;    NTIPAliasClassID["poleaxe"] = 60;//
+NTIPAliasClassID["hal"] = 61;    NTIPAliasClassID["halberd"] = 61;//
+NTIPAliasClassID["wsc"] = 62;    NTIPAliasClassID["warscythe"] = 62;//
+NTIPAliasClassID["sst"] = 63;    NTIPAliasClassID["shortstaff"] = 63;//
+NTIPAliasClassID["lst"] = 64;    NTIPAliasClassID["longstaff"] = 64;//
+NTIPAliasClassID["cst"] = 65;    NTIPAliasClassID["gnarledstaff"] = 65;//
+NTIPAliasClassID["bst"] = 66;    NTIPAliasClassID["battlestaff"] = 66;//
+NTIPAliasClassID["wst"] = 67;    NTIPAliasClassID["warstaff"] = 67;//
+NTIPAliasClassID["sbw"] = 68;    NTIPAliasClassID["shortbow"] = 68;//
+NTIPAliasClassID["hbw"] = 69;    NTIPAliasClassID["hunter'sbow"] = 69;//
+NTIPAliasClassID["lbw"] = 70;    NTIPAliasClassID["longbow"] = 70;//
+NTIPAliasClassID["cbw"] = 71;    NTIPAliasClassID["compositebow"] = 71;//
+NTIPAliasClassID["sbb"] = 72;    NTIPAliasClassID["shortbattlebow"] = 72;//
+NTIPAliasClassID["lbb"] = 73;    NTIPAliasClassID["longbattlebow"] = 73;//
+NTIPAliasClassID["swb"] = 74;    NTIPAliasClassID["shortwarbow"] = 74;//
+NTIPAliasClassID["lwb"] = 75;    NTIPAliasClassID["longwarbow"] = 75;//
+NTIPAliasClassID["lxb"] = 76;    NTIPAliasClassID["lightcrossbow"] = 76;//
+NTIPAliasClassID["mxb"] = 77;    NTIPAliasClassID["crossbow"] = 77;//
+NTIPAliasClassID["hxb"] = 78;    NTIPAliasClassID["heavycrossbow"] = 78;//
+NTIPAliasClassID["rxb"] = 79;    NTIPAliasClassID["repeatingcrossbow"] = 79;//
+NTIPAliasClassID["gps"] = 80;    NTIPAliasClassID["rancidgaspotion"] = 80;//
+NTIPAliasClassID["ops"] = 81;    NTIPAliasClassID["oilpotion"] = 81;//
+NTIPAliasClassID["gpm"] = 82;    NTIPAliasClassID["chokinggaspotion"] = 82;//
+NTIPAliasClassID["opm"] = 83;    NTIPAliasClassID["explodingpotion"] = 83;//
+NTIPAliasClassID["gpl"] = 84;    NTIPAliasClassID["stranglinggaspotion"] = 84;//
+NTIPAliasClassID["opl"] = 85;    NTIPAliasClassID["fulminatingpotion"] = 85;//
+NTIPAliasClassID["d33"] = 86;    NTIPAliasClassID["decoygidbinn"] = 86;//
+NTIPAliasClassID["g33"] = 87;    NTIPAliasClassID["thegidbinn"] = 87;//
+NTIPAliasClassID["leg"] = 88;    NTIPAliasClassID["wirt'sleg"] = 88;//
+NTIPAliasClassID["hdm"] = 89;    NTIPAliasClassID["horadricmalus"] = 89;//
+NTIPAliasClassID["hfh"] = 90;    NTIPAliasClassID["hellforgehammer"] = 90;//
+NTIPAliasClassID["hst"] = 91;    NTIPAliasClassID["horadricstaff"] = 91;//
+NTIPAliasClassID["msf"] = 92;    NTIPAliasClassID["shaftofthehoradricstaff"] = 92;//
+NTIPAliasClassID["9ha"] = 93;    NTIPAliasClassID["hatchet"] = 93;//
+NTIPAliasClassID["9ax"] = 94;    NTIPAliasClassID["cleaver"] = 94;//
+NTIPAliasClassID["92a"] = 95;    NTIPAliasClassID["twinaxe"] = 95;//
+NTIPAliasClassID["9mp"] = 96;    NTIPAliasClassID["crowbill"] = 96;//
+NTIPAliasClassID["9wa"] = 97;    NTIPAliasClassID["naga"] = 97;//
+NTIPAliasClassID["9la"] = 98;    NTIPAliasClassID["militaryaxe"] = 98;//
+NTIPAliasClassID["9ba"] = 99;    NTIPAliasClassID["beardedaxe"] = 99;//
+NTIPAliasClassID["9bt"] = 100;    NTIPAliasClassID["tabar"] = 100;//
+NTIPAliasClassID["9ga"] = 101;    NTIPAliasClassID["gothicaxe"] = 101;//
+NTIPAliasClassID["9gi"] = 102;    NTIPAliasClassID["ancientaxe"] = 102;//
+NTIPAliasClassID["9wn"] = 103;    NTIPAliasClassID["burntwand"] = 103;//
+NTIPAliasClassID["9yw"] = 104;    NTIPAliasClassID["petrifiedwand"] = 104;//
+NTIPAliasClassID["9bw"] = 105;    NTIPAliasClassID["tombwand"] = 105;//
+NTIPAliasClassID["9gw"] = 106;    NTIPAliasClassID["gravewand"] = 106;//
+NTIPAliasClassID["9cl"] = 107;    NTIPAliasClassID["cudgel"] = 107;//
+NTIPAliasClassID["9sc"] = 108;    NTIPAliasClassID["runescepter"] = 108;//
+NTIPAliasClassID["9qs"] = 109;    NTIPAliasClassID["holywatersprinkler"] = 109;//
+NTIPAliasClassID["9ws"] = 110;    NTIPAliasClassID["divinescepter"] = 110;//
+NTIPAliasClassID["9sp"] = 111;    NTIPAliasClassID["barbedclub"] = 111;//
+NTIPAliasClassID["9ma"] = 112;    NTIPAliasClassID["flangedmace"] = 112;//
+NTIPAliasClassID["9mt"] = 113;    NTIPAliasClassID["jaggedstar"] = 113;//
+NTIPAliasClassID["9fl"] = 114;    NTIPAliasClassID["knout"] = 114;//
+NTIPAliasClassID["9wh"] = 115;    NTIPAliasClassID["battlehammer"] = 115;//
+NTIPAliasClassID["9m9"] = 116;    NTIPAliasClassID["warclub"] = 116;//
+NTIPAliasClassID["9gm"] = 117;    NTIPAliasClassID["marteldefer"] = 117;//
+NTIPAliasClassID["9ss"] = 118;    NTIPAliasClassID["gladius"] = 118;//
+NTIPAliasClassID["9sm"] = 119;    NTIPAliasClassID["cutlass"] = 119;//
+NTIPAliasClassID["9sb"] = 120;    NTIPAliasClassID["shamshir"] = 120;//
+NTIPAliasClassID["9fc"] = 121;    NTIPAliasClassID["tulwar"] = 121;//
+NTIPAliasClassID["9cr"] = 122;    NTIPAliasClassID["dimensionalblade"] = 122;//
+NTIPAliasClassID["9bs"] = 123;    NTIPAliasClassID["battlesword"] = 123;//
+NTIPAliasClassID["9ls"] = 124;    NTIPAliasClassID["runesword"] = 124;//
+NTIPAliasClassID["9wd"] = 125;    NTIPAliasClassID["ancientsword"] = 125;//
+NTIPAliasClassID["92h"] = 126;    NTIPAliasClassID["espandon"] = 126;//
+NTIPAliasClassID["9cm"] = 127;    NTIPAliasClassID["dacianfalx"] = 127;//
+NTIPAliasClassID["9gs"] = 128;    NTIPAliasClassID["tusksword"] = 128;//
+NTIPAliasClassID["9b9"] = 129;    NTIPAliasClassID["gothicsword"] = 129;//
+NTIPAliasClassID["9fb"] = 130;    NTIPAliasClassID["zweihander"] = 130;//
+NTIPAliasClassID["9gd"] = 131;    NTIPAliasClassID["executionersword"] = 131;//
+NTIPAliasClassID["9dg"] = 132;    NTIPAliasClassID["poignard"] = 132;//
+NTIPAliasClassID["9di"] = 133;    NTIPAliasClassID["rondel"] = 133;//
+NTIPAliasClassID["9kr"] = 134;    NTIPAliasClassID["cinquedeas"] = 134;//
+NTIPAliasClassID["9bl"] = 135;    NTIPAliasClassID["stiletto"] = 135;//
+NTIPAliasClassID["9tk"] = 136;    NTIPAliasClassID["battledart"] = 136;//
+NTIPAliasClassID["9ta"] = 137;    NTIPAliasClassID["francisca"] = 137;//
+NTIPAliasClassID["9bk"] = 138;    NTIPAliasClassID["wardart"] = 138;//
+NTIPAliasClassID["9b8"] = 139;    NTIPAliasClassID["hurlbat"] = 139;//
+NTIPAliasClassID["9ja"] = 140;    NTIPAliasClassID["warjavelin"] = 140;//
+NTIPAliasClassID["9pi"] = 141;    NTIPAliasClassID["greatpilum"] = 141;//
+NTIPAliasClassID["9s9"] = 142;    NTIPAliasClassID["simbilan"] = 142;//
+NTIPAliasClassID["9gl"] = 143;    NTIPAliasClassID["spiculum"] = 143;//
+NTIPAliasClassID["9ts"] = 144;    NTIPAliasClassID["harpoon"] = 144;//
+NTIPAliasClassID["9sr"] = 145;    NTIPAliasClassID["warspear"] = 145;//
+NTIPAliasClassID["9tr"] = 146;    NTIPAliasClassID["fuscina"] = 146;//
+NTIPAliasClassID["9br"] = 147;    NTIPAliasClassID["warfork"] = 147;//
+NTIPAliasClassID["9st"] = 148;    NTIPAliasClassID["yari"] = 148;//
+NTIPAliasClassID["9p9"] = 149;    NTIPAliasClassID["lance"] = 149;//
+NTIPAliasClassID["9b7"] = 150;    NTIPAliasClassID["lochaberaxe"] = 150;//
+NTIPAliasClassID["9vo"] = 151;    NTIPAliasClassID["bill"] = 151;//
+NTIPAliasClassID["9s8"] = 152;    NTIPAliasClassID["battlescythe"] = 152;//
+NTIPAliasClassID["9pa"] = 153;    NTIPAliasClassID["partizan"] = 153;//
+NTIPAliasClassID["9h9"] = 154;    NTIPAliasClassID["becdecorbin"] = 154;//
+NTIPAliasClassID["9wc"] = 155;    NTIPAliasClassID["grimscythe"] = 155;//
+NTIPAliasClassID["8ss"] = 156;    NTIPAliasClassID["jostaff"] = 156;//
+NTIPAliasClassID["8ls"] = 157;    NTIPAliasClassID["quarterstaff"] = 157;//
+NTIPAliasClassID["8cs"] = 158;    NTIPAliasClassID["cedarstaff"] = 158;//
+NTIPAliasClassID["8bs"] = 159;    NTIPAliasClassID["gothicstaff"] = 159;//
+NTIPAliasClassID["8ws"] = 160;    NTIPAliasClassID["runestaff"] = 160;//
+NTIPAliasClassID["8sb"] = 161;    NTIPAliasClassID["edgebow"] = 161;//
+NTIPAliasClassID["8hb"] = 162;    NTIPAliasClassID["razorbow"] = 162;//
+NTIPAliasClassID["8lb"] = 163;    NTIPAliasClassID["cedarbow"] = 163;//
+NTIPAliasClassID["8cb"] = 164;    NTIPAliasClassID["doublebow"] = 164;//
+NTIPAliasClassID["8s8"] = 165;    NTIPAliasClassID["shortsiegebow"] = 165;//
+NTIPAliasClassID["8l8"] = 166;    NTIPAliasClassID["largesiegebow"] = 166;//
+NTIPAliasClassID["8sw"] = 167;    NTIPAliasClassID["runebow"] = 167;//
+NTIPAliasClassID["8lw"] = 168;    NTIPAliasClassID["gothicbow"] = 168;//
+NTIPAliasClassID["8lx"] = 169;    NTIPAliasClassID["arbalest"] = 169;//
+NTIPAliasClassID["8mx"] = 170;    NTIPAliasClassID["siegecrossbow"] = 170;//
+NTIPAliasClassID["8hx"] = 171;    NTIPAliasClassID["ballista"] = 171;//
+NTIPAliasClassID["8rx"] = 172;    NTIPAliasClassID["chukonu"] = 172;//
+NTIPAliasClassID["qf1"] = 173;    NTIPAliasClassID["khalim'sflail"] = 173;//
+NTIPAliasClassID["qf2"] = 174;    NTIPAliasClassID["khalim'swill"] = 174;//
+NTIPAliasClassID["ktr"] = 175;    NTIPAliasClassID["katar"] = 175;//
+NTIPAliasClassID["wrb"] = 176;    NTIPAliasClassID["wristblade"] = 176;//
+NTIPAliasClassID["axf"] = 177;    NTIPAliasClassID["hatchethands"] = 177;//
+NTIPAliasClassID["ces"] = 178;    NTIPAliasClassID["cestus"] = 178;//
+NTIPAliasClassID["clw"] = 179;    NTIPAliasClassID["claws"] = 179;//
+NTIPAliasClassID["btl"] = 180;    NTIPAliasClassID["bladetalons"] = 180;//
+NTIPAliasClassID["skr"] = 181;    NTIPAliasClassID["scissorskatar"] = 181;//
+NTIPAliasClassID["9ar"] = 182;    NTIPAliasClassID["quhab"] = 182;//
+NTIPAliasClassID["9wb"] = 183;    NTIPAliasClassID["wristspike"] = 183;//
+NTIPAliasClassID["9xf"] = 184;    NTIPAliasClassID["fascia"] = 184;//
+NTIPAliasClassID["9cs"] = 185;    NTIPAliasClassID["handscythe"] = 185;//
+NTIPAliasClassID["9lw"] = 186;    NTIPAliasClassID["greaterclaws"] = 186;//
+NTIPAliasClassID["9tw"] = 187;    NTIPAliasClassID["greatertalons"] = 187;//
+NTIPAliasClassID["9qr"] = 188;    NTIPAliasClassID["scissorsquhab"] = 188;//
+NTIPAliasClassID["7ar"] = 189;    NTIPAliasClassID["suwayyah"] = 189;//
+NTIPAliasClassID["7wb"] = 190;    NTIPAliasClassID["wristsword"] = 190;//
+NTIPAliasClassID["7xf"] = 191;    NTIPAliasClassID["warfist"] = 191;//
+NTIPAliasClassID["7cs"] = 192;    NTIPAliasClassID["battlecestus"] = 192;//
+NTIPAliasClassID["7lw"] = 193;    NTIPAliasClassID["feralclaws"] = 193;//
+NTIPAliasClassID["7tw"] = 194;    NTIPAliasClassID["runictalons"] = 194;//
+NTIPAliasClassID["7qr"] = 195;    NTIPAliasClassID["scissorssuwayyah"] = 195;//
+NTIPAliasClassID["7ha"] = 196;    NTIPAliasClassID["tomahawk"] = 196;//
+NTIPAliasClassID["7ax"] = 197;    NTIPAliasClassID["smallcrescent"] = 197;//
+NTIPAliasClassID["72a"] = 198;    NTIPAliasClassID["ettinaxe"] = 198;//
+NTIPAliasClassID["7mp"] = 199;    NTIPAliasClassID["warspike"] = 199;//
+NTIPAliasClassID["7wa"] = 200;    NTIPAliasClassID["berserkeraxe"] = 200;//
+NTIPAliasClassID["7la"] = 201;    NTIPAliasClassID["feralaxe"] = 201;//
+NTIPAliasClassID["7ba"] = 202;    NTIPAliasClassID["silveredgedaxe"] = 202;//
+NTIPAliasClassID["7bt"] = 203;    NTIPAliasClassID["decapitator"] = 203;//
+NTIPAliasClassID["7ga"] = 204;    NTIPAliasClassID["championaxe"] = 204;//
+NTIPAliasClassID["7gi"] = 205;    NTIPAliasClassID["gloriousaxe"] = 205;//
+NTIPAliasClassID["7wn"] = 206;    NTIPAliasClassID["polishedwand"] = 206;//
+NTIPAliasClassID["7yw"] = 207;    NTIPAliasClassID["ghostwand"] = 207;//
+NTIPAliasClassID["7bw"] = 208;    NTIPAliasClassID["lichwand"] = 208;//
+NTIPAliasClassID["7gw"] = 209;    NTIPAliasClassID["unearthedwand"] = 209;//
+NTIPAliasClassID["7cl"] = 210;    NTIPAliasClassID["truncheon"] = 210;//
+NTIPAliasClassID["7sc"] = 211;    NTIPAliasClassID["mightyscepter"] = 211;//
+NTIPAliasClassID["7qs"] = 212;    NTIPAliasClassID["seraphrod"] = 212;//
+NTIPAliasClassID["7ws"] = 213;    NTIPAliasClassID["caduceus"] = 213;//
+NTIPAliasClassID["7sp"] = 214;    NTIPAliasClassID["tyrantclub"] = 214;//
+NTIPAliasClassID["7ma"] = 215;    NTIPAliasClassID["reinforcedmace"] = 215;//
+NTIPAliasClassID["7mt"] = 216;    NTIPAliasClassID["devilstar"] = 216;//
+NTIPAliasClassID["7fl"] = 217;    NTIPAliasClassID["scourge"] = 217;//
+NTIPAliasClassID["7wh"] = 218;    NTIPAliasClassID["legendarymallet"] = 218;//
+NTIPAliasClassID["7m7"] = 219;    NTIPAliasClassID["ogremaul"] = 219;//
+NTIPAliasClassID["7gm"] = 220;    NTIPAliasClassID["thundermaul"] = 220;//
+NTIPAliasClassID["7ss"] = 221;    NTIPAliasClassID["falcata"] = 221;//
+NTIPAliasClassID["7sm"] = 222;    NTIPAliasClassID["ataghan"] = 222;//
+NTIPAliasClassID["7sb"] = 223;    NTIPAliasClassID["elegantblade"] = 223;//
+NTIPAliasClassID["7fc"] = 224;    NTIPAliasClassID["hydraedge"] = 224;//
+NTIPAliasClassID["7cr"] = 225;    NTIPAliasClassID["phaseblade"] = 225;//
+NTIPAliasClassID["7bs"] = 226;    NTIPAliasClassID["conquestsword"] = 226;//
+NTIPAliasClassID["7ls"] = 227;    NTIPAliasClassID["crypticsword"] = 227;//
+NTIPAliasClassID["7wd"] = 228;    NTIPAliasClassID["mythicalsword"] = 228;//
+NTIPAliasClassID["72h"] = 229;    NTIPAliasClassID["legendsword"] = 229;//
+NTIPAliasClassID["7cm"] = 230;    NTIPAliasClassID["highlandblade"] = 230;//
+NTIPAliasClassID["7gs"] = 231;    NTIPAliasClassID["balrogblade"] = 231;//
+NTIPAliasClassID["7b7"] = 232;    NTIPAliasClassID["championsword"] = 232;//
+NTIPAliasClassID["7fb"] = 233;    NTIPAliasClassID["colossussword"] = 233;//
+NTIPAliasClassID["7gd"] = 234;    NTIPAliasClassID["colossusblade"] = 234;//
+NTIPAliasClassID["7dg"] = 235;    NTIPAliasClassID["boneknife"] = 235;//
+NTIPAliasClassID["7di"] = 236;    NTIPAliasClassID["mithrilpoint"] = 236;//
+NTIPAliasClassID["7kr"] = 237;    NTIPAliasClassID["fangedknife"] = 237;//
+NTIPAliasClassID["7bl"] = 238;    NTIPAliasClassID["legendspike"] = 238;//
+NTIPAliasClassID["7tk"] = 239;    NTIPAliasClassID["flyingknife"] = 239;//
+NTIPAliasClassID["7ta"] = 240;    NTIPAliasClassID["flyingaxe"] = 240;//
+NTIPAliasClassID["7bk"] = 241;    NTIPAliasClassID["wingedknife"] = 241;//
+NTIPAliasClassID["7b8"] = 242;    NTIPAliasClassID["wingedaxe"] = 242;//
+NTIPAliasClassID["7ja"] = 243;    NTIPAliasClassID["hyperionjavelin"] = 243;//
+NTIPAliasClassID["7pi"] = 244;    NTIPAliasClassID["stygianpilum"] = 244;//
+NTIPAliasClassID["7s7"] = 245;    NTIPAliasClassID["balrogspear"] = 245;//
+NTIPAliasClassID["7gl"] = 246;    NTIPAliasClassID["ghostglaive"] = 246;//
+NTIPAliasClassID["7ts"] = 247;    NTIPAliasClassID["wingedharpoon"] = 247;//
+NTIPAliasClassID["7sr"] = 248;    NTIPAliasClassID["hyperionspear"] = 248;//
+NTIPAliasClassID["7tr"] = 249;    NTIPAliasClassID["stygianpike"] = 249;//
+NTIPAliasClassID["7br"] = 250;    NTIPAliasClassID["mancatcher"] = 250;//
+NTIPAliasClassID["7st"] = 251;    NTIPAliasClassID["ghostspear"] = 251;//
+NTIPAliasClassID["7p7"] = 252;    NTIPAliasClassID["warpike"] = 252;//
+NTIPAliasClassID["7o7"] = 253;    NTIPAliasClassID["ogreaxe"] = 253;//
+NTIPAliasClassID["7vo"] = 254;    NTIPAliasClassID["colossusvoulge"] = 254;//
+NTIPAliasClassID["7s8"] = 255;    NTIPAliasClassID["thresher"] = 255;//
+NTIPAliasClassID["7pa"] = 256;    NTIPAliasClassID["crypticaxe"] = 256;//
+NTIPAliasClassID["7h7"] = 257;    NTIPAliasClassID["greatpoleaxe"] = 257;//
+NTIPAliasClassID["7wc"] = 258;    NTIPAliasClassID["giantthresher"] = 258;//
+NTIPAliasClassID["6ss"] = 259;    NTIPAliasClassID["walkingstick"] = 259;//
+NTIPAliasClassID["6ls"] = 260;    NTIPAliasClassID["stalagmite"] = 260;//
+NTIPAliasClassID["6cs"] = 261;    NTIPAliasClassID["elderstaff"] = 261;//
+NTIPAliasClassID["6bs"] = 262;    NTIPAliasClassID["shillelagh"] = 262;//
+NTIPAliasClassID["6ws"] = 263;    NTIPAliasClassID["archonstaff"] = 263;//
+NTIPAliasClassID["6sb"] = 264;    NTIPAliasClassID["spiderbow"] = 264;//
+NTIPAliasClassID["6hb"] = 265;    NTIPAliasClassID["bladebow"] = 265;//
+NTIPAliasClassID["6lb"] = 266;    NTIPAliasClassID["shadowbow"] = 266;//
+NTIPAliasClassID["6cb"] = 267;    NTIPAliasClassID["greatbow"] = 267;//
+NTIPAliasClassID["6s7"] = 268;    NTIPAliasClassID["diamondbow"] = 268;//
+NTIPAliasClassID["6l7"] = 269;    NTIPAliasClassID["crusaderbow"] = 269;//
+NTIPAliasClassID["6sw"] = 270;    NTIPAliasClassID["wardbow"] = 270;//
+NTIPAliasClassID["6lw"] = 271;    NTIPAliasClassID["hydrabow"] = 271;//
+NTIPAliasClassID["6lx"] = 272;    NTIPAliasClassID["pelletbow"] = 272;//
+NTIPAliasClassID["6mx"] = 273;    NTIPAliasClassID["gorgoncrossbow"] = 273;//
+NTIPAliasClassID["6hx"] = 274;    NTIPAliasClassID["colossuscrossbow"] = 274;//
+NTIPAliasClassID["6rx"] = 275;    NTIPAliasClassID["demoncrossbow"] = 275;//
+NTIPAliasClassID["ob1"] = 276;    NTIPAliasClassID["eagleorb"] = 276;//
+NTIPAliasClassID["ob2"] = 277;    NTIPAliasClassID["sacredglobe"] = 277;//
+NTIPAliasClassID["ob3"] = 278;    NTIPAliasClassID["smokedsphere"] = 278;//
+NTIPAliasClassID["ob4"] = 279;    NTIPAliasClassID["claspedorb"] = 279;//
+NTIPAliasClassID["ob5"] = 280;    NTIPAliasClassID["jared'sstone"] = 280;//
+NTIPAliasClassID["am1"] = 281;    NTIPAliasClassID["stagbow"] = 281;//
+NTIPAliasClassID["am2"] = 282;    NTIPAliasClassID["reflexbow"] = 282;//
+NTIPAliasClassID["am3"] = 283;    NTIPAliasClassID["maidenspear"] = 283;//
+NTIPAliasClassID["am4"] = 284;    NTIPAliasClassID["maidenpike"] = 284;//
+NTIPAliasClassID["am5"] = 285;    NTIPAliasClassID["maidenjavelin"] = 285;//
+NTIPAliasClassID["ob6"] = 286;    NTIPAliasClassID["glowingorb"] = 286;//
+NTIPAliasClassID["ob7"] = 287;    NTIPAliasClassID["crystallineglobe"] = 287;//
+NTIPAliasClassID["ob8"] = 288;    NTIPAliasClassID["cloudysphere"] = 288;//
+NTIPAliasClassID["ob9"] = 289;    NTIPAliasClassID["sparklingball"] = 289;//
+NTIPAliasClassID["oba"] = 290;    NTIPAliasClassID["swirlingcrystal"] = 290;//
+NTIPAliasClassID["am6"] = 291;    NTIPAliasClassID["ashwoodbow"] = 291;//
+NTIPAliasClassID["am7"] = 292;    NTIPAliasClassID["ceremonialbow"] = 292;//
+NTIPAliasClassID["am8"] = 293;    NTIPAliasClassID["ceremonialspear"] = 293;//
+NTIPAliasClassID["am9"] = 294;    NTIPAliasClassID["ceremonialpike"] = 294;//
+NTIPAliasClassID["ama"] = 295;    NTIPAliasClassID["ceremonialjavelin"] = 295;//
+NTIPAliasClassID["obb"] = 296;    NTIPAliasClassID["heavenlystone"] = 296;//
+NTIPAliasClassID["obc"] = 297;    NTIPAliasClassID["eldritchorb"] = 297;//
+NTIPAliasClassID["obd"] = 298;    NTIPAliasClassID["demonheart"] = 298;//
+NTIPAliasClassID["obe"] = 299;    NTIPAliasClassID["vortexorb"] = 299;//
+NTIPAliasClassID["obf"] = 300;    NTIPAliasClassID["dimensionalshard"] = 300;//
+NTIPAliasClassID["amb"] = 301;    NTIPAliasClassID["matriarchalbow"] = 301;//
+NTIPAliasClassID["amc"] = 302;    NTIPAliasClassID["grandmatronbow"] = 302;//
+NTIPAliasClassID["amd"] = 303;    NTIPAliasClassID["matriarchalspear"] = 303;//
+NTIPAliasClassID["ame"] = 304;    NTIPAliasClassID["matriarchalpike"] = 304;//
+NTIPAliasClassID["amf"] = 305;    NTIPAliasClassID["matriarchaljavelin"] = 305;//
+
+NTIPAliasClassID["cap"] = 307;    NTIPAliasClassID["cap"] = 307;//
+NTIPAliasClassID["skp"] = 308;    NTIPAliasClassID["skullcap"] = 308;//
+NTIPAliasClassID["hlm"] = 309;    NTIPAliasClassID["helm"] = 309;//
+NTIPAliasClassID["fhl"] = 310;    NTIPAliasClassID["fullhelm"] = 310;//
+NTIPAliasClassID["ghm"] = 311;    NTIPAliasClassID["greathelm"] = 311;//
+NTIPAliasClassID["crn"] = 312;    NTIPAliasClassID["crown"] = 312;//
+NTIPAliasClassID["msk"] = 313;    NTIPAliasClassID["mask"] = 313;//
+NTIPAliasClassID["qui"] = 314;    NTIPAliasClassID["quiltedarmor"] = 314;//
+NTIPAliasClassID["lea"] = 315;    NTIPAliasClassID["leatherarmor"] = 315;//
+NTIPAliasClassID["hla"] = 316;    NTIPAliasClassID["hardleatherarmor"] = 316;//
+NTIPAliasClassID["stu"] = 317;    NTIPAliasClassID["studdedleather"] = 317;//
+NTIPAliasClassID["rng"] = 318;    NTIPAliasClassID["ringmail"] = 318;//
+NTIPAliasClassID["scl"] = 319;    NTIPAliasClassID["scalemail"] = 319;//
+NTIPAliasClassID["chn"] = 320;    NTIPAliasClassID["chainmail"] = 320;//
+NTIPAliasClassID["brs"] = 321;    NTIPAliasClassID["breastplate"] = 321;//
+NTIPAliasClassID["spl"] = 322;    NTIPAliasClassID["splintmail"] = 322;//
+NTIPAliasClassID["plt"] = 323;    NTIPAliasClassID["platemail"] = 323;//
+NTIPAliasClassID["fld"] = 324;    NTIPAliasClassID["fieldplate"] = 324;//
+NTIPAliasClassID["gth"] = 325;    NTIPAliasClassID["gothicplate"] = 325;//
+NTIPAliasClassID["ful"] = 326;    NTIPAliasClassID["fullplatemail"] = 326;//
+NTIPAliasClassID["aar"] = 327;    NTIPAliasClassID["ancientarmor"] = 327;//
+NTIPAliasClassID["ltp"] = 328;    NTIPAliasClassID["lightplate"] = 328;//
+NTIPAliasClassID["buc"] = 329;    NTIPAliasClassID["buckler"] = 329;//
+NTIPAliasClassID["sml"] = 330;    NTIPAliasClassID["smallshield"] = 330;//
+NTIPAliasClassID["lrg"] = 331;    NTIPAliasClassID["largeshield"] = 331;//
+NTIPAliasClassID["kit"] = 332;    NTIPAliasClassID["kiteshield"] = 332;//
+NTIPAliasClassID["tow"] = 333;    NTIPAliasClassID["towershield"] = 333;//
+NTIPAliasClassID["gts"] = 334;    NTIPAliasClassID["gothicshield"] = 334;//
+NTIPAliasClassID["lgl"] = 335;    NTIPAliasClassID["leathergloves"] = 335;//
+NTIPAliasClassID["vgl"] = 336;    NTIPAliasClassID["heavygloves"] = 336;//
+NTIPAliasClassID["mgl"] = 337;    NTIPAliasClassID["chaingloves"] = 337;//
+NTIPAliasClassID["tgl"] = 338;    NTIPAliasClassID["lightgauntlets"] = 338;//
+NTIPAliasClassID["hgl"] = 339;    NTIPAliasClassID["gauntlets"] = 339;//
+NTIPAliasClassID["lbt"] = 340;    NTIPAliasClassID["boots"] = 340;//
+NTIPAliasClassID["vbt"] = 341;    NTIPAliasClassID["heavyboots"] = 341;//
+NTIPAliasClassID["mbt"] = 342;    NTIPAliasClassID["chainboots"] = 342;//
+NTIPAliasClassID["tbt"] = 343;    NTIPAliasClassID["lightplatedboots"] = 343;//
+NTIPAliasClassID["hbt"] = 344;    NTIPAliasClassID["greaves"] = 344;//
+NTIPAliasClassID["lbl"] = 345;    NTIPAliasClassID["sash"] = 345;//
+NTIPAliasClassID["vbl"] = 346;    NTIPAliasClassID["lightbelt"] = 346;//
+NTIPAliasClassID["mbl"] = 347;    NTIPAliasClassID["belt"] = 347;//
+NTIPAliasClassID["tbl"] = 348;    NTIPAliasClassID["heavybelt"] = 348;//
+NTIPAliasClassID["hbl"] = 349;    NTIPAliasClassID["platedbelt"] = 349;//
+NTIPAliasClassID["bhm"] = 350;    NTIPAliasClassID["bonehelm"] = 350;//
+NTIPAliasClassID["bsh"] = 351;    NTIPAliasClassID["boneshield"] = 351;//
+NTIPAliasClassID["spk"] = 352;    NTIPAliasClassID["spikedshield"] = 352;//
+NTIPAliasClassID["xap"] = 353;    NTIPAliasClassID["warhat"] = 353;//
+NTIPAliasClassID["xkp"] = 354;    NTIPAliasClassID["sallet"] = 354;//
+NTIPAliasClassID["xlm"] = 355;    NTIPAliasClassID["casque"] = 355;//
+NTIPAliasClassID["xhl"] = 356;    NTIPAliasClassID["basinet"] = 356;//
+NTIPAliasClassID["xhm"] = 357;    NTIPAliasClassID["wingedhelm"] = 357;//
+NTIPAliasClassID["xrn"] = 358;    NTIPAliasClassID["grandcrown"] = 358;//
+NTIPAliasClassID["xsk"] = 359;    NTIPAliasClassID["deathmask"] = 359;//
+NTIPAliasClassID["xui"] = 360;    NTIPAliasClassID["ghostarmor"] = 360;//
+NTIPAliasClassID["xea"] = 361;    NTIPAliasClassID["serpentskinarmor"] = 361;//
+NTIPAliasClassID["xla"] = 362;    NTIPAliasClassID["demonhidearmor"] = 362;//
+NTIPAliasClassID["xtu"] = 363;    NTIPAliasClassID["trellisedarmor"] = 363;//
+NTIPAliasClassID["xng"] = 364;    NTIPAliasClassID["linkedmail"] = 364;//
+NTIPAliasClassID["xcl"] = 365;    NTIPAliasClassID["tigulatedmail"] = 365;//
+NTIPAliasClassID["xhn"] = 366;    NTIPAliasClassID["mesharmor"] = 366;//
+NTIPAliasClassID["xrs"] = 367;    NTIPAliasClassID["cuirass"] = 367;//
+NTIPAliasClassID["xpl"] = 368;    NTIPAliasClassID["russetarmor"] = 368;//
+NTIPAliasClassID["xlt"] = 369;    NTIPAliasClassID["templarcoat"] = 369;//
+NTIPAliasClassID["xld"] = 370;    NTIPAliasClassID["sharktootharmor"] = 370;//
+NTIPAliasClassID["xth"] = 371;    NTIPAliasClassID["embossedplate"] = 371;//
+NTIPAliasClassID["xul"] = 372;    NTIPAliasClassID["chaosarmor"] = 372;//
+NTIPAliasClassID["xar"] = 373;    NTIPAliasClassID["ornateplate"] = 373;//
+NTIPAliasClassID["xtp"] = 374;    NTIPAliasClassID["mageplate"] = 374;//
+NTIPAliasClassID["xuc"] = 375;    NTIPAliasClassID["defender"] = 375;//
+NTIPAliasClassID["xml"] = 376;    NTIPAliasClassID["roundshield"] = 376;//
+NTIPAliasClassID["xrg"] = 377;    NTIPAliasClassID["scutum"] = 377;//
+NTIPAliasClassID["xit"] = 378;    NTIPAliasClassID["dragonshield"] = 378;//
+NTIPAliasClassID["xow"] = 379;    NTIPAliasClassID["pavise"] = 379;//
+NTIPAliasClassID["xts"] = 380;    NTIPAliasClassID["ancientshield"] = 380;//
+NTIPAliasClassID["xlg"] = 381;    NTIPAliasClassID["demonhidegloves"] = 381;//
+NTIPAliasClassID["xvg"] = 382;    NTIPAliasClassID["sharkskingloves"] = 382;//
+NTIPAliasClassID["xmg"] = 383;    NTIPAliasClassID["heavybracers"] = 383;//
+NTIPAliasClassID["xtg"] = 384;    NTIPAliasClassID["battlegauntlets"] = 384;//
+NTIPAliasClassID["xhg"] = 385;    NTIPAliasClassID["wargauntlets"] = 385;//
+NTIPAliasClassID["xlb"] = 386;    NTIPAliasClassID["demonhideboots"] = 386;//
+NTIPAliasClassID["xvb"] = 387;    NTIPAliasClassID["sharkskinboots"] = 387;//
+NTIPAliasClassID["xmb"] = 388;    NTIPAliasClassID["meshboots"] = 388;//
+NTIPAliasClassID["xtb"] = 389;    NTIPAliasClassID["battleboots"] = 389;//
+NTIPAliasClassID["xhb"] = 390;    NTIPAliasClassID["warboots"] = 390;//
+NTIPAliasClassID["zlb"] = 391;    NTIPAliasClassID["demonhidesash"] = 391;//
+NTIPAliasClassID["zvb"] = 392;    NTIPAliasClassID["sharkskinbelt"] = 392;//
+NTIPAliasClassID["zmb"] = 393;    NTIPAliasClassID["meshbelt"] = 393;//
+NTIPAliasClassID["ztb"] = 394;    NTIPAliasClassID["battlebelt"] = 394;//
+NTIPAliasClassID["zhb"] = 395;    NTIPAliasClassID["warbelt"] = 395;//
+NTIPAliasClassID["xh9"] = 396;    NTIPAliasClassID["grimhelm"] = 396;//
+NTIPAliasClassID["xsh"] = 397;    NTIPAliasClassID["grimshield"] = 397;//
+NTIPAliasClassID["xpk"] = 398;    NTIPAliasClassID["barbedshield"] = 398;//
+NTIPAliasClassID["dr1"] = 399;    NTIPAliasClassID["wolfhead"] = 399;//
+NTIPAliasClassID["dr2"] = 400;    NTIPAliasClassID["hawkhelm"] = 400;//
+NTIPAliasClassID["dr3"] = 401;    NTIPAliasClassID["antlers"] = 401;//
+NTIPAliasClassID["dr4"] = 402;    NTIPAliasClassID["falconmask"] = 402;//
+NTIPAliasClassID["dr5"] = 403;    NTIPAliasClassID["spiritmask"] = 403;//
+NTIPAliasClassID["ba1"] = 404;    NTIPAliasClassID["jawbonecap"] = 404;//
+NTIPAliasClassID["ba2"] = 405;    NTIPAliasClassID["fangedhelm"] = 405;//
+NTIPAliasClassID["ba3"] = 406;    NTIPAliasClassID["hornedhelm"] = 406;//
+NTIPAliasClassID["ba4"] = 407;    NTIPAliasClassID["assaulthelmet"] = 407;//
+NTIPAliasClassID["ba5"] = 408;    NTIPAliasClassID["avengerguard"] = 408;//
+NTIPAliasClassID["pa1"] = 409;    NTIPAliasClassID["targe"] = 409;//
+NTIPAliasClassID["pa2"] = 410;    NTIPAliasClassID["rondache"] = 410;//
+NTIPAliasClassID["pa3"] = 411;    NTIPAliasClassID["heraldicshield"] = 411;//
+NTIPAliasClassID["pa4"] = 412;    NTIPAliasClassID["aerinshield"] = 412;//
+NTIPAliasClassID["pa5"] = 413;    NTIPAliasClassID["crownshield"] = 413;//
+NTIPAliasClassID["ne1"] = 414;    NTIPAliasClassID["preservedhead"] = 414;//
+NTIPAliasClassID["ne2"] = 415;    NTIPAliasClassID["zombiehead"] = 415;//
+NTIPAliasClassID["ne3"] = 416;    NTIPAliasClassID["unravellerhead"] = 416;//
+NTIPAliasClassID["ne4"] = 417;    NTIPAliasClassID["gargoylehead"] = 417;//
+NTIPAliasClassID["ne5"] = 418;    NTIPAliasClassID["demonhead"] = 418;//
+NTIPAliasClassID["ci0"] = 419;    NTIPAliasClassID["circlet"] = 419;//
+NTIPAliasClassID["ci1"] = 420;    NTIPAliasClassID["coronet"] = 420;//
+NTIPAliasClassID["ci2"] = 421;    NTIPAliasClassID["tiara"] = 421;//
+NTIPAliasClassID["ci3"] = 422;    NTIPAliasClassID["diadem"] = 422;//
+NTIPAliasClassID["uap"] = 423;    NTIPAliasClassID["shako"] = 423;//
+NTIPAliasClassID["ukp"] = 424;    NTIPAliasClassID["hydraskull"] = 424;//
+NTIPAliasClassID["ulm"] = 425;    NTIPAliasClassID["armet"] = 425;//
+NTIPAliasClassID["uhl"] = 426;    NTIPAliasClassID["giantconch"] = 426;//
+NTIPAliasClassID["uhm"] = 427;    NTIPAliasClassID["spiredhelm"] = 427;//
+NTIPAliasClassID["urn"] = 428;    NTIPAliasClassID["corona"] = 428;//
+NTIPAliasClassID["usk"] = 429;    NTIPAliasClassID["demonhead"] = 429;//
+NTIPAliasClassID["uui"] = 430;    NTIPAliasClassID["duskshroud"] = 430;//
+NTIPAliasClassID["uea"] = 431;    NTIPAliasClassID["wyrmhide"] = 431;//
+NTIPAliasClassID["ula"] = 432;    NTIPAliasClassID["scarabhusk"] = 432;//
+NTIPAliasClassID["utu"] = 433;    NTIPAliasClassID["wirefleece"] = 433;//
+NTIPAliasClassID["ung"] = 434;    NTIPAliasClassID["diamondmail"] = 434;//
+NTIPAliasClassID["ucl"] = 435;    NTIPAliasClassID["loricatedmail"] = 435;//
+NTIPAliasClassID["uhn"] = 436;    NTIPAliasClassID["boneweave"] = 436;//
+NTIPAliasClassID["urs"] = 437;    NTIPAliasClassID["greathauberk"] = 437;//
+NTIPAliasClassID["upl"] = 438;    NTIPAliasClassID["balrogskin"] = 438;//
+NTIPAliasClassID["ult"] = 439;    NTIPAliasClassID["hellforgeplate"] = 439;//
+NTIPAliasClassID["uld"] = 440;    NTIPAliasClassID["krakenshell"] = 440;//
+NTIPAliasClassID["uth"] = 441;    NTIPAliasClassID["lacqueredplate"] = 441;//
+NTIPAliasClassID["uul"] = 442;    NTIPAliasClassID["shadowplate"] = 442;//
+NTIPAliasClassID["uar"] = 443;    NTIPAliasClassID["sacredarmor"] = 443;//
+NTIPAliasClassID["utp"] = 444;    NTIPAliasClassID["archonplate"] = 444;//
+NTIPAliasClassID["uuc"] = 445;    NTIPAliasClassID["heater"] = 445;//
+NTIPAliasClassID["uml"] = 446;    NTIPAliasClassID["luna"] = 446;//
+NTIPAliasClassID["urg"] = 447;    NTIPAliasClassID["hyperion"] = 447;//
+NTIPAliasClassID["uit"] = 448;    NTIPAliasClassID["monarch"] = 448;//
+NTIPAliasClassID["uow"] = 449;    NTIPAliasClassID["aegis"] = 449;//
+NTIPAliasClassID["uts"] = 450;    NTIPAliasClassID["ward"] = 450;//
+NTIPAliasClassID["ulg"] = 451;    NTIPAliasClassID["bramblemitts"] = 451;//
+NTIPAliasClassID["uvg"] = 452;    NTIPAliasClassID["vampirebonegloves"] = 452;//
+NTIPAliasClassID["umg"] = 453;    NTIPAliasClassID["vambraces"] = 453;//
+NTIPAliasClassID["utg"] = 454;    NTIPAliasClassID["crusadergauntlets"] = 454;//
+NTIPAliasClassID["uhg"] = 455;    NTIPAliasClassID["ogregauntlets"] = 455;//
+NTIPAliasClassID["ulb"] = 456;    NTIPAliasClassID["wyrmhideboots"] = 456;//
+NTIPAliasClassID["uvb"] = 457;    NTIPAliasClassID["scarabshellboots"] = 457;//
+NTIPAliasClassID["umb"] = 458;    NTIPAliasClassID["boneweaveboots"] = 458;//
+NTIPAliasClassID["utb"] = 459;    NTIPAliasClassID["mirroredboots"] = 459;//
+NTIPAliasClassID["uhb"] = 460;    NTIPAliasClassID["myrmidongreaves"] = 460;//
+NTIPAliasClassID["ulc"] = 461;    NTIPAliasClassID["spiderwebsash"] = 461;//
+NTIPAliasClassID["uvc"] = 462;    NTIPAliasClassID["vampirefangbelt"] = 462;//
+NTIPAliasClassID["umc"] = 463;    NTIPAliasClassID["mithrilcoil"] = 463;//
+NTIPAliasClassID["utc"] = 464;    NTIPAliasClassID["trollbelt"] = 464;//
+NTIPAliasClassID["uhc"] = 465;    NTIPAliasClassID["colossusgirdle"] = 465;//
+NTIPAliasClassID["uh9"] = 466;    NTIPAliasClassID["bonevisage"] = 466;//
+NTIPAliasClassID["ush"] = 467;    NTIPAliasClassID["trollnest"] = 467;//
+NTIPAliasClassID["upk"] = 468;    NTIPAliasClassID["bladebarrier"] = 468;//
+NTIPAliasClassID["dr6"] = 469;    NTIPAliasClassID["alphahelm"] = 469;//
+NTIPAliasClassID["dr7"] = 470;    NTIPAliasClassID["griffonheaddress"] = 470;//
+NTIPAliasClassID["dr8"] = 471;    NTIPAliasClassID["hunter'sguise"] = 471;//
+NTIPAliasClassID["dr9"] = 472;    NTIPAliasClassID["sacredfeathers"] = 472;//
+NTIPAliasClassID["dra"] = 473;    NTIPAliasClassID["totemicmask"] = 473;//
+NTIPAliasClassID["ba6"] = 474;    NTIPAliasClassID["jawbonevisor"] = 474;//
+NTIPAliasClassID["ba7"] = 475;    NTIPAliasClassID["lionhelm"] = 475;//
+NTIPAliasClassID["ba8"] = 476;    NTIPAliasClassID["ragemask"] = 476;//
+NTIPAliasClassID["ba9"] = 477;    NTIPAliasClassID["savagehelmet"] = 477;//
+NTIPAliasClassID["baa"] = 478;    NTIPAliasClassID["slayerguard"] = 478;//
+NTIPAliasClassID["pa6"] = 479;    NTIPAliasClassID["akarantarge"] = 479;//
+NTIPAliasClassID["pa7"] = 480;    NTIPAliasClassID["akaranrondache"] = 480;//
+NTIPAliasClassID["pa8"] = 481;    NTIPAliasClassID["protectorshield"] = 481;//
+NTIPAliasClassID["pa9"] = 482;    NTIPAliasClassID["gildedshield"] = 482;//
+NTIPAliasClassID["paa"] = 483;    NTIPAliasClassID["royalshield"] = 483;//
+NTIPAliasClassID["ne6"] = 484;    NTIPAliasClassID["mummifiedtrophy"] = 484;//
+NTIPAliasClassID["ne7"] = 485;    NTIPAliasClassID["fetishtrophy"] = 485;//
+NTIPAliasClassID["ne8"] = 486;    NTIPAliasClassID["sextontrophy"] = 486;//
+NTIPAliasClassID["ne9"] = 487;    NTIPAliasClassID["cantortrophy"] = 487;//
+NTIPAliasClassID["nea"] = 488;    NTIPAliasClassID["hierophanttrophy"] = 488;//
+NTIPAliasClassID["drb"] = 489;    NTIPAliasClassID["bloodspirit"] = 489;//
+NTIPAliasClassID["drc"] = 490;    NTIPAliasClassID["sunspirit"] = 490;//
+NTIPAliasClassID["drd"] = 491;    NTIPAliasClassID["earthspirit"] = 491;//
+NTIPAliasClassID["dre"] = 492;    NTIPAliasClassID["skyspirit"] = 492;//
+NTIPAliasClassID["drf"] = 493;    NTIPAliasClassID["dreamspirit"] = 493;//
+NTIPAliasClassID["bab"] = 494;    NTIPAliasClassID["carnagehelm"] = 494;//
+NTIPAliasClassID["bac"] = 495;    NTIPAliasClassID["furyvisor"] = 495;//
+NTIPAliasClassID["bad"] = 496;    NTIPAliasClassID["destroyerhelm"] = 496;//
+NTIPAliasClassID["bae"] = 497;    NTIPAliasClassID["conquerorcrown"] = 497;//
+NTIPAliasClassID["baf"] = 498;    NTIPAliasClassID["guardiancrown"] = 498;//
+NTIPAliasClassID["pab"] = 499;    NTIPAliasClassID["sacredtarge"] = 499;//
+NTIPAliasClassID["pac"] = 500;    NTIPAliasClassID["sacredrondache"] = 500;//
+NTIPAliasClassID["pad"] = 501;    NTIPAliasClassID["kurastshield"] = 501;//
+NTIPAliasClassID["pae"] = 502;    NTIPAliasClassID["zakarumshield"] = 502;//
+NTIPAliasClassID["paf"] = 503;    NTIPAliasClassID["vortexshield"] = 503;//
+NTIPAliasClassID["neb"] = 504;    NTIPAliasClassID["minionskull"] = 504;//
+NTIPAliasClassID["neg"] = 505;    NTIPAliasClassID["hellspawnskull"] = 505;//
+NTIPAliasClassID["ned"] = 506;    NTIPAliasClassID["overseerskull"] = 506;//
+NTIPAliasClassID["nee"] = 507;    NTIPAliasClassID["succubusskull"] = 507;//
+NTIPAliasClassID["nef"] = 508;    NTIPAliasClassID["bloodlordskull"] = 508;//
+NTIPAliasClassID["elx"] = 509;    NTIPAliasClassID["elixir"] = 509;//
+NTIPAliasClassID["hpo"] = 510;    NTIPAliasClassID["hpo"] = 510;//
+NTIPAliasClassID["mpo"] = 511;    NTIPAliasClassID["mpo"] = 511;//
+NTIPAliasClassID["hpf"] = 512;    NTIPAliasClassID["hpf"] = 512;//
+NTIPAliasClassID["mpf"] = 513;    NTIPAliasClassID["mpf"] = 513;//
+
+NTIPAliasClassID["vps"] = 520;    NTIPAliasClassID["staminapotion"] = 520;//
+NTIPAliasClassID["yps"] = 521;    NTIPAliasClassID["antidotepotion"] = 521;//
+NTIPAliasClassID["rvs"] = 522;    NTIPAliasClassID["rejuvenationpotion"] = 522;//
+NTIPAliasClassID["rvl"] = 523;    NTIPAliasClassID["fullrejuvenationpotion"] = 523;//
+NTIPAliasClassID["wms"] = 524;    NTIPAliasClassID["thawingpotion"] = 524;//
+NTIPAliasClassID["tbk"] = 525;    NTIPAliasClassID["tomeoftownportal"] = 525;//
+NTIPAliasClassID["ibk"] = 526;    NTIPAliasClassID["tomeofidentify"] = 526;//
+NTIPAliasClassID["amu"] = 527;    NTIPAliasClassID["amulet"] = 527;//
+NTIPAliasClassID["vip"] = 528;    NTIPAliasClassID["topofthehoradricstaff"] = 528;//
+NTIPAliasClassID["rin"] = 529;    NTIPAliasClassID["ring"] = 529;//
+NTIPAliasClassID["gld"] = 530;    NTIPAliasClassID["gold"] = 530;//
+NTIPAliasClassID["bks"] = 531;    NTIPAliasClassID["scrollofinifuss"] = 531;//
+NTIPAliasClassID["bkd"] = 532;    NTIPAliasClassID["keytothecairnstones"] = 532;//
+NTIPAliasClassID["aqv"] = 533;    NTIPAliasClassID["arrows"] = 533;//
+NTIPAliasClassID["tch"] = 534;    NTIPAliasClassID["torch"] = 534;//
+NTIPAliasClassID["cqv"] = 535;    NTIPAliasClassID["bolts"] = 535;//
+NTIPAliasClassID["tsc"] = 536;    NTIPAliasClassID["scrolloftownportal"] = 536;//
+NTIPAliasClassID["isc"] = 537;    NTIPAliasClassID["scrollofidentify"] = 537;//
+NTIPAliasClassID["hrt"] = 538;    NTIPAliasClassID["heart"] = 538;//
+NTIPAliasClassID["brz"] = 539;    NTIPAliasClassID["brain"] = 539;//
+NTIPAliasClassID["jaw"] = 540;    NTIPAliasClassID["jawbone"] = 540;//
+NTIPAliasClassID["eyz"] = 541;    NTIPAliasClassID["eye"] = 541;//
+NTIPAliasClassID["hrn"] = 542;    NTIPAliasClassID["horn"] = 542;//
+NTIPAliasClassID["tal"] = 543;    NTIPAliasClassID["tail"] = 543;//
+NTIPAliasClassID["flg"] = 544;    NTIPAliasClassID["flag"] = 544;//
+NTIPAliasClassID["fng"] = 545;    NTIPAliasClassID["fang"] = 545;//
+NTIPAliasClassID["qll"] = 546;    NTIPAliasClassID["quill"] = 546;//
+NTIPAliasClassID["sol"] = 547;    NTIPAliasClassID["soul"] = 547;//
+NTIPAliasClassID["scz"] = 548;    NTIPAliasClassID["scalp"] = 548;//
+NTIPAliasClassID["spe"] = 549;    NTIPAliasClassID["spleen"] = 549;//
+NTIPAliasClassID["key"] = 550;    NTIPAliasClassID["key"] = 550;//
+NTIPAliasClassID["luv"] = 551;    NTIPAliasClassID["theblacktowerkey"] = 551;//
+NTIPAliasClassID["xyz"] = 552;    NTIPAliasClassID["potionoflife"] = 552;//
+NTIPAliasClassID["j34"] = 553;    NTIPAliasClassID["ajadefigurine"] = 553;//
+NTIPAliasClassID["g34"] = 554;    NTIPAliasClassID["thegoldenbird"] = 554;//
+NTIPAliasClassID["bbb"] = 555;    NTIPAliasClassID["lamesen'stome"] = 555;//
+NTIPAliasClassID["box"] = 556;    NTIPAliasClassID["horadriccube"] = 556;//
+NTIPAliasClassID["tr1"] = 557;    NTIPAliasClassID["horadricscroll"] = 557;//
+NTIPAliasClassID["mss"] = 558;    NTIPAliasClassID["mephisto'ssoulstone"] = 558;//
+NTIPAliasClassID["ass"] = 559;    NTIPAliasClassID["bookofskill"] = 559;//
+NTIPAliasClassID["qey"] = 560;    NTIPAliasClassID["khalim'seye"] = 560;//
+NTIPAliasClassID["qhr"] = 561;    NTIPAliasClassID["khalim'sheart"] = 561;//
+NTIPAliasClassID["qbr"] = 562;    NTIPAliasClassID["khalim'sbrain"] = 562;//
+NTIPAliasClassID["ear"] = 563;    NTIPAliasClassID["ear"] = 563;//
+NTIPAliasClassID["gcv"] = 564;    NTIPAliasClassID["chippedamethyst"] = 564;//
+NTIPAliasClassID["gfv"] = 565;    NTIPAliasClassID["flawedamethyst"] = 565;//
+NTIPAliasClassID["gsv"] = 566;    NTIPAliasClassID["amethyst"] = 566;//
+NTIPAliasClassID["gzv"] = 567;    NTIPAliasClassID["flawlessamethyst"] = 567;//
+NTIPAliasClassID["gpv"] = 568;    NTIPAliasClassID["perfectamethyst"] = 568;//
+NTIPAliasClassID["gcy"] = 569;    NTIPAliasClassID["chippedtopaz"] = 569;//
+NTIPAliasClassID["gfy"] = 570;    NTIPAliasClassID["flawedtopaz"] = 570;//
+NTIPAliasClassID["gsy"] = 571;    NTIPAliasClassID["topaz"] = 571;//
+NTIPAliasClassID["gly"] = 572;    NTIPAliasClassID["flawlesstopaz"] = 572;//
+NTIPAliasClassID["gpy"] = 573;    NTIPAliasClassID["perfecttopaz"] = 573;//
+NTIPAliasClassID["gcb"] = 574;    NTIPAliasClassID["chippedsapphire"] = 574;//
+NTIPAliasClassID["gfb"] = 575;    NTIPAliasClassID["flawedsapphire"] = 575;//
+NTIPAliasClassID["gsb"] = 576;    NTIPAliasClassID["sapphire"] = 576;//
+NTIPAliasClassID["glb"] = 577;    NTIPAliasClassID["flawlesssapphire"] = 577;//
+NTIPAliasClassID["gpb"] = 578;    NTIPAliasClassID["perfectsapphire"] = 578;//
+NTIPAliasClassID["gcg"] = 579;    NTIPAliasClassID["chippedemerald"] = 579;//
+NTIPAliasClassID["gfg"] = 580;    NTIPAliasClassID["flawedemerald"] = 580;//
+NTIPAliasClassID["gsg"] = 581;    NTIPAliasClassID["emerald"] = 581;//
+NTIPAliasClassID["glg"] = 582;    NTIPAliasClassID["flawlessemerald"] = 582;//
+NTIPAliasClassID["gpg"] = 583;    NTIPAliasClassID["perfectemerald"] = 583;//
+NTIPAliasClassID["gcr"] = 584;    NTIPAliasClassID["chippedruby"] = 584;//
+NTIPAliasClassID["gfr"] = 585;    NTIPAliasClassID["flawedruby"] = 585;//
+NTIPAliasClassID["gsr"] = 586;    NTIPAliasClassID["ruby"] = 586;//
+NTIPAliasClassID["glr"] = 587;    NTIPAliasClassID["flawlessruby"] = 587;//
+NTIPAliasClassID["gpr"] = 588;    NTIPAliasClassID["perfectruby"] = 588;//
+NTIPAliasClassID["gcw"] = 589;    NTIPAliasClassID["chippeddiamond"] = 589;//
+NTIPAliasClassID["gfw"] = 590;    NTIPAliasClassID["flaweddiamond"] = 590;//
+NTIPAliasClassID["gsw"] = 591;    NTIPAliasClassID["diamond"] = 591;//
+NTIPAliasClassID["glw"] = 592;    NTIPAliasClassID["flawlessdiamond"] = 592;//
+NTIPAliasClassID["gpw"] = 593;    NTIPAliasClassID["perfectdiamond"] = 593;//
+NTIPAliasClassID["hp1"] = 594;    NTIPAliasClassID["minorhealingpotion"] = 594;//
+NTIPAliasClassID["hp2"] = 595;    NTIPAliasClassID["lighthealingpotion"] = 595;//
+NTIPAliasClassID["hp3"] = 596;    NTIPAliasClassID["healingpotion"] = 596;//
+NTIPAliasClassID["hp4"] = 597;    NTIPAliasClassID["greaterhealingpotion"] = 597;//
+NTIPAliasClassID["hp5"] = 598;    NTIPAliasClassID["superhealingpotion"] = 598;//
+NTIPAliasClassID["mp1"] = 599;    NTIPAliasClassID["minormanapotion"] = 599;//
+NTIPAliasClassID["mp2"] = 600;    NTIPAliasClassID["lightmanapotion"] = 600;//
+NTIPAliasClassID["mp3"] = 601;    NTIPAliasClassID["manapotion"] = 601;//
+NTIPAliasClassID["mp4"] = 602;    NTIPAliasClassID["greatermanapotion"] = 602;//
+NTIPAliasClassID["mp5"] = 603;    NTIPAliasClassID["supermanapotion"] = 603;//
+NTIPAliasClassID["skc"] = 604;    NTIPAliasClassID["chippedskull"] = 604;//
+NTIPAliasClassID["skf"] = 605;    NTIPAliasClassID["flawedskull"] = 605;//
+NTIPAliasClassID["sku"] = 606;    NTIPAliasClassID["skull"] = 606;//
+NTIPAliasClassID["skl"] = 607;    NTIPAliasClassID["flawlessskull"] = 607;//
+NTIPAliasClassID["skz"] = 608;    NTIPAliasClassID["perfectskull"] = 608;//
+NTIPAliasClassID["hrb"] = 609;    NTIPAliasClassID["herb"] = 609;//
+NTIPAliasClassID["cm1"] = 610;    NTIPAliasClassID["smallcharm"] = 610;//
+NTIPAliasClassID["cm2"] = 611;    NTIPAliasClassID["largecharm"] = 611;//
+NTIPAliasClassID["cm3"] = 612;    NTIPAliasClassID["grandcharm"] = 612;//
+NTIPAliasClassID["rps"] = 613;    NTIPAliasClassID["rps"] = 613;//
+NTIPAliasClassID["rpl"] = 614;    NTIPAliasClassID["rpl"] = 614;//
+NTIPAliasClassID["bps"] = 615;    NTIPAliasClassID["bps"] = 615;//
+NTIPAliasClassID["bpl"] = 616;    NTIPAliasClassID["bpl"] = 616;//
+NTIPAliasClassID["r01"] = 617;    NTIPAliasClassID["elrune"] = 617;//
+NTIPAliasClassID["r02"] = 618;    NTIPAliasClassID["eldrune"] = 618;//
+NTIPAliasClassID["r03"] = 619;    NTIPAliasClassID["tirrune"] = 619;//
+NTIPAliasClassID["r04"] = 620;    NTIPAliasClassID["nefrune"] = 620;//
+NTIPAliasClassID["r05"] = 621;    NTIPAliasClassID["ethrune"] = 621;//
+NTIPAliasClassID["r06"] = 622;    NTIPAliasClassID["ithrune"] = 622;//
+NTIPAliasClassID["r07"] = 623;    NTIPAliasClassID["talrune"] = 623;//
+NTIPAliasClassID["r08"] = 624;    NTIPAliasClassID["ralrune"] = 624;//
+NTIPAliasClassID["r09"] = 625;    NTIPAliasClassID["ortrune"] = 625;//
+NTIPAliasClassID["r10"] = 626;    NTIPAliasClassID["thulrune"] = 626;//
+NTIPAliasClassID["r11"] = 627;    NTIPAliasClassID["amnrune"] = 627;//
+NTIPAliasClassID["r12"] = 628;    NTIPAliasClassID["solrune"] = 628;//
+NTIPAliasClassID["r13"] = 629;    NTIPAliasClassID["shaelrune"] = 629;//
+NTIPAliasClassID["r14"] = 630;    NTIPAliasClassID["dolrune"] = 630;//
+NTIPAliasClassID["r15"] = 631;    NTIPAliasClassID["helrune"] = 631;//
+NTIPAliasClassID["r16"] = 632;    NTIPAliasClassID["iorune"] = 632;//
+NTIPAliasClassID["r17"] = 633;    NTIPAliasClassID["lumrune"] = 633;//
+NTIPAliasClassID["r18"] = 634;    NTIPAliasClassID["korune"] = 634;//
+NTIPAliasClassID["r19"] = 635;    NTIPAliasClassID["falrune"] = 635;//
+NTIPAliasClassID["r20"] = 636;    NTIPAliasClassID["lemrune"] = 636;//
+NTIPAliasClassID["r21"] = 637;    NTIPAliasClassID["pulrune"] = 637;//
+NTIPAliasClassID["r22"] = 638;    NTIPAliasClassID["umrune"] = 638;//
+NTIPAliasClassID["r23"] = 639;    NTIPAliasClassID["malrune"] = 639;//
+NTIPAliasClassID["r24"] = 640;    NTIPAliasClassID["istrune"] = 640;//
+NTIPAliasClassID["r25"] = 641;    NTIPAliasClassID["gulrune"] = 641;//
+NTIPAliasClassID["r26"] = 642;    NTIPAliasClassID["vexrune"] = 642;//
+NTIPAliasClassID["r27"] = 643;    NTIPAliasClassID["ohmrune"] = 643;//
+NTIPAliasClassID["r28"] = 644;    NTIPAliasClassID["lorune"] = 644;//
+NTIPAliasClassID["r29"] = 645;    NTIPAliasClassID["surrune"] = 645;//
+NTIPAliasClassID["r30"] = 646;    NTIPAliasClassID["berrune"] = 646;//
+NTIPAliasClassID["r31"] = 647;    NTIPAliasClassID["jahrune"] = 647;//
+NTIPAliasClassID["r32"] = 648;    NTIPAliasClassID["chamrune"] = 648;//
+NTIPAliasClassID["r33"] = 649;    NTIPAliasClassID["zodrune"] = 649;//
+NTIPAliasClassID["jew"] = 650;    NTIPAliasClassID["jewel"] = 650;//
+NTIPAliasClassID["ice"] = 651;    NTIPAliasClassID["malah'spotion"] = 651;//
+NTIPAliasClassID["0sc"] = 652;    NTIPAliasClassID["scrollofknowledge"] = 652;//
+NTIPAliasClassID["tr2"] = 653;    NTIPAliasClassID["scrollofresistance"] = 653;//
+NTIPAliasClassID["pk1"] = 654;    NTIPAliasClassID["keyofterror"] = 654;//
+NTIPAliasClassID["pk2"] = 655;    NTIPAliasClassID["keyofhate"] = 655;//
+NTIPAliasClassID["pk3"] = 656;    NTIPAliasClassID["keyofdestruction"] = 656;//
+NTIPAliasClassID["dhn"] = 657;    NTIPAliasClassID["diablo'shorn"] = 657;//
+NTIPAliasClassID["bey"] = 658;    NTIPAliasClassID["baal'seye"] = 658;//
+NTIPAliasClassID["mbr"] = 659;    NTIPAliasClassID["mephisto'sbrain"] = 659;//
+NTIPAliasClassID["toa"] = 660;    NTIPAliasClassID["tokenofabsolution"] = 660;//
+NTIPAliasClassID["tes"] = 661;    NTIPAliasClassID["twistedessenceofsuffering"] = 661;//
+NTIPAliasClassID["ceh"] = 662;    NTIPAliasClassID["chargedessenceofhatred"] = 662;//
+NTIPAliasClassID["bet"] = 663;    NTIPAliasClassID["burningessenceofterror"] = 663;//
+NTIPAliasClassID["fed"] = 664;    NTIPAliasClassID["festeringessenceofdestruction"] = 664;//
+NTIPAliasClassID["std"] = 665;    NTIPAliasClassID["standardofheroes"] = 665;//
+
+///////////////////////////////////////////////////////////////////////新 增 物 品//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////新 增 物 品//////////////////////////////////////////////////////////////////////////////////////////////////////////
+NTIPAliasType["t103"] = 103;//
+NTIPAliasType["t104"] = 104;//
+
+NTIPAliasClassID["s306"] = 306; //
+NTIPAliasClassID["s514"] = 514; //
+NTIPAliasClassID["s515"] = 515; //
+NTIPAliasClassID["s516"] = 516; //
+NTIPAliasClassID["s517"] = 517; //
+NTIPAliasClassID["s518"] = 518; //
+NTIPAliasClassID["s519"] = 519; //
+NTIPAliasClassID["s666"] = 666; //九宫格袋子
+NTIPAliasClassID["s667"] = 667; //a1官邸传送卷轴
+NTIPAliasClassID["s668"] = 668; //a2官邸传送卷轴
+NTIPAliasClassID["s669"] = 669; //a3官邸传送卷轴
+NTIPAliasClassID["s670"] = 670; //a4官邸传送卷轴
+NTIPAliasClassID["s671"] = 671; //a5官邸传送卷轴
+NTIPAliasClassID["s672"] = 672; //
+NTIPAliasClassID["s673"] = 673; //装备回收工具
+NTIPAliasClassID["s674"] = 674; //符文合成工具
+NTIPAliasClassID["s675"] = 675; //
+NTIPAliasClassID["s676"] = 676; //
+NTIPAliasClassID["s677"] = 677; //
+NTIPAliasClassID["s678"] = 678; //
+NTIPAliasClassID["s679"] = 679; //
+NTIPAliasClassID["s680"] = 680; //
+NTIPAliasClassID["s681"] = 681; //
+NTIPAliasClassID["s682"] = 682; //
+NTIPAliasClassID["s683"] = 683; //
+NTIPAliasClassID["s684"] = 684; //
+NTIPAliasClassID["s685"] = 685; //
+NTIPAliasClassID["s686"] = 686; //
+NTIPAliasClassID["s687"] = 687; //
+NTIPAliasClassID["s688"] = 688; //
+NTIPAliasClassID["s689"] = 689; //
+NTIPAliasClassID["s690"] = 690; //
+NTIPAliasClassID["s691"] = 691; //
+NTIPAliasClassID["s692"] = 692; //
+NTIPAliasClassID["s693"] = 693; //
+NTIPAliasClassID["s694"] = 694; //
+NTIPAliasClassID["s695"] = 695; //
+NTIPAliasClassID["s696"] = 696; //
+NTIPAliasClassID["s697"] = 697; //
+NTIPAliasClassID["s698"] = 698; //
+NTIPAliasClassID["s699"] = 699; //
+NTIPAliasClassID["s700"] = 700; //
+NTIPAliasClassID["s701"] = 701; //
+NTIPAliasClassID["s702"] = 702; //
+NTIPAliasClassID["s703"] = 703; //
+NTIPAliasClassID["s704"] = 704; //
+NTIPAliasClassID["s705"] = 705; //
+NTIPAliasClassID["s706"] = 706; //
+NTIPAliasClassID["s707"] = 707; //
+NTIPAliasClassID["s708"] = 708; //
+NTIPAliasClassID["s709"] = 709; //
+NTIPAliasClassID["s710"] = 710; //
+NTIPAliasClassID["s711"] = 711; //
+NTIPAliasClassID["s712"] = 712; //蛋蛋猪
+NTIPAliasClassID["s713"] = 713; //逼王碎片
+NTIPAliasClassID["s714"] = 714; //
+NTIPAliasClassID["s715"] = 715; //娃娃
+NTIPAliasClassID["s716"] = 716; //
+NTIPAliasClassID["s717"] = 717; //
+NTIPAliasClassID["s718"] = 718; //
+NTIPAliasClassID["s719"] = 719; //
+NTIPAliasClassID["s720"] = 720; //
+NTIPAliasClassID["s721"] = 721; //
+NTIPAliasClassID["s722"] = 722; //
+NTIPAliasClassID["s723"] = 723; //暴风范围强化石
+NTIPAliasClassID["s724"] = 724; //冲击频率强化石
+NTIPAliasClassID["s725"] = 725; //圣冰频率强化石
+NTIPAliasClassID["s726"] = 726; //圣火频率强化石
+NTIPAliasClassID["s727"] = 727; //暴风雪cd强化石
+NTIPAliasClassID["s728"] = 728; //冰封球cd强化石
+NTIPAliasClassID["s729"] = 729; //陨石cd强化石
+NTIPAliasClassID["s730"] = 730; //雷云频率强化石
+NTIPAliasClassID["s731"] = 731; //锤子范围强化石
+NTIPAliasClassID["s732"] = 732; //审判范围强化石
+NTIPAliasClassID["s733"] = 733; //手雷范围强化石
+NTIPAliasClassID["s734"] = 734; //陨石范围强化石
+NTIPAliasClassID["s735"] = 735; //飞镖数量强化石
+NTIPAliasClassID["s736"] = 736; //手雷数量强化石
+NTIPAliasClassID["s737"] = 737; //
+NTIPAliasClassID["s738"] = 738; //
+NTIPAliasClassID["s739"] = 739; //
+NTIPAliasClassID["s740"] = 740; //
+NTIPAliasClassID["s741"] = 741; //a5永久传送卷轴
+NTIPAliasClassID["s742"] = 742; //
+NTIPAliasClassID["s743"] = 743; //青色愤怒-抽奖
+NTIPAliasClassID["s744"] = 744; //新戒指
+NTIPAliasClassID["s745"] = 745; //新项链
+NTIPAliasClassID["s746"] = 746; //骨矛数量强化石
+NTIPAliasClassID["s747"] = 747; //终极红鬼材料石
+NTIPAliasClassID["s748"] = 748; //终极称号材料石
+NTIPAliasClassID["s749"] = 749; //
+NTIPAliasClassID["s750"] = 750; //
+NTIPAliasClassID["s751"] = 751; //
+NTIPAliasClassID["s752"] = 752; //
+NTIPAliasClassID["s753"] = 753; //
+NTIPAliasClassID["s754"] = 754; //
+NTIPAliasClassID["s755"] = 755; //
+NTIPAliasClassID["s756"] = 756; //
+NTIPAliasClassID["s757"] = 757; //
+NTIPAliasClassID["s758"] = 758; //
+NTIPAliasClassID["s759"] = 759; //
+NTIPAliasClassID["s760"] = 760; //
+NTIPAliasClassID["s761"] = 761; //
+NTIPAliasClassID["s762"] = 762; //
+NTIPAliasClassID["s763"] = 763; //
+NTIPAliasClassID["s764"] = 764; //
+NTIPAliasClassID["s765"] = 765; //
+NTIPAliasClassID["s766"] = 766; //
+NTIPAliasClassID["s767"] = 767; //
+NTIPAliasClassID["s768"] = 768; //
+NTIPAliasClassID["s769"] = 769; //
+NTIPAliasClassID["s770"] = 770; //闪电之怒强化石
+NTIPAliasClassID["s771"] = 771; //
+NTIPAliasClassID["s772"] = 772; //
+NTIPAliasClassID["s773"] = 773; //
+NTIPAliasClassID["s774"] = 774; //
+NTIPAliasClassID["s775"] = 775; //
+NTIPAliasClassID["s776"] = 776; //
+NTIPAliasClassID["s777"] = 777; //
+NTIPAliasClassID["s778"] = 778; //
+NTIPAliasClassID["s779"] = 779; //
+NTIPAliasClassID["s780"] = 780; //
+NTIPAliasClassID["s781"] = 781; //
+NTIPAliasClassID["s782"] = 782; //
+NTIPAliasClassID["s783"] = 783; //
+NTIPAliasClassID["s784"] = 784; //
+NTIPAliasClassID["s785"] = 785; //
+NTIPAliasClassID["s786"] = 786; //
+NTIPAliasClassID["s787"] = 787; //
+NTIPAliasClassID["s788"] = 788; //
+NTIPAliasClassID["s789"] = 789; //
+NTIPAliasClassID["s790"] = 790; //
+NTIPAliasClassID["s791"] = 791; //
+NTIPAliasClassID["s792"] = 792; //
+NTIPAliasClassID["s793"] = 793; //
+NTIPAliasClassID["s794"] = 794; //
+NTIPAliasClassID["s795"] = 795; //
+NTIPAliasClassID["s796"] = 796; //
+NTIPAliasClassID["s797"] = 797; //
+NTIPAliasClassID["s798"] = 798; //
+NTIPAliasClassID["s799"] = 799; //
+NTIPAliasClassID["s800"] = 800; //
+
+///////////////////////////////////////////////////////////////////////新 增 物 品//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////新 增 物 品//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var NTIPAliasClass = {};
+NTIPAliasClass["normal"] = 0;
+NTIPAliasClass["exceptional"] = 1;
+NTIPAliasClass["elite"] = 2;
+
+var NTIPAliasQuality = {};
+NTIPAliasQuality["lowquality"] = 1;
+NTIPAliasQuality["normal"] = 2;
+NTIPAliasQuality["superior"] = 3;
+NTIPAliasQuality["magic"] = 4;
+NTIPAliasQuality["set"] = 5;
+NTIPAliasQuality["rare"] = 6;
+NTIPAliasQuality["unique"] = 7;
+NTIPAliasQuality["crafted"] = 8;
+
+var NTIPAliasFlag = {};
+NTIPAliasFlag["identified"] = 0x10;
+NTIPAliasFlag["eth"] = 0x400000; NTIPAliasFlag["ethereal"] = 0x400000;
+NTIPAliasFlag["runeword"] = 0x4000000;
+
+// rare item colors
+var NTIPAliasColor = {};
+NTIPAliasColor["black"] = 3;
+NTIPAliasColor["white"] = 20;
+NTIPAliasColor["orange"] = 19;
+NTIPAliasColor["lightyellow"] = 13;
+NTIPAliasColor["lightred"] = 7;
+NTIPAliasColor["lightgold"] = 15;
+NTIPAliasColor["lightblue"] = 4;
+NTIPAliasColor["lightpurple"] = 17;
+NTIPAliasColor["crystalblue"] = 6;
+NTIPAliasColor["crystalred"] = 9;
+NTIPAliasColor["crystalgreen"] = 12;
+NTIPAliasColor["darkyellow"] = 14;
+NTIPAliasColor["darkred"] = 8;
+NTIPAliasColor["darkgold"] = 16;
+NTIPAliasColor["darkgreen"] = 11;
+NTIPAliasColor["darkblue"] = 5;
+
+var NTIPAliasStat = {};
+NTIPAliasStat["strength"] = 0;
+NTIPAliasStat["energy"] = 1;
+NTIPAliasStat["dexterity"] = 2;
+NTIPAliasStat["vitality"] = 3;
+NTIPAliasStat["statpts"] = 4;
+NTIPAliasStat["newskills"] = 5;
+NTIPAliasStat["hitpoints"] = 6;
+NTIPAliasStat["maxhp"] = 7;
+NTIPAliasStat["mana"] = 8;
+NTIPAliasStat["maxmana"] = 9;
+NTIPAliasStat["stamina"] = 10;
+NTIPAliasStat["maxstamina"] = 11;
+NTIPAliasStat["level"] = 12;
+NTIPAliasStat["experience"] = 13;
+NTIPAliasStat["gold"] = 14;
+NTIPAliasStat["goldbank"] = 15;
+NTIPAliasStat["itemarmorpercent"] = [16,0];	NTIPAliasStat["enhanceddefense"] = [16,0];
+NTIPAliasStat["itemmaxdamagepercent"] = [17,0];
+NTIPAliasStat["itemmindamagepercent"] = [18,0];	NTIPAliasStat["enhanceddamage"] = [18,0];
+NTIPAliasStat["tohit"] = 19;
+NTIPAliasStat["toblock"] = 20;
+NTIPAliasStat["plusmindamage"] = [21, 1];
+NTIPAliasStat["mindamage"] = 21;
+NTIPAliasStat["plusmaxdamage"] = [22, 1];
+NTIPAliasStat["maxdamage"] = 22;
+NTIPAliasStat["secondarymindamage"] = 23;
+NTIPAliasStat["secondarymaxdamage"] = 24;
+NTIPAliasStat["damagepercent"] = 25;
+NTIPAliasStat["manarecovery"] = 26;
+NTIPAliasStat["manarecoverybonus"] = 27;
+NTIPAliasStat["staminarecoverybonus"] = 28;
+NTIPAliasStat["lastexp"] = 29;
+NTIPAliasStat["nextexp"] = 30;
+
+NTIPAliasStat["armorclass"] = 31;	NTIPAliasStat["defense"] = 31;
+NTIPAliasStat["plusdefense"] = [31,0];
+
+NTIPAliasStat["armorclassvsmissile"] = 32;
+NTIPAliasStat["armorclassvshth"] = 33;
+NTIPAliasStat["normaldamagereduction"] = 34;
+NTIPAliasStat["magicdamagereduction"] = 35;
+NTIPAliasStat["damageresist"] = 36;
+NTIPAliasStat["magicresist"] = 37;
+NTIPAliasStat["maxmagicresist"] = 38;
+NTIPAliasStat["fireresist"] = 39;
+NTIPAliasStat["maxfireresist"] = 40;
+NTIPAliasStat["lightresist"] = 41;
+NTIPAliasStat["maxlightresist"] = 42;
+NTIPAliasStat["coldresist"] = 43;
+NTIPAliasStat["maxcoldresist"] = 44;
+NTIPAliasStat["poisonresist"] = 45;
+NTIPAliasStat["maxpoisonresist"] = 46;
+NTIPAliasStat["damageaura"] = 47;
+NTIPAliasStat["firemindam"] = 48;
+NTIPAliasStat["firemaxdam"] = 49;
+NTIPAliasStat["lightmindam"] = 50;
+NTIPAliasStat["lightmaxdam"] = 51;
+NTIPAliasStat["magicmindam"] = 52;
+NTIPAliasStat["magicmaxdam"] = 53;
+NTIPAliasStat["coldmindam"] = 54;
+NTIPAliasStat["coldmaxdam"] = 55;
+NTIPAliasStat["coldlength"] = 56;
+NTIPAliasStat["poisondamage"] = [57, 1];
+NTIPAliasStat["poisonmindam"] = 57;
+NTIPAliasStat["poisonmaxdam"] = 58;
+NTIPAliasStat["poisonlength"] = 59;
+NTIPAliasStat["lifedrainmindam"] = 60;	NTIPAliasStat["lifeleech"] = 60;
+NTIPAliasStat["lifedrainmaxdam"] = 61;
+NTIPAliasStat["manadrainmindam"] = 62;	NTIPAliasStat["manaleech"] = 62;
+NTIPAliasStat["manadrainmaxdam"] = 63;
+NTIPAliasStat["stamdrainmindam"] = 64;
+NTIPAliasStat["stamdrainmaxdam"] = 65;
+NTIPAliasStat["stunlength"] = 66;
+NTIPAliasStat["velocitypercent"] = 67;
+NTIPAliasStat["attackrate"] = 68;
+NTIPAliasStat["otheranimrate"] = 69;
+NTIPAliasStat["quantity"] = 70;
+NTIPAliasStat["value"] = 71;
+NTIPAliasStat["durability"] = 72;
+NTIPAliasStat["maxdurability"] = 73;
+NTIPAliasStat["hpregen"] = 74;
+NTIPAliasStat["itemmaxdurabilitypercent"] = 75;
+NTIPAliasStat["itemmaxhppercent"] = 76;
+NTIPAliasStat["itemmaxmanapercent"] = 77;
+NTIPAliasStat["itemattackertakesdamage"] = 78;
+NTIPAliasStat["itemgoldbonus"] = 79;
+NTIPAliasStat["itemmagicbonus"] = 80;
+NTIPAliasStat["itemknockback"] = 81;
+NTIPAliasStat["itemtimeduration"] = 82;
+
+NTIPAliasStat["itemaddclassskills"] = 83;
+NTIPAliasStat["itemaddamazonskills"] = [83,0];	NTIPAliasStat["amazonskills"] = [83,0];
+NTIPAliasStat["itemaddsorceressskills"] = [83,1];	NTIPAliasStat["sorceressskills"] = [83,1];
+NTIPAliasStat["itemaddnecromancerskills"] = [83,2];	NTIPAliasStat["necromancerskills"] = [83,2];
+NTIPAliasStat["itemaddpaladinskills"] = [83,3];	NTIPAliasStat["paladinskills"] = [83,3];
+NTIPAliasStat["itemaddbarbarianskills"] = [83,4];	NTIPAliasStat["barbarianskills"] = [83,4];
+NTIPAliasStat["itemadddruidskills"] = [83,5];	NTIPAliasStat["druidskills"] = [83,5];
+NTIPAliasStat["itemaddassassinskills"] = [83,6];	NTIPAliasStat["assassinskills"] = [83,6];
+
+NTIPAliasStat["unsentparam1"] = 84;
+NTIPAliasStat["itemaddexperience"] = 85;
+NTIPAliasStat["itemhealafterkill"] = 86;
+NTIPAliasStat["itemreducedprices"] = 87;
+NTIPAliasStat["itemdoubleherbduration"] = 88;
+NTIPAliasStat["itemlightradius"] = 89;
+NTIPAliasStat["itemlightcolor"] = 90;
+NTIPAliasStat["itemreqpercent"] = 91;
+NTIPAliasStat["itemlevelreq"] = 92;
+NTIPAliasStat["itemfasterattackrate"] = 93;	NTIPAliasStat["ias"] = 93;
+NTIPAliasStat["itemlevelreqpct"] = 94;
+NTIPAliasStat["lastblockframe"] = 95;
+NTIPAliasStat["itemfastermovevelocity"] = 96;	NTIPAliasStat["frw"] = 96;
+
+// Amazon
+NTIPAliasStat["plusskillcriticalstrike"] = [97,9];
+NTIPAliasStat["plusskillguidedarrow"] = [97,22];
+NTIPAliasStat["plusskillpenetrate"] = [97,23];
+// Sorceress
+NTIPAliasStat["plusskillteleport"] = [97,54];
+NTIPAliasStat["plusskilllightningmastery"] = [97,63];
+NTIPAliasStat["plusskillcoldmastery"] = [97,65];
+NTIPAliasStat["plusskillfiremastery"] = [107,61];
+// Necromancer
+NTIPAliasStat["plusskillbonewall"] = [97,78];
+NTIPAliasStat["plusskilldecrepify"] = [97,87];
+NTIPAliasStat["plusskillboneprison"] = [97,88];
+NTIPAliasStat["plusskilllowerresist"] = [97,91];
+// Paladin
+NTIPAliasStat["plusskillholyshield"] = [97,117];
+// Barbarian
+NTIPAliasStat["plusskillshout"] = [97,138];
+NTIPAliasStat["plusskillbattleorders"] = [97,149];
+NTIPAliasStat["plusskillbattlecommand"] = [97,155];
+NTIPAliasStat["plusskillbattlecry"] = [97,146];
+NTIPAliasStat["plusskillswordmastery"] = [97,127];
+NTIPAliasStat["plusskillaxemastery"] = [97,128];
+NTIPAliasStat["plusskillironskin"] = [97,145];
+NTIPAliasStat["plusskillwarcry"] = [97,154];
+// Druid
+NTIPAliasStat["plusskillwerewolf"] = [97,223];
+NTIPAliasStat["plusskillshapeshifting"] = [97,224];	NTIPAliasStat["plusskilllycanthropy"] = [97,224];
+NTIPAliasStat["plusskillsummonspiritwolf"] = [97,227];
+NTIPAliasStat["plusskilloaksage"] = [97,226];
+NTIPAliasStat["plusskillwerebear"] = [97,228];
+NTIPAliasStat["plusskillheartofwolverine"] = [97,236];
+// Assassin
+NTIPAliasStat["plusskillfade"] = [97,267];
+NTIPAliasStat["plusskillcloakofshadows"] = [97,264];
+
+NTIPAliasStat["state"] = 98;
+NTIPAliasStat["itemfastergethitrate"] = 99;	NTIPAliasStat["fhr"] = 99;
+NTIPAliasStat["monsterplayercount"] = 100;
+NTIPAliasStat["skillpoisonoverridelength"] = 101;
+NTIPAliasStat["itemfasterblockrate"] = 102;	NTIPAliasStat["fbr"] = 102;
+NTIPAliasStat["skillbypassundead"] = 103;
+NTIPAliasStat["skillbypassdemons"] = 104;
+NTIPAliasStat["itemfastercastrate"] = 105;	NTIPAliasStat["fcr"] = 105;
+NTIPAliasStat["skillbypassbeasts"] = 106;
+
+NTIPAliasStat["itemsingleskill"] = 107;
+// Amazon skills
+NTIPAliasStat["skillmagicarrow"] = [107,6];
+NTIPAliasStat["skillfirearrow"] = [107,7];
+NTIPAliasStat["skillinnersight"] = [107,8];
+NTIPAliasStat["skillcriticalstrike"] = [107,9];
+NTIPAliasStat["skilljab"] = [107,10];
+NTIPAliasStat["skillcoldarrow"] = [107,11];
+NTIPAliasStat["skillmultipleshot"] = [107,12];
+NTIPAliasStat["skilldodge"] = [107,13];
+NTIPAliasStat["skillpowerstrike"] = [107,14];
+NTIPAliasStat["skillpoisonjavelin"] = [107,15];
+NTIPAliasStat["skillexplodingarrow"] = [107,16];
+NTIPAliasStat["skillslowmissiles"] = [107,17];
+NTIPAliasStat["skillavoid"] = [107,18];
+NTIPAliasStat["skillimpale"] = [107,19];
+NTIPAliasStat["skilllightningbolt"] = [107,20];
+NTIPAliasStat["skillicearrow"] = [107,21];
+NTIPAliasStat["skillguidedarrow"] = [107,22];
+NTIPAliasStat["skillpenetrate"] = [107,23];
+NTIPAliasStat["skillchargedstrike"] = [107,24];
+NTIPAliasStat["skillplaguejavelin"] = [107,25];
+NTIPAliasStat["skillstrafe"] = [107,26];
+NTIPAliasStat["skillimmolationarrow"] = [107,27];
+NTIPAliasStat["skilldecoy"] = [107,28];
+NTIPAliasStat["skillevade"] = [107,29];
+NTIPAliasStat["skillfend"] = [107,30];
+NTIPAliasStat["skillfreezingarrow"] = [107,31];
+NTIPAliasStat["skillvalkyrie"] = [107,32];
+NTIPAliasStat["skillpierce"] = [107,33];
+NTIPAliasStat["skilllightningstrike"] = [107,34];
+NTIPAliasStat["skilllightningfury"] = [107,35];
+// Sorceress skills
+NTIPAliasStat["skillfirebolt"] = [107,36];
+NTIPAliasStat["skillwarmth"] = [107,37];
+NTIPAliasStat["skillchargedbolt"] = [107,38];
+NTIPAliasStat["skillicebolt"] = [107,39];
+NTIPAliasStat["skillfrozenarmor"] = [107,40];
+NTIPAliasStat["skillinferno"] = [107,41];
+NTIPAliasStat["skillstaticfield"] = [107,42];
+NTIPAliasStat["skilltelekinesis"] = [107,43];
+NTIPAliasStat["skillfrostnova"] = [107,44];
+NTIPAliasStat["skilliceblast"] = [107,45];
+NTIPAliasStat["skillblaze"] = [107,46];
+NTIPAliasStat["skillfireball"] = [107,47];
+NTIPAliasStat["skillnova"] = [107,48];
+NTIPAliasStat["skilllightning"] = [107,49];
+NTIPAliasStat["skillshiverarmor"] = [107,50];
+NTIPAliasStat["skillfirewall"] = [107,51];
+NTIPAliasStat["skillenchant"] = [107,52];
+NTIPAliasStat["skillchainlightning"] = [107,53];
+NTIPAliasStat["skillteleport"] = [107,54];
+NTIPAliasStat["skillglacialspike"] = [107,55];
+NTIPAliasStat["skillmeteor"] = [107,56];
+NTIPAliasStat["skillthunderstorm"] = [107,57];
+NTIPAliasStat["skillenergyshield"] = [107,58];
+NTIPAliasStat["skillblizzard"] = [107,59];
+NTIPAliasStat["skillchillingarmor"] = [107,60];
+NTIPAliasStat["skillfiremastery"] = [107,61];
+NTIPAliasStat["skillhydra"] = [107,62];
+NTIPAliasStat["skilllightningmastery"] = [107,63];
+NTIPAliasStat["skillfrozenorb"] = [107,64];
+NTIPAliasStat["skillcoldmastery"] = [107,65];
+// Necromancer skills
+NTIPAliasStat["skillamplifydamage"] = [107,66];
+NTIPAliasStat["skillteeth"] = [107,67];
+NTIPAliasStat["skillbonearmor"] = [107,68];
+NTIPAliasStat["skillskeletonmastery"] = [107,69];
+NTIPAliasStat["skillraiseskeleton"] = [107,70];
+NTIPAliasStat["skilldimvision"] = [107,71];
+NTIPAliasStat["skillweaken"] = [107,72];
+NTIPAliasStat["skillpoisondagger"] = [107,73];
+NTIPAliasStat["skillcorpseexplosion"] = [107,74];
+NTIPAliasStat["skillclaygolem"] = [107,75];
+NTIPAliasStat["skillironmaiden"] = [107,76];
+NTIPAliasStat["skillterror"] = [107,77];
+NTIPAliasStat["skillbonewall"] = [107,78];
+NTIPAliasStat["skillgolemmastery"] = [107,79];
+NTIPAliasStat["skillskeletalmage"] = [107,80];
+NTIPAliasStat["skillconfuse"] = [107,81];
+NTIPAliasStat["skilllifetap"] = [107,82];
+NTIPAliasStat["skillpoisonexplosion"] = [107,83];
+NTIPAliasStat["skillbonespear"] = [107,84];
+NTIPAliasStat["skillbloodgolem"] = [107,85];
+NTIPAliasStat["skillattract"] = [107,86];
+NTIPAliasStat["skilldecrepify"] = [107,87];
+NTIPAliasStat["skillboneprison"] = [107,88];
+NTIPAliasStat["skillsummonresist"] = [107,89];
+NTIPAliasStat["skillirongolem"] = [107,90];
+NTIPAliasStat["skilllowerresist"] = [107,91];
+NTIPAliasStat["skillpoisonnova"] = [107,92];
+NTIPAliasStat["skillbonespirit"] = [107,93];
+NTIPAliasStat["skillfiregolem"] = [107,94];
+NTIPAliasStat["skillrevive"] = [107,95];
+// Paladin skills
+NTIPAliasStat["skillsacrifice"] = [107,96];
+NTIPAliasStat["skillsmite"] = [107,97];
+NTIPAliasStat["skillmight"] = [107,98];
+NTIPAliasStat["skillprayer"] = [107,99];
+NTIPAliasStat["skillresistfire"] = [107,100];
+NTIPAliasStat["skillholybolt"] = [107,101];
+NTIPAliasStat["skillholyfire"] = [107,102];
+NTIPAliasStat["skillthorns"] = [107,103];
+NTIPAliasStat["skilldefiance"] = [107,104];
+NTIPAliasStat["skillresistcold"] = [107,105];
+NTIPAliasStat["skillzeal"] = [107,106];
+NTIPAliasStat["skillcharge"] = [107,107];
+NTIPAliasStat["skillblessedaim"] = [107,108];
+NTIPAliasStat["skillcleansing"] = [107,109];
+NTIPAliasStat["skillresistlightning"] = [107,110];
+NTIPAliasStat["skillvengeance"] = [107,111];
+NTIPAliasStat["skillblessedhammer"] = [107,112];
+NTIPAliasStat["skillconcentration"] = [107,113];
+NTIPAliasStat["skillholyfreeze"] = [107,114];
+NTIPAliasStat["skillvigor"] = [107,115];
+NTIPAliasStat["skillconversion"] = [107,116];
+NTIPAliasStat["skillholyshield"] = [107,117];
+NTIPAliasStat["skillholyshock"] = [107,118];
+NTIPAliasStat["skillsanctuary"] = [107,119];
+NTIPAliasStat["skillmeditation"] = [107,120];
+NTIPAliasStat["skillfistoftheheavens"] = [107,121];
+NTIPAliasStat["skillfanaticism"] = [107,122];
+NTIPAliasStat["skillconviction"] = [107,123];
+NTIPAliasStat["skillredemption"] = [107,124];
+NTIPAliasStat["skillsalvation"] = [107,125];
+// Barbarian skills
+NTIPAliasStat["skillbash"] = [107,126];
+NTIPAliasStat["skillswordmastery"] = [107,127];
+NTIPAliasStat["skillaxemastery"] = [107,128];
+NTIPAliasStat["skillmacemastery"] = [107,129];
+NTIPAliasStat["skillhowl"] = [107,130];
+NTIPAliasStat["skillfindpotion"] = [107,131];
+NTIPAliasStat["skillleap"] = [107,132];
+NTIPAliasStat["skilldoubleswing"] = [107,133];
+NTIPAliasStat["skillpolearmmastery"] = [107,134];
+NTIPAliasStat["skillthrowingmastery"] = [107,135];
+NTIPAliasStat["skillspearmastery"] = [107,136];
+NTIPAliasStat["skilltaunt"] = [107,137];
+NTIPAliasStat["skillshout"] = [107,138];
+NTIPAliasStat["skillstun"] = [107,139];
+NTIPAliasStat["skilldoublethrow"] = [107,140];
+NTIPAliasStat["skillincreasedstamina"] = [107,141];
+NTIPAliasStat["skillfinditem"] = [107,142];
+NTIPAliasStat["skillleapattack"] = [107,143];
+NTIPAliasStat["skillconcentrate"] = [107,144];
+NTIPAliasStat["skillironskin"] = [107,145];
+NTIPAliasStat["skillbattlecry"] = [107,146];
+NTIPAliasStat["skillfrenzy"] = [107,147];
+NTIPAliasStat["skillincreasedspeed"] = [107,148];
+NTIPAliasStat["skillbattleorders"] = [107,149];
+NTIPAliasStat["skillgrimward"] = [107,150];
+NTIPAliasStat["skillwhirlwind"] = [107,151];
+NTIPAliasStat["skillberserk"] = [107,152];
+NTIPAliasStat["skillnaturalresistance"] = [107,153];
+NTIPAliasStat["skillwarcry"] = [107,154];
+NTIPAliasStat["skillbattlecommand"] = [107,155];
+// Druid skills
+NTIPAliasStat["skillraven"] = [107,221];
+NTIPAliasStat["skillpoisoncreeper"] = [107,222];
+NTIPAliasStat["skillwerewolf"] = [107,223];
+NTIPAliasStat["skilllycanthropy"] = [107,224];
+NTIPAliasStat["skillfirestorm"] = [107,225];
+NTIPAliasStat["skilloaksage"] = [107,226];
+NTIPAliasStat["skillsummonspiritwolf"] = [107,227];
+NTIPAliasStat["skillwerebear"] = [107,228];
+NTIPAliasStat["skillmoltenboulder"] = [107,229];
+NTIPAliasStat["skillarcticblast"] = [107,230];
+NTIPAliasStat["skillfissure"] = [107,231];
+NTIPAliasStat["skillferalrage"] = [107,232];
+NTIPAliasStat["skillmaul"] = [107,233];
+NTIPAliasStat["skillcarrionvine"] = [107,234];
+NTIPAliasStat["skillcyclonearmor"] = [107,235];
+NTIPAliasStat["skillheartofwolverine"] = [107,236];
+NTIPAliasStat["skillsummondirewolf"] = [107,237];
+NTIPAliasStat["skillrabies"] = [107,238];
+NTIPAliasStat["skillfireclaws"] = [107,239];
+NTIPAliasStat["skilltwister"] = [107,240];
+NTIPAliasStat["skillsolarcreeper"] = [107,241];
+NTIPAliasStat["skillhunger"] = [107,242];
+NTIPAliasStat["skillshockwave"] = [107,243];
+NTIPAliasStat["skillvolcano"] = [107,244];
+NTIPAliasStat["skilltornado"] = [107,245];
+NTIPAliasStat["skillspiritofbarbs"] = [107,246];
+NTIPAliasStat["skillsummongrizzly"] = [107,247];
+NTIPAliasStat["skillfury"] = [107,248];
+NTIPAliasStat["skillarmageddon"] = [107,249];
+NTIPAliasStat["skillhurricane"] = [107,250];
+// Assassin skills
+NTIPAliasStat["skillfireblast"] = [107,251];
+NTIPAliasStat["skillclawmastery"] = [107,252];
+NTIPAliasStat["skillpsychichammer"] = [107,253];
+NTIPAliasStat["skilltigerstrike"] = [107,254];
+NTIPAliasStat["skilldragontalon"] = [107,255];
+NTIPAliasStat["skillshockweb"] = [107,256];
+NTIPAliasStat["skillbladesentinel"] = [107,257];
+NTIPAliasStat["skillburstofspeed"] = [107,258];
+NTIPAliasStat["skillfistsoffire"] = [107,259];
+NTIPAliasStat["skilldragonclaw"] = [107,260];
+NTIPAliasStat["skillchargedboltsentry"] = [107,261];
+NTIPAliasStat["skillwakeoffire"] = [107,262];
+NTIPAliasStat["skillweaponblock"] = [107,263];
+NTIPAliasStat["skillcloakofshadows"] = [107,264];
+NTIPAliasStat["skillcobrastrike"] = [107,265];
+NTIPAliasStat["skillbladefury"] = [107,266];
+NTIPAliasStat["skillfade"] = [107,267];
+NTIPAliasStat["skillshadowwarrior"] = [107,268];
+NTIPAliasStat["skillclawsofthunder"] = [107,269];
+NTIPAliasStat["skilldragontail"] = [107,270];
+NTIPAliasStat["skilllightningsentry"] = [107,271];
+NTIPAliasStat["skillwakeofinferno"] = [107,272];
+NTIPAliasStat["skillmindblast"] = [107,273];
+NTIPAliasStat["skillbladesofice"] = [107,274];
+NTIPAliasStat["skilldragonflight"] = [107,275];
+NTIPAliasStat["skilldeathsentry"] = [107,276];
+NTIPAliasStat["skillbladeshield"] = [107,277];
+NTIPAliasStat["skillvenom"] = [107,278];
+NTIPAliasStat["skillshadowmaster"] = [107,279];
+NTIPAliasStat["skillphoenixstrike"] = [107,280];
+
+NTIPAliasStat["itemrestinpeace"] = 108;
+NTIPAliasStat["curseresistance"] = 109;
+NTIPAliasStat["itempoisonlengthresist"] = 110;
+NTIPAliasStat["itemnormaldamage"] = 111;
+NTIPAliasStat["itemhowl"] = 112;
+NTIPAliasStat["itemstupidity"] = 113;
+NTIPAliasStat["itemdamagetomana"] = 114;
+NTIPAliasStat["itemignoretargetac"] = 115;
+NTIPAliasStat["itemfractionaltargetac"] = 116;
+NTIPAliasStat["itempreventheal"] = 117;
+NTIPAliasStat["itemhalffreezeduration"] = 118;
+NTIPAliasStat["itemtohitpercent"] = 119;
+NTIPAliasStat["itemdamagetargetac"] = 120;
+NTIPAliasStat["itemdemondamagepercent"] = 121;
+NTIPAliasStat["itemundeaddamagepercent"] = 122;
+NTIPAliasStat["itemdemontohit"] = 123;
+NTIPAliasStat["itemundeadtohit"] = 124;
+NTIPAliasStat["itemthrowable"] = 125;
+NTIPAliasStat["itemelemskill"] = 126;
+NTIPAliasStat["itemallskills"] = 127;
+NTIPAliasStat["itemattackertakeslightdamage"] = 128;
+NTIPAliasStat["ironmaidenlevel"] = 129;
+NTIPAliasStat["lifetaplevel"] = 130;
+NTIPAliasStat["thornspercent"] = 131;
+NTIPAliasStat["bonearmor"] = 132;
+NTIPAliasStat["bonearmormax"] = 133;
+NTIPAliasStat["itemfreeze"] = 134;
+NTIPAliasStat["itemopenwounds"] = 135;
+NTIPAliasStat["itemcrushingblow"] = 136;
+NTIPAliasStat["itemkickdamage"] = 137;
+NTIPAliasStat["itemmanaafterkill"] = 138;
+NTIPAliasStat["itemhealafterdemonkill"] = 139;
+NTIPAliasStat["itemextrablood"] = 140;
+NTIPAliasStat["itemdeadlystrike"] = 141;
+NTIPAliasStat["itemabsorbfirepercent"] = 142;
+NTIPAliasStat["itemabsorbfire"] = 143;
+NTIPAliasStat["itemabsorblightpercent"] = 144;
+NTIPAliasStat["itemabsorblight"] = 145;
+NTIPAliasStat["itemabsorbmagicpercent"] = 146;
+NTIPAliasStat["itemabsorbmagic"] = 147;
+NTIPAliasStat["itemabsorbcoldpercent"] = 148;
+NTIPAliasStat["itemabsorbcold"] = 149;
+NTIPAliasStat["itemslow"] = 150;
+
+NTIPAliasStat["itemaura"] = 151;
+NTIPAliasStat["mightaura"] = [151,98];
+NTIPAliasStat["holyfireaura"] = [151,102];
+NTIPAliasStat["thornsaura"] = [151,103];
+NTIPAliasStat["defianceaura"] = [151,104];
+NTIPAliasStat["concentrationaura"] = [151,113];
+NTIPAliasStat["holyfreezeaura"] = [151,114];
+NTIPAliasStat["vigoraura"] = [151,115];
+NTIPAliasStat["holyshockaura"] = [151,118];
+NTIPAliasStat["sanctuaryaura"] = [151,119];
+NTIPAliasStat["meditationaura"] = [151,120];
+NTIPAliasStat["fanaticismaura"] = [151,122];
+NTIPAliasStat["convictionaura"] = [151,123];
+NTIPAliasStat["redemptionaura"] = [151,124];
+
+NTIPAliasStat["itemindestructible"] = 152;
+NTIPAliasStat["itemcannotbefrozen"] = 153;
+NTIPAliasStat["itemstaminadrainpct"] = 154;
+NTIPAliasStat["itemreanimate"] = 155;
+NTIPAliasStat["itempierce"] = 156;
+NTIPAliasStat["itemmagicarrow"] = 157;
+NTIPAliasStat["itemexplosivearrow"] = 158;
+NTIPAliasStat["itemthrowmindamage"] = 159;
+NTIPAliasStat["itemthrowmaxdamage"] = 160;
+NTIPAliasStat["itemskillhandofathena"] = 161;
+NTIPAliasStat["itemskillstaminapercent"] = 162;
+NTIPAliasStat["itemskillpassivestaminapercent"] = 163;
+NTIPAliasStat["itemskillconcentration"] = 164;
+NTIPAliasStat["itemskillenchant"] = 165;
+NTIPAliasStat["itemskillpierce"] = 166;
+NTIPAliasStat["itemskillconviction"] = 167;
+NTIPAliasStat["itemskillchillingarmor"] = 168;
+NTIPAliasStat["itemskillfrenzy"] = 169;
+NTIPAliasStat["itemskilldecrepify"] = 170;
+NTIPAliasStat["itemskillarmorpercent"] = 171;
+NTIPAliasStat["alignment"] = 172;
+NTIPAliasStat["target0"] = 173;
+NTIPAliasStat["target1"] = 174;
+NTIPAliasStat["goldlost"] = 175;
+NTIPAliasStat["conversionlevel"] = 176;
+NTIPAliasStat["conversionmaxhp"] = 177;
+NTIPAliasStat["unitdooverlay"] = 178;
+NTIPAliasStat["attackvsmontype"] = 179;
+NTIPAliasStat["damagevsmontype"] = 180;
+NTIPAliasStat["fade"] = 181;
+NTIPAliasStat["armoroverridepercent"] = 182;
+NTIPAliasStat["unused183"] = 183;
+NTIPAliasStat["unused184"] = 184;
+NTIPAliasStat["unused185"] = 185;
+NTIPAliasStat["unused186"] = 186;
+NTIPAliasStat["unused187"] = 187;
+
+NTIPAliasStat["itemaddskilltab"] = 188;
+NTIPAliasStat["itemaddbowandcrossbowskilltab"] = [188,0];	NTIPAliasStat["bowandcrossbowskilltab"] = [188,0];
+NTIPAliasStat["itemaddpassiveandmagicskilltab"] = [188,1];	NTIPAliasStat["passiveandmagicskilltab"] = [188,1];
+NTIPAliasStat["itemaddjavelinandspearskilltab"] = [188,2];	NTIPAliasStat["javelinandspearskilltab"] = [188,2];
+NTIPAliasStat["itemaddfireskilltab"] = [188,8];		NTIPAliasStat["fireskilltab"] = [188,8];
+NTIPAliasStat["itemaddlightningskilltab"] = [188,9];		NTIPAliasStat["lightningskilltab"] = [188,9];
+NTIPAliasStat["itemaddcoldskilltab"] = [188,10];		NTIPAliasStat["coldskilltab"] = [188,10];
+NTIPAliasStat["itemaddcursesskilltab"] = [188,16];		NTIPAliasStat["cursesskilltab"] = [188,16];
+NTIPAliasStat["itemaddpoisonandboneskilltab"] = [188,17];	NTIPAliasStat["poisonandboneskilltab"] = [188,17];
+NTIPAliasStat["itemaddnecromancersummoningskilltab"] = [188,18];	NTIPAliasStat["necromancersummoningskilltab"] = [188,18];
+NTIPAliasStat["itemaddpalicombatskilltab"] = [188,24];	NTIPAliasStat["palicombatskilltab"] = [188,24];
+NTIPAliasStat["itemaddoffensiveaurasskilltab"] = [188,25];	NTIPAliasStat["offensiveaurasskilltab"] = [188,25];
+NTIPAliasStat["itemadddefensiveaurasskilltab"] = [188,26];	NTIPAliasStat["defensiveaurasskilltab"] = [188,26];
+NTIPAliasStat["itemaddbarbcombatskilltab"] = [188,32];	NTIPAliasStat["barbcombatskilltab"] = [188,32];
+NTIPAliasStat["itemaddmasteriesskilltab"] = [188,33];		NTIPAliasStat["masteriesskilltab"] = [188,33];
+NTIPAliasStat["itemaddwarcriesskilltab"] = [188,34];		NTIPAliasStat["warcriesskilltab"] = [188,34];
+NTIPAliasStat["itemadddruidsummoningskilltab"] = [188,40];	NTIPAliasStat["druidsummoningskilltab"] = [188,40];
+NTIPAliasStat["itemaddshapeshiftingskilltab"] = [188,41];	NTIPAliasStat["shapeshiftingskilltab"] = [188,41];
+NTIPAliasStat["itemaddelementalskilltab"] = [188,42];		NTIPAliasStat["elementalskilltab"] = [188,42];
+NTIPAliasStat["itemaddtrapsskilltab"] = [188,48];		NTIPAliasStat["trapsskilltab"] = [188,48];
+NTIPAliasStat["itemaddshadowdisciplinesskilltab"] = [188,49];	NTIPAliasStat["shadowdisciplinesskilltab"] = [188,49];
+NTIPAliasStat["itemaddmartialartsskilltab"] = [188,50];	NTIPAliasStat["martialartsskilltab"] = [188,50];
+
+NTIPAliasStat["unused189"] = 189;
+NTIPAliasStat["unused190"] = 190;
+NTIPAliasStat["unused191"] = 191;
+NTIPAliasStat["unused192"] = 192;
+NTIPAliasStat["unused193"] = 193;
+NTIPAliasStat["itemnumsockets"] = 194;	NTIPAliasStat["sockets"] = 194;
+NTIPAliasStat["itemskillonattack"] = 195;
+NTIPAliasStat["itemskillonkill"] = 196;
+NTIPAliasStat["itemskillondeath"] = 197;
+
+NTIPAliasStat["itemskillonhit"] = 198;
+NTIPAliasStat["amplifydamageonhit"] = [198,4225];
+
+NTIPAliasStat["itemskillonlevelup"] = 199;
+NTIPAliasStat["unused200"] = 200;
+NTIPAliasStat["itemskillongethit"] = 201;
+NTIPAliasStat["unused202"] = 202;
+NTIPAliasStat["unused203"] = 203;
+
+NTIPAliasStat["itemchargedskill"] = 204;
+NTIPAliasStat["teleportcharges"] = [204,3461];
+
+NTIPAliasStat["unused204"] = 205;
+NTIPAliasStat["unused205"] = 206;
+NTIPAliasStat["unused206"] = 207;
+NTIPAliasStat["unused207"] = 208;
+NTIPAliasStat["unused208"] = 209;
+NTIPAliasStat["unused209"] = 210;
+NTIPAliasStat["unused210"] = 211;
+NTIPAliasStat["unused211"] = 212;
+NTIPAliasStat["unused212"] = 213;
+NTIPAliasStat["itemarmorperlevel"] = 214;
+NTIPAliasStat["itemarmorpercentperlevel"] = 215;
+NTIPAliasStat["itemhpperlevel"] = 216;
+NTIPAliasStat["itemmanaperlevel"] = 217;
+NTIPAliasStat["itemmaxdamageperlevel"] = 218;
+NTIPAliasStat["itemmaxdamagepercentperlevel"] = 219;
+NTIPAliasStat["itemstrengthperlevel"] = 220;
+NTIPAliasStat["itemdexterityperlevel"] = 221;
+NTIPAliasStat["itemenergyperlevel"] = 222;
+NTIPAliasStat["itemvitalityperlevel"] = 223;
+NTIPAliasStat["itemtohitperlevel"] = 224;
+NTIPAliasStat["itemtohitpercentperlevel"] = 225;
+NTIPAliasStat["itemcolddamagemaxperlevel"] = 226;
+NTIPAliasStat["itemfiredamagemaxperlevel"] = 227;
+NTIPAliasStat["itemltngdamagemaxperlevel"] = 228;
+NTIPAliasStat["itempoisdamagemaxperlevel"] = 229;
+NTIPAliasStat["itemresistcoldperlevel"] = 230;
+NTIPAliasStat["itemresistfireperlevel"] = 231;
+NTIPAliasStat["itemresistltngperlevel"] = 232;
+NTIPAliasStat["itemresistpoisperlevel"] = 233;
+NTIPAliasStat["itemabsorbcoldperlevel"] = 234;
+NTIPAliasStat["itemabsorbfireperlevel"] = 235;
+NTIPAliasStat["itemabsorbltngperlevel"] = 236;
+NTIPAliasStat["itemabsorbpoisperlevel"] = 237;
+NTIPAliasStat["itemthornsperlevel"] = 238;
+NTIPAliasStat["itemfindgoldperlevel"] = 239;
+NTIPAliasStat["itemfindmagicperlevel"] = 240;
+NTIPAliasStat["itemregenstaminaperlevel"] = 241;
+NTIPAliasStat["itemstaminaperlevel"] = 242;
+NTIPAliasStat["itemdamagedemonperlevel"] = 243;
+NTIPAliasStat["itemdamageundeadperlevel"] = 244;
+NTIPAliasStat["itemtohitdemonperlevel"] = 245;
+NTIPAliasStat["itemtohitundeadperlevel"] = 246;
+NTIPAliasStat["itemcrushingblowperlevel"] = 247;
+NTIPAliasStat["itemopenwoundsperlevel"] = 248;
+NTIPAliasStat["itemkickdamageperlevel"] = 249;
+NTIPAliasStat["itemdeadlystrikeperlevel"] = 250;
+NTIPAliasStat["itemfindgemsperlevel"] = 251;
+NTIPAliasStat["itemreplenishdurability"] = 252;
+NTIPAliasStat["itemreplenishquantity"] = 253;
+NTIPAliasStat["itemextrastack"] = 254;
+NTIPAliasStat["itemfinditem"] = 255;
+NTIPAliasStat["itemslashdamage"] = 256;
+NTIPAliasStat["itemslashdamagepercent"] = 257;
+NTIPAliasStat["itemcrushdamage"] = 258;
+NTIPAliasStat["itemcrushdamagepercent"] = 259;
+NTIPAliasStat["itemthrustdamage"] = 260;
+NTIPAliasStat["itemthrustdamagepercent"] = 261;
+NTIPAliasStat["itemabsorbslash"] = 262;
+NTIPAliasStat["itemabsorbcrush"] = 263;
+NTIPAliasStat["itemabsorbthrust"] = 264;
+NTIPAliasStat["itemabsorbslashpercent"] = 265;
+NTIPAliasStat["itemabsorbcrushpercent"] = 266;
+NTIPAliasStat["itemabsorbthrustpercent"] = 267;
+NTIPAliasStat["itemarmorbytime"] = 268;
+NTIPAliasStat["itemarmorpercentbytime"] = 269;
+NTIPAliasStat["itemhpbytime"] = 270;
+NTIPAliasStat["itemmanabytime"] = 271;
+NTIPAliasStat["itemmaxdamagebytime"] = 272;
+NTIPAliasStat["itemmaxdamagepercentbytime"] = 273;
+NTIPAliasStat["itemstrengthbytime"] = 274;
+NTIPAliasStat["itemdexteritybytime"] = 275;
+NTIPAliasStat["itemenergybytime"] = 276;
+NTIPAliasStat["itemvitalitybytime"] = 277;
+NTIPAliasStat["itemtohitbytime"] = 278;
+NTIPAliasStat["itemtohitpercentbytime"] = 279;
+NTIPAliasStat["itemcolddamagemaxbytime"] = 280;
+NTIPAliasStat["itemfiredamagemaxbytime"] = 281;
+NTIPAliasStat["itemltngdamagemaxbytime"] = 282;
+NTIPAliasStat["itempoisdamagemaxbytime"] = 283;
+NTIPAliasStat["itemresistcoldbytime"] = 284;
+NTIPAliasStat["itemresistfirebytime"] = 285;
+NTIPAliasStat["itemresistltngbytime"] = 286;
+NTIPAliasStat["itemresistpoisbytime"] = 287;
+NTIPAliasStat["itemabsorbcoldbytime"] = 288;
+NTIPAliasStat["itemabsorbfirebytime"] = 289;
+NTIPAliasStat["itemabsorbltngbytime"] = 290;
+NTIPAliasStat["itemabsorbpoisbytime"] = 291;
+NTIPAliasStat["itemfindgoldbytime"] = 292;
+NTIPAliasStat["itemfindmagicbytime"] = 293;
+NTIPAliasStat["itemregenstaminabytime"] = 294;
+NTIPAliasStat["itemstaminabytime"] = 295;
+NTIPAliasStat["itemdamagedemonbytime"] = 296;
+NTIPAliasStat["itemdamageundeadbytime"] = 297;
+NTIPAliasStat["itemtohitdemonbytime"] = 298;
+NTIPAliasStat["itemtohitundeadbytime"] = 299;
+NTIPAliasStat["itemcrushingblowbytime"] = 300;
+NTIPAliasStat["itemopenwoundsbytime"] = 301;
+NTIPAliasStat["itemkickdamagebytime"] = 302;
+NTIPAliasStat["itemdeadlystrikebytime"] = 303;
+NTIPAliasStat["itemfindgemsbytime"] = 304;
+NTIPAliasStat["itempiercecold"] = 305;
+NTIPAliasStat["itempiercefire"] = 306;
+NTIPAliasStat["itempierceltng"] = 307;
+NTIPAliasStat["itempiercepois"] = 308;
+NTIPAliasStat["itemdamagevsmonster"] = 309;
+NTIPAliasStat["itemdamagepercentvsmonster"] = 310;
+NTIPAliasStat["itemtohitvsmonster"] = 311;
+NTIPAliasStat["itemtohitpercentvsmonster"] = 312;
+NTIPAliasStat["itemacvsmonster"] = 313;
+NTIPAliasStat["itemacpercentvsmonster"] = 314;
+NTIPAliasStat["firelength"] = 315;
+NTIPAliasStat["burningmin"] = 316;
+NTIPAliasStat["burningmax"] = 317;
+NTIPAliasStat["progressivedamage"] = 318;
+NTIPAliasStat["progressivesteal"] = 319;
+NTIPAliasStat["progressiveother"] = 320;
+NTIPAliasStat["progressivefire"] = 321;
+NTIPAliasStat["progressivecold"] = 322;
+NTIPAliasStat["progressivelightning"] = 323;
+NTIPAliasStat["itemextracharges"] = 324;
+NTIPAliasStat["progressivetohit"] = 325;
+NTIPAliasStat["poisoncount"] = 326;
+NTIPAliasStat["damageframerate"] = 327;
+NTIPAliasStat["pierceidx"] = 328;
+NTIPAliasStat["passivefiremastery"] = 329;
+NTIPAliasStat["passiveltngmastery"] = 330;
+NTIPAliasStat["passivecoldmastery"] = 331;
+NTIPAliasStat["passivepoismastery"] = 332;
+NTIPAliasStat["passivefirepierce"] = 333;
+NTIPAliasStat["passiveltngpierce"] = 334;
+NTIPAliasStat["passivecoldpierce"] = 335;
+NTIPAliasStat["passivepoispierce"] = 336;
+NTIPAliasStat["passivecriticalstrike"] = 337;
+NTIPAliasStat["passivedodge"] = 338;
+NTIPAliasStat["passiveavoid"] = 339;
+NTIPAliasStat["passiveevade"] = 340;
+NTIPAliasStat["passivewarmth"] = 341;
+NTIPAliasStat["passivemasterymeleeth"] = 342;
+NTIPAliasStat["passivemasterymeleedmg"] = 343;
+NTIPAliasStat["passivemasterymeleecrit"] = 344;
+NTIPAliasStat["passivemasterythrowth"] = 345;
+NTIPAliasStat["passivemasterythrowdmg"] = 346;
+NTIPAliasStat["passivemasterythrowcrit"] = 347;
+NTIPAliasStat["passiveweaponblock"] = 348;
+NTIPAliasStat["passivesummonresist"] = 349;
+NTIPAliasStat["modifierlistskill"] = 350;
+NTIPAliasStat["modifierlistlevel"] = 351;
+NTIPAliasStat["lastsenthppct"] = 352;
+NTIPAliasStat["sourceunittype"] = 353;
+NTIPAliasStat["sourceunitid"] = 354;
+NTIPAliasStat["shortparam1"] = 355;
+NTIPAliasStat["questitemdifficulty"] = 356;
+NTIPAliasStat["passivemagmastery"] = 357;
+NTIPAliasStat["passivemagpierce"] = 358;
+
+///////////////////////////////////////////////////////////////////////新 增 物 品//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////新 增 物 品//////////////////////////////////////////////////////////////////////////////////////////////////////////
+NTIPAliasStat["plus54"] = [97,54];//tp
+NTIPAliasStat["plus61"] = [97,61];//火支
+NTIPAliasStat["plus63"] = [97,63];//闪支
+NTIPAliasStat["plus65"] = [97,65];//冰支
+NTIPAliasStat["plus66"] = [97,66];//伤害加深
+NTIPAliasStat["plus78"] = [97,78];//骨墙
+NTIPAliasStat["plus88"] = [97,88];//骨牢
+NTIPAliasStat["plus91"] = [97,91];//降抗
+NTIPAliasStat["plus117"] = [97,117];//圣盾
+NTIPAliasStat["plus123"] = [97,123];//信念
+NTIPAliasStat["plus138"] = [97,138];//大叫
+NTIPAliasStat["plus145"] = [97,145];//铁布衫
+NTIPAliasStat["plus154"] = [97,154];//WC
+NTIPAliasStat["plus226"] = [97,226];//oak
+NTIPAliasStat["plus267"] = [97,267];//消解
+
+
+NTIPAliasStat["g359"] = 359;// 减少敌人物理抗性
+NTIPAliasStat["g360"] = 360;// =1 抽奖？
+NTIPAliasStat["g369"] = 369;
+NTIPAliasStat["g378"] = 378;//已附魔次数
+NTIPAliasStat["g381"] = 381;//逼王碎片属性
+NTIPAliasStat["g382"] = 382;//蛋蛋猪属性
+NTIPAliasStat["g383"] = 383;//增加对敌人的物理伤害
+NTIPAliasStat["g401"] = 401;//暴风范围强化石
+NTIPAliasStat["g402"] = 402;//冲击频率强化石
+NTIPAliasStat["g403"] = 403;//圣冰频率强化石
+NTIPAliasStat["g404"] = 404;//圣火频率强化石
+NTIPAliasStat["g405"] = 405;//暴风雪cd强化石
+NTIPAliasStat["g406"] = 406;//冰封球cd强化石
+NTIPAliasStat["g407"] = 407;//陨石cd强化石
+NTIPAliasStat["g408"] = 408;//雷云频率强化石
+NTIPAliasStat["g409"] = 409;//锤子范围强化石
+NTIPAliasStat["g410"] = 410;//
+NTIPAliasStat["g411"] = 411;//
+NTIPAliasStat["g412"] = 412;//
+NTIPAliasStat["g413"] = 413;//
+NTIPAliasStat["g414"] = 414;//审判范围强化石
+NTIPAliasStat["g415"] = 415;//手雷范围强化石
+NTIPAliasStat["g416"] = 416;//陨石范围强化石
+NTIPAliasStat["g417"] = 417;//飞镖数量强化石
+NTIPAliasStat["g418"] = 418;//手雷数量强化石
+NTIPAliasStat["g419"] = 419;//抽奖属性
+NTIPAliasStat["g424"] = 424;//骨矛数量强化石
+NTIPAliasStat["g436"] = 436;//闪电之怒强化石
