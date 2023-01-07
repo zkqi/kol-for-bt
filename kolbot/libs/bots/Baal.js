@@ -244,10 +244,7 @@ function Baal() {
 	}
 
 	Pather.moveTo(15134, 5923);
-	Attack.clearLevel();
-	//Attack.kill(544); // Baal
-	Pickit.pickItems();
-	Attack.clearLevel();
+	Attack.killall(544);// Baal
 
 	return true;
 }
