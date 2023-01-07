@@ -1,0 +1,2 @@
+[type] == armor && [quality] >= normal && [class] >= exceptional # [fireresist] >= 210// elite exceptional
+//[type] >= shield # item.sellcost >= 30000 && [fireresist] >= 210

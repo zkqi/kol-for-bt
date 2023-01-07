@@ -1,0 +1,6 @@
+lastgamename='Dqk2';
+lastgamepass='1';
+lastdiff=2;
+lasttime=0;
+autocreate=false;
+autojoin=false;

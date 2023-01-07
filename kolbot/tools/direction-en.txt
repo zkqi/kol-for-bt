@@ -1,0 +1,81 @@
+loxxol'map direction
+1.hotkeys list:
+fastmove--read the prompt under the screen
+del--open/stop auto pick items
+backspace--go back town
+F12--quit game
+F11--other player quit game
+X--open box or transmute,put potions when belt shown
+=--cast tp outside,or lure npc on your mouse in town
+[--cast all precast skills
+]--show current area info and etc.
+ctrl--clear monsters nearby,or auto kill uber bosses. 
+end--show my items to the bot manager
+insert--pause/continue map
+break--stop/restart map
+- --set current select skills to my primary skills 
+PgUp:say "keyin",use it for quest or rush
+PgDown:say "keyback",use it for quest or rush
+num0:say"go.",become leader
+num1-4,num6-7:say the number,order other people
+num5--call all players to my position
+winmenu--show/hide areas list,use it for -move
+2.orders list:
+"-@@"+function:order all players run the function
+"-##"+function:run the function myself
+go.:speaker become leader,who can order others
+-npc:all players visit npcs
+-bo:cast all precast skills
+-en:auto enchant all players and minions
+-len:auto enchant ones without enchant stat
+-pick:all players open/stop auto pick items
+-corp:all players pick corpses
+-res:revive if die
+-s2:set current select skills to my second skills
+-rush:speaker do rush for other players
+-quest:speaker do all useful quests for others
+next game:speaker make next game,other join
+-join gamename/password:all join the gamename
+-ng:all player join next game
+-wp:speaker share his act waypoints to other
+these are single orders,only the speaker run:
+-clear:clear all monsters on the map
+-mark:log all items to logfile
+-skey:report count of the uber keys
+-shop:run shopbot at current trading npc
+(modify pickit in:kolbot\pickit\shopbot.nip)
+-load script name:run the script in bots folder
+for example:-load Questing,do all skill/stat quests
+-move areaid:auto move to the area
+kkk:speaker become keychar(do things for quests)
+-tp:switch using teleport to move
+-dia:auto walk leech in cs room,and follow the game
+-ndia:stop leech in cs room
+-baal:auto leech in baal room,and follow the game
+-nbaal:stop leech in baal room
+-dropt:drop items the same type as the item on mouse
+-dropc:drop items the same as the item on mouse
+-dropc count:drop count items the same as item on mouse
+-drops:drop all items in the stash
+-dropi:drop all items in the inventory
+-dropa:drop all items in the inventory,but keep useful
+-dropg:drop all gems in stash and inventory
+-putin:put all equipments in stash
+-take:write items in takelist,then call auto drop
+      read tools\autotake\readme.txt
+these are leader's orders:
+1:enter leader's portal
+2:go back town from leader's portal
+3:get the waypoint nearby
+4:cast a town portal and go back town 
+5:move to the leader
+6:follow the leader and attack monsters nearby
+7:stop follow
+8:far follow the leader
+9:move to the portal position in town
+a:active auto attack
+na:stop auto attack
+p:pick items
+pass:pass the act
+pass1,2,3,4:pass the act 1,2,3,4
+-come:go to the leader's map or act town

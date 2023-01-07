@@ -1,0 +1,810 @@
+[08:49:19] <ggff> NIP file doesn't exist: pickit/money.nip
+[08:49:19] <ggff> NIP file doesn't exist: pickit/zkqinewbie.nip
+[08:52:21] <ggff> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:52:21] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:52:21] <ggff> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:52:21] <ggff> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:52:21] <ggff> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:52:21] <ggff> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:52:21] <ggff> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:52:21] <ggff> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:52:21] <ggff> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:52:21] <ggff> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:52:21] <ggff> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:52:21] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:52:21] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:52:21] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:52:21] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:52:21] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:52:21] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:52:21] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:52:21] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:52:21] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:52:21] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:52:21] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:52:21] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:52:21] <ggff> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:52:21] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:52:21] <ggff> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:52:21] <ggff> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:52:21] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:52:21] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:52:21] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:52:21] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:52:21] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:52:21] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:52:21] <ggff> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:52:21] <ggff> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:52:21] <ggff> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:52:21] <ggff> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:52:22] <ggff> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:52:22] <ggff> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:52:22] <ggff> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:52:22] <ggff> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:52:22] <ggff> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:52:22] <ggff> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:52:22] <ggff> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:52:22] <ggff> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:52:22] <ggff> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:52:22] <ggff> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:52:22] <ggff> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:52:22] <ggff> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:52:22] <ggff> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:52:22] <ggff> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:52:22] <ggff> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:52:22] <ggff> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:52:22] <ggff> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:52:22] <ggff> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:52:22] <ggff> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:52:22] <ggff> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:52:22] <ggff> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:52:22] <ggff> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:52:22] <ggff> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:52:22] <ggff> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:52:22] <ggff> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:52:22] <ggff> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:52:22] <ggff> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:52:22] <ggff> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:52:22] <ggff> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:52:22] <ggff> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:52:22] <ggff> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:52:22] <ggff> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:52:22] <ggff> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:52:22] <ggff> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:52:22] <ggff> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:52:22] <ggff> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:52:22] <ggff> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:53:54] <MAP> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:53:54] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:53:54] <MAP> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:53:54] <MAP> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:53:54] <MAP> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:53:54] <MAP> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:53:54] <MAP> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:53:54] <MAP> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:53:54] <MAP> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:53:54] <MAP> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:53:54] <MAP> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:53:54] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:53:54] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:53:54] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:53:54] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:53:54] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:53:54] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:53:54] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:53:54] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:53:54] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:53:54] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:53:54] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:53:54] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:53:54] <MAP> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:53:54] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:53:54] <MAP> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:53:54] <MAP> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:53:54] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:53:54] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:53:54] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:53:54] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:53:54] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:53:54] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:53:54] <MAP> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:53:54] <MAP> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:53:54] <MAP> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:53:54] <MAP> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:53:55] <MAP> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:53:55] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:53:55] <MAP> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:53:55] <MAP> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:53:55] <MAP> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:53:55] <MAP> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:53:55] <MAP> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:53:55] <MAP> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:53:55] <MAP> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:53:55] <MAP> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:53:55] <MAP> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:53:55] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:53:55] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:53:55] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:53:55] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:53:55] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:53:55] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:53:55] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:53:55] <MAP> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:53:55] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:53:55] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:53:55] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:53:55] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:53:55] <MAP> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:53:55] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:53:55] <MAP> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:53:55] <MAP> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:53:55] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:53:55] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:53:55] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:53:55] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:53:55] <MAP> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:53:55] <MAP> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:53:55] <MAP> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:53:55] <MAP> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:53:55] <MAP> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:53:55] <MAP> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:54:08] <MAP 2> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:54:08] <MAP 2> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:54:08] <MAP 2> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:54:08] <MAP 2> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:54:08] <MAP 2> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:54:08] <MAP 2> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:54:08] <MAP 2> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:54:08] <MAP 2> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:54:08] <MAP 2> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:54:08] <MAP 2> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:54:08] <MAP 2> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:54:08] <MAP 2> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:54:08] <MAP 2> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:54:08] <MAP 2> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:54:08] <MAP 2> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:54:08] <MAP 2> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:54:08] <MAP 2> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:54:08] <MAP 2> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:54:08] <MAP 2> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:54:08] <MAP 2> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:54:08] <MAP 2> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:54:08] <MAP 2> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:54:08] <MAP 2> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:54:08] <MAP 2> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:54:08] <MAP 2> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:54:08] <MAP 2> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:54:08] <MAP 2> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:54:08] <MAP 2> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:54:08] <MAP 2> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:54:08] <MAP 2> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:54:08] <MAP 2> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:54:08] <MAP 2> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:54:08] <MAP 2> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:54:08] <MAP 2> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:54:08] <MAP 2> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:54:08] <MAP 2> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:54:08] <MAP 2> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:54:20] <MAP 3> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:54:20] <MAP 3> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:54:20] <MAP 3> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:54:20] <MAP 3> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:54:20] <MAP 3> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:54:20] <MAP 3> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:54:20] <MAP 3> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:54:20] <MAP 3> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:54:20] <MAP 3> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:54:20] <MAP 3> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:54:20] <MAP 3> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:54:20] <MAP 3> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:54:20] <MAP 3> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:54:20] <MAP 3> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:54:20] <MAP 3> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:54:20] <MAP 3> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:54:20] <MAP 3> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:54:20] <MAP 3> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:54:20] <MAP 3> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:54:20] <MAP 3> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:54:20] <MAP 3> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:54:20] <MAP 3> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:54:20] <MAP 3> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:54:20] <MAP 3> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:54:20] <MAP 3> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:54:20] <MAP 3> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:54:20] <MAP 3> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:54:20] <MAP 3> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:54:20] <MAP 3> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:54:20] <MAP 3> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:54:20] <MAP 3> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:54:20] <MAP 3> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:54:20] <MAP 3> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:54:20] <MAP 3> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:54:20] <MAP 3> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:54:20] <MAP 3> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:54:20] <MAP 3> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:54:33] <MAP 4> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:54:33] <MAP 4> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:54:33] <MAP 4> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:54:33] <MAP 4> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:54:33] <MAP 4> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:54:33] <MAP 4> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:54:33] <MAP 4> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:54:33] <MAP 4> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:54:33] <MAP 4> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:54:33] <MAP 4> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:54:33] <MAP 4> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:54:33] <MAP 4> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:54:33] <MAP 4> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:54:33] <MAP 4> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:54:33] <MAP 4> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:54:33] <MAP 4> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:54:33] <MAP 4> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:54:33] <MAP 4> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:54:33] <MAP 4> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:54:33] <MAP 4> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:54:33] <MAP 4> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:54:33] <MAP 4> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:54:33] <MAP 4> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:54:33] <MAP 4> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:54:33] <MAP 4> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:54:33] <MAP 4> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:54:33] <MAP 4> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:54:33] <MAP 4> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:54:33] <MAP 4> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:54:33] <MAP 4> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:54:33] <MAP 4> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:54:33] <MAP 4> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:54:33] <MAP 4> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:54:33] <MAP 4> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:54:33] <MAP 4> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:54:33] <MAP 4> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:54:33] <MAP 4> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:54:46] <MAP 5> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:54:46] <MAP 5> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:54:46] <MAP 5> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:54:46] <MAP 5> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:54:46] <MAP 5> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:54:46] <MAP 5> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:54:46] <MAP 5> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:54:46] <MAP 5> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:54:46] <MAP 5> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:54:46] <MAP 5> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:54:46] <MAP 5> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:54:46] <MAP 5> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:54:46] <MAP 5> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:54:46] <MAP 5> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:54:46] <MAP 5> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:54:46] <MAP 5> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:54:46] <MAP 5> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:54:46] <MAP 5> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:54:46] <MAP 5> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:54:46] <MAP 5> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:54:46] <MAP 5> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:54:46] <MAP 5> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:54:46] <MAP 5> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:54:46] <MAP 5> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:54:46] <MAP 5> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:54:46] <MAP 5> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:54:46] <MAP 5> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:54:46] <MAP 5> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:54:46] <MAP 5> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:54:46] <MAP 5> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:54:46] <MAP 5> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:54:46] <MAP 5> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:54:46] <MAP 5> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:54:46] <MAP 5> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:54:46] <MAP 5> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:54:46] <MAP 5> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:54:46] <MAP 5> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:55:04] <MAP 6> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:55:04] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:55:04] <MAP 6> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:55:04] <MAP 6> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:55:04] <MAP 6> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:55:04] <MAP 6> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:55:04] <MAP 6> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:55:04] <MAP 6> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:55:04] <MAP 6> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:55:04] <MAP 6> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:55:04] <MAP 6> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:55:04] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:55:04] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:55:04] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:55:04] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:55:04] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:55:04] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:55:04] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:55:04] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:55:04] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:55:04] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:55:04] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:55:04] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:55:04] <MAP 6> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:55:04] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:55:04] <MAP 6> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:55:04] <MAP 6> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:55:04] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:55:04] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:55:04] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:55:04] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:55:04] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:55:04] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:55:04] <MAP 6> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:55:04] <MAP 6> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:55:04] <MAP 6> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:55:04] <MAP 6> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:55:05] <MAP 6> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:55:05] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:55:05] <MAP 6> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:55:05] <MAP 6> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:55:05] <MAP 6> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:55:05] <MAP 6> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:55:05] <MAP 6> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:55:05] <MAP 6> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:55:05] <MAP 6> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:55:05] <MAP 6> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:55:05] <MAP 6> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:55:05] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:55:05] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:55:05] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:55:05] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:55:05] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:55:05] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:55:05] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:55:05] <MAP 6> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:55:05] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:55:05] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:55:05] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:55:05] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:55:05] <MAP 6> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:55:05] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:55:05] <MAP 6> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:55:05] <MAP 6> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:55:05] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:55:05] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:55:05] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:55:05] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:55:05] <MAP 6> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:55:05] <MAP 6> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:55:05] <MAP 6> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:55:05] <MAP 6> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:55:05] <MAP 6> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:55:05] <MAP 6> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:55:21] <MAP 7> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:55:21] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:55:21] <MAP 7> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:55:21] <MAP 7> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:55:21] <MAP 7> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:55:21] <MAP 7> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:55:21] <MAP 7> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:55:21] <MAP 7> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:55:21] <MAP 7> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:55:21] <MAP 7> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:55:21] <MAP 7> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:55:21] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:55:21] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:55:21] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:55:21] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:55:21] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:55:21] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:55:21] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:55:21] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:55:21] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:55:21] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:55:21] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:55:21] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:55:21] <MAP 7> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:55:21] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:55:21] <MAP 7> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:55:21] <MAP 7> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:55:21] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:55:21] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:55:21] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:55:21] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:55:21] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:55:21] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:55:21] <MAP 7> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:55:21] <MAP 7> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:55:21] <MAP 7> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:55:21] <MAP 7> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[08:55:22] <MAP 7> Unknown name: a950 File: zkqinewbie.nip Line: 15
+[08:55:22] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 16
+[08:55:22] <MAP 7> Unknown stat: aa021 File: zkqinewbie.nip Line: 17
+[08:55:22] <MAP 7> Unknown stat: aa041 File: zkqinewbie.nip Line: 18
+[08:55:22] <MAP 7> Unknown stat: aa061 File: zkqinewbie.nip Line: 19
+[08:55:22] <MAP 7> Unknown stat: aa081 File: zkqinewbie.nip Line: 20
+[08:55:22] <MAP 7> Unknown stat: aa101 File: zkqinewbie.nip Line: 21
+[08:55:22] <MAP 7> Unknown stat: aa121 File: zkqinewbie.nip Line: 22
+[08:55:22] <MAP 7> Unknown stat: aa141 File: zkqinewbie.nip Line: 23
+[08:55:22] <MAP 7> Unknown stat: aa161 File: zkqinewbie.nip Line: 24
+[08:55:22] <MAP 7> Unknown stat: aa181 File: zkqinewbie.nip Line: 25
+[08:55:22] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 26
+[08:55:22] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 35
+[08:55:22] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 36
+[08:55:22] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 37
+[08:55:22] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 38
+[08:55:22] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 39
+[08:55:22] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 40
+[08:55:22] <MAP 7> Unknown name: a788 File: zkqinewbie.nip Line: 41
+[08:55:22] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 71
+[08:55:22] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 72
+[08:55:22] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 73
+[08:55:22] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 92
+[08:55:22] <MAP 7> Unknown stat: aa002 File: zkqinewbie.nip Line: 115
+[08:55:22] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 116
+[08:55:22] <MAP 7> Unknown stat: aa005 File: zkqinewbie.nip Line: 117
+[08:55:22] <MAP 7> Unknown stat: aa005 File: zkqinewbie.nip Line: 119
+[08:55:22] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 126
+[08:55:22] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 127
+[08:55:22] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 128
+[08:55:22] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 131
+[08:55:22] <MAP 7> Unknown stat: aa001 File: zkqinewbie.nip Line: 134
+[08:55:22] <MAP 7> Unknown stat: aura414 File: zkqinewbie.nip Line: 136
+[08:55:22] <MAP 7> Unknown stat: aa061 File: zkqinewbie.nip Line: 141
+[08:55:22] <MAP 7> Unknown stat: aa002 File: zkqinewbie.nip Line: 154
+[08:55:22] <MAP 7> Unknown stat: plus396 File: zkqinewbie.nip Line: 176
+[08:55:22] <MAP 7> Unknown name: a742 File: zkqinewbie.nip Line: 177
+[09:24:29] <ggff> Unknown name: s666 File: zkqinewbie.nip Line: 15
+[09:24:29] <ggff> Unknown name: s666 File: zkqinewbie.nip Line: 15
+[09:24:29] <ggff> Unknown name: s666 File: zkqinewbie.nip Line: 15
+[21:49:58] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 2
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[21:51:18] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[21:52:55] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 2
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[21:54:15] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 2
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[22:09:12] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[22:11:54] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 3
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[22:12:50] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[22:30:04] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[22:30:56] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 3
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[22:37:40] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[22:41:09] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[23:14:59] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[23:17:04] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[23:17:46] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 2
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[23:18:30] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 2
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[23:34:05] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 3
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[23:39:15] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[23:43:31] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[23:45:10] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[23:45:43] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[23:47:08] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 2
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[23:48:12] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 2
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[23:49:52] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 3
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[00:07:09] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 2
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[00:08:15] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 3
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[00:08:49] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[00:13:29] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 3
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[00:14:59] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 3
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[00:15:59] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[00:17:37] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[00:33:15] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[00:34:43] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[00:37:45] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[01:02:15] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[01:02:56] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[01:18:33] <pal> Error in Pit (pather.js line 718): useUnit: Unit not found. ID: 3
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13, Pather.moveToExit@pather.js:634, Pather.useUnit@pather.js:718
+[01:23:19] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[01:23:57] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[01:24:27] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[02:14:51] <pal> Unknown stat: plus54 File: zkqinewbie.nip Line: 39
+[02:14:51] <pal> Unknown stat: plus54 File: zkqinewbie.nip Line: 39
+[02:14:51] <pal> Unknown stat: plus54 File: zkqinewbie.nip Line: 39
+[14:22:34] <pal> Error in Pit (pit.js line 14): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:14
+[19:19:08] <MAP> Error in MapThread (town.js line 111): Cubing is not defined
+Stack: main@mapthread.js:461, Town.visitTown@town.js:2265, Town.doChores@town.js:111
+[09:38:59] <indira> Script UserAddon doesn't exist.
+[09:39:47] <pal> Script UserAddon doesn't exist.
+[09:39:51] <pal> Error in Baal (baal.js line 132): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:132
+[09:39:56] <pal> Script UserAddon doesn't exist.
+[09:40:09] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:237, Attack.kill@attack.js:214
+[09:40:17] <pal> Script UserAddon doesn't exist.
+[09:40:27] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:237, Attack.kill@attack.js:214
+[09:40:34] <pal> Script UserAddon doesn't exist.
+[09:40:49] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:237, Attack.kill@attack.js:214
+[09:41:06] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:237, Attack.kill@attack.js:214
+[09:41:24] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:238, Attack.kill@attack.js:214
+[09:41:42] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:238, Attack.kill@attack.js:214
+[09:41:59] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:238, Attack.kill@attack.js:214
+[09:42:17] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:238, Attack.kill@attack.js:214
+[09:42:38] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:238, Attack.kill@attack.js:214
+[09:42:58] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:238, Attack.kill@attack.js:214
+[09:43:21] <pal> Error in Baal (attack.js line 214): Failed to kill °Í – (attackCount exceeded)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:238, Attack.kill@attack.js:214
+[10:07:29] <pal> Error in Baal (baal.js line 133): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:133
+[10:14:32] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[10:28:47] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[11:26:53] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[13:55:22] <pal> Script ChestMania doesn't exist.
+[13:56:02] <pal> Script ChestMania doesn't exist.
+[13:56:42] <pal> Script ChestMania doesn't exist.
+[14:05:06] <pal> Script ChestMania doesn't exist.
+[14:05:51] <pal> Script ChestMania doesn't exist.
+[14:06:26] <pal> Script ChestMania doesn't exist.
+[14:07:12] <indira> Pickit error! Line # 126 Entry: [name] == jewel && [quality] == unique # [fcr] = 25 && [passivefiremastery]+[passiveltngmastery]+[passivecoldmastery]+[passivepoismastery]+[passivemagmastery]+[g359] >= 1//æ ¼åˆ©é£Žä¹‹çœ¼ (zkqinewbie.nip) Error message: invalid assignment left-hand side Trigger item: ¾Õ»¨
+[14:14:51] <pal> Script ChestMania doesn't exist.
+[14:23:15] <pal> Script ChestMania doesn't exist.
+[14:27:04] <indira> Pickit error! Line # 126 Entry: [name] == jewel && [quality] == unique # [fcr] = 25 && [passivefiremastery]+[passiveltngmastery]+[passivecoldmastery]+[passivepoismastery]+[passivemagmastery]+[g359] >= 1//æ ¼åˆ©é£Žä¹‹çœ¼ (zkqinewbie.nip) Error message: invalid assignment left-hand side Trigger item: ¾Õ»¨
+[14:31:14] <indira> Pickit error! Line # 125 Entry: [name] == jewel && [quality] == unique # [fcr] = 25 && [passivefiremastery]+[passiveltngmastery]+[passivecoldmastery]+[passivepoismastery]+[passivemagmastery]+[g359] >= 1//æ ¼åˆ©é£Žä¹‹çœ¼ (zkqinewbie.nip) Error message: invalid assignment left-hand side Trigger item: ¾Õ»¨
+[14:33:12] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:33:26] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:36:15] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:36:30] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:36:43] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:37:08] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:37:21] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:37:34] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:37:49] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:38:02] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[14:38:15] <pal> Error in Baal (baal.js line 138): Failed to move to Baal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:138
+[21:15:45] <baal> Script Qesting doesn't exist.
+[23:29:34] <MAP> Pickit error! Line # 151 Entry: [name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 80 && [fcr] >= 30 && [magicdamagereduction] >= 9//è›‡é­”æ³•å¸«ä¹‹çš® (zkqinewbie.nip) Error message: too much recursion Trigger item: ÊÜëyÖ® ÒÂ ˆÌÕþ¹Ùæz¼× Archon Plate¡¾¾«ÈA¡¿¡¾Ýp¡¿
+[17:31:44] <pal> Error in Kulc (kulc.js line 53): this.doneAreas is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Kulc@kulc.js:289, @kulc.js:53
+[20:54:31] <pal> Error in Kulc (attack.js line 217): Failed to kill ÒÂ×ä – (doAttack failed)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Kulc@kulc.js:310, @kulc.js:175, Attack.kill@attack.js:217
+[00:08:56] <pal> Error in Kulc (attack.js line 217): Failed to kill ÒÂ×ä – (doAttack failed)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Kulc@kulc.js:311, @kulc.js:175, Attack.kill@attack.js:217
+[17:01:52] <pal> Pickit error! Line # 49 Entry: ([name] == smallcharm || [name] == grandcharm) && [quality] == unique # [plus54]+[plus61]+[plus63]+[plus65]++[plus66]+[plus78]+[plus88]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus226]+[plus267] >= 1//ugc ulc usc +26 é™„é­” (zkqinewbie.nip) Error message: missing ; before statement Trigger item: »ùµÃµÄß\šâ Gheed's Fortune ³¬´óÐÍ×oÉí·û
+[17:01:52] <pal> Pickit error! Line # 49 Entry: ([name] == smallcharm || [name] == grandcharm) && [quality] == unique # [plus54]+[plus61]+[plus63]+[plus65]++[plus66]+[plus78]+[plus88]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus226]+[plus267] >= 1//ugc ulc usc +26 é™„é­” (zkqinewbie.nip) Error message: missing ; before statement Trigger item: »ùµÃµÄß\šâ Gheed's Fortune ³¬´óÐÍ×oÉí·û
+[17:01:52] <pal> Pickit error! Line # 49 Entry: ([name] == smallcharm || [name] == grandcharm) && [quality] == unique # [plus54]+[plus61]+[plus63]+[plus65]++[plus66]+[plus78]+[plus88]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus226]+[plus267] >= 1//ugc ulc usc +26 é™„é­” (zkqinewbie.nip) Error message: missing ; before statement Trigger item: »ùµÃµÄß\šâ Gheed's Fortune ³¬´óÐÍ×oÉí·û
+[00:12:46] <pal> Error in Kulc (attack.js line 217): Failed to kill ÀòÀò½z Lilith (doAttack failed)
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Kulc@kulc.js:311, @kulc.js:150, Attack.kill@attack.js:217
+[01:07:41] <pal> Error in Kulc (pather.js line 562): moveToPreset: Couldn't find preset unit - id 580
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Kulc@kulc.js:236, Pather.moveToPreset@pather.js:562
+[01:07:47] <rafael> Error in Pit (pit.js line 30): Failed to move to Pit level 2
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:30
+[01:07:52] <rafael> Error in Baal (town.js line 2251): Town.goToTown: Failed to make TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2251
+[11:06:30] <pal> Error in Kulc (attack.js line 160): Attack.kill: Target not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Kulc@kulc.js:237, Attack.kill@attack.js:160

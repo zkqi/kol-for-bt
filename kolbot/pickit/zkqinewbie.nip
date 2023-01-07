@@ -1,0 +1,547 @@
+﻿///////////////////////////////////////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+////////根据IMPK 2019年物价表编制//////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////屠 魔 战 纪//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////屠 魔 战 纪//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////屠 魔 战 纪//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////自 定 义 拾 取//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////自 定 义 拾 取//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////自 定 义 拾 取//////////////////////////////////////////////////////////////////////////////////////////////////////////
+[type] >= shield && ([quality] == unique || [quality] == set) && [class] >= elite # [fireresist] >= 350//捡取回收
+[name] == smallcharm && [quality] == unique # [fireresist] >= 350//捡取回收
+[name] == largecharm && [quality] == unique # [fireresist] >= 350//捡取回收
+[name] == grandcharm && [quality] == unique # [fireresist] >= 350//捡取回收
+[name] == jewel && [quality] == unique # [fireresist] >= 350//捡取回收
+[name] == standardofheroes//英雄旗帜
+[name] == s306
+[name] >= s514 && [name] <= s519
+[name] >= s666 && [name] != s745 && [name] != s744 && [name] != s741 && [name] != s770 && [name] != s713 && [name] != s712 && [name] != s723 && [name] != s724 && [name] != s725 && [name] != s726 && [name] != s727 && [name] != s728 && [name] != s729 && [name] != s730 && [name] != s731 && [name] != s732 && [name] != s733 && [name] != s734 && [name] != s735 && [name] != s736 && [name] != s746
+ ///////////////////////////////////////////////////////////////////////新 增 套 装//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////新 增 套 装//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////新 增 套 装//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////新 增 暗 金//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////新 增 暗 金//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////新 增 暗 金//////////////////////////////////////////////////////////////////////////////////////////////////////////
+[name] == lightgauntlets && [quality] == unique && [flag] != ethereal # [itemallskills] >= 1//1-2allskill 6系伤害
+[name] == scarabshellboots && [quality] == unique # [itemallskills] >= 1//1-2allskill 6系伤害
+[name] == spiderwebsash && [quality] == unique # [itemallskills] >= 2
+[name] == warpike && [quality] == unique # [convictionaura] >= 1
+[name] == scourge && [quality] == unique # [itemallskills] >= 1 && [passivecoldmastery] >= 30
+[name] == phaseblade && [quality] == unique # [itemallskills] >= 1 && [holyshockaura]+[holyfireaura]+[holyfreezeaura] >= 1
+[name] == colossusblade && [quality] == unique # [sockets] >= 1//20-40fcr 300-450ed 1-6socket
+[name] == sacredarmor && [quality] == unique # [plusskillteleport] >= 1
+[name] == ring && [quality] == unique # [convictionaura] >= 1
+[name] == s744 && [quality] == unique #//新戒指 灵气+6系伤害
+[name] == s745 && [quality] == unique #//新项链
+//新暗金物品和首饰
+
+//蛋蛋
+//新暗金珠宝
+([name] == smallcharm || [name] == grandcharm) && [quality] == unique # [plus54]+[plus61]+[plus63]+[plus65]+[plus66]+[plus78]+[plus88]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus226]+[plus267] >= 1//ugc ulc usc +26 附魔
+//[name] == largecharm && [quality] == unique # [fireresist] >= 10 && [strength] >= 10
+[name] == largecharm && [quality] == unique # [fireresist]+[strength] >= 38 && [g378] == 3
+[name] == largecharm && [quality] == unique # [amazonskills] >= 1 && [plus78]+[plus88]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus226]+[plus267] >= 2
+[name] == largecharm && [quality] == unique # [sorceressskills] >= 1 && [plus78]+[plus88]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus226]+[plus267] >= 2
+[name] == largecharm && [quality] == unique # [necromancerskills] >= 1 && [plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus226]+[plus267] >= 1
+[name] == largecharm && [quality] == unique # [paladinskills] >= 1 && [g378] == 3//&& [plus78]+[plus88]+[plus91]+[plus138]+[plus145]+[plus154]+[plus226]+[plus267] >= 1
+[name] == largecharm && [quality] == unique # [barbarianskills] >= 1 && [plus66]+[plus78]+[plus88]+[plus117]+[plus123]+[plus226]+[plus267] >= 1
+[name] == largecharm && [quality] == unique # [druidskills] >= 1 && [plus78]+[plus88]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus267] >= 2
+[name] == largecharm && [quality] == unique # [assassinskills] >= 1 && [plus78]+[plus88]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus226] >= 2
+
+[name] == dimensionalshard && [quality] == unique
+//[name] == unearthedwand && [quality] == unique
+//[name] == corona && [quality] == unique
+[name] == diadem && [quality] == unique
+//cy py tg glf 要溶解药水回收
+[name] == s712 && [quality] == unique # [g382] >= 1//蛋蛋猪
+[name] == s713 && [quality] == unique # [g381] >= 1//逼王碎片
+//娃娃
+//[name] == archonstaff && [quality] == unique
+[name] == sacredarmor && [quality] == unique # [fireresist] >= 20
+//梅格之杖 和鸟甲 +溶解 ==33#
+[name] == s723 # [g401] >= 1//暴风范围强化石
+[name] == s724 # [g402] >= 1//冲击频率强化石
+[name] == s725 # [g403] >= 1//圣冰频率强化石
+[name] == s726 # [g404] >= 1//圣火频率强化石
+[name] == s727 # [g405] >= 1//暴风雪cd强化石
+[name] == s728 # [g406] >= 1//冰封球cd强化石
+[name] == s729 # [g407] >= 1//陨石cd强化石
+[name] == s730 # [g408] >= 1//雷云频率强化石
+[name] == s731 # [g409] >= 1//锤子范围强化石 每次5点
+[name] == s732 # [g414] >= 1//审判范围强化石 每次5点
+[name] == s733 # [g415] >= 1//手雷范围强化石 每次2点
+[name] == s734 # [g416] >= 1//陨石范围强化石
+[name] == s735 # [g417] >= 1//飞镖数量强化石
+[name] == s736 # [g418] >= 1//手雷数量强化石
+[name] == s746 # [g424] >= 1//骨矛数量强化石
+[name] == s770 # [g436] >= 1//闪电之怒强化石
+//技能强化石
+[type] >= shield && ([quality] == unique || [quality] == set) && [class] >= elite # [g419] >= 1//幸运奖牌
+//超级进阶物品
+[name] == s741//a5永久传送卷轴
+//直达
+//镜子
+
+/////////////////////////////////////////////////////////////////////////T E M P////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////T E M P////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////T E M P////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//[type] == auricshields && [quality] <= superior && [flag] != ethereal && [class] >= elite # ([sockets] >= 4 || [sockets] == 0) && [fireresist] >= 40
+[name] == sacredtarge && [quality] <= superior && [flag] != ethereal # ([sockets] == 4 || [sockets] == 0) && [fireresist] >= 45
+[name] == smallcharm && [quality] == magic # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 20//5res
+//[name] == largecharm && [quality] == magic # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 28//8res
+[name] == grandcharm && [quality] == magic # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 56//15res
+[name] == jewel && [quality] == magic # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 60//15res magic 10res rare
+
+//[name] == archonplate && [quality] == normal # [sockets] == 0
+//[name] == giantthresher && [quality] == normal # [sockets] == 0
+//[name] == crystalsword && [quality] == normal # [sockets] == 0
+//[name] == phaseblade && [quality] == normal # [sockets] == 0
+//[name] == flail && [quality] == normal # [sockets] == 0
+//[name] == sacredtarge && [quality] == normal && [flag] != ethereal # [sockets] == 0
+//[name] == diadem && [quality] == normal # [sockets] == 0
+
+[name] == shako && [quality] == unique && [flag] != ethereal # [itemallskills] >= 3 && [sockets] >= 2
+[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 100
+[name] == gildedshield && [quality] == unique # [paladinskills] >= 1 && [enhanceddefense] >= 100
+[name] == sacredtarge && [quality] <= superior && [flag] != ethereal # ([sockets] == 4 || [sockets] == 0) && [fireresist] >= 45
+[name] == sharkskinboots && [quality] == unique && [flag] != ethereal # [maxhp] >= 60
+[type] == amulet && [quality] == unique # [strength] >= 5 && [lightresist] >= 30 && [itemallskills] >= 1
+//[type] == ring && [quality] == unique # [magicdamagereduction] >= 15
+[type] == ring && [quality] == unique # [dexterity] >= 20 && [tohit] >= 200
+[name] == grimhelm && [quality] == unique && [flag] == ethereal # [lifeleech] >= 6
+//[type] == amulet && [quality] == unique # [lightresist] == 35
+//[type] == ring && [quality] == unique # [dexterity] >= 10 && [tohit] >= 200
+[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [strength] >= 15 && [lifeleech] >= 10
+//[name] == monarch && [quality] == unique
+//[name] == tiara && [quality] == unique && [flag] != ethereal # [lightresist] >= 50
+//[name] == wingedhelm && [quality] == set # [fhr] == 30 # [maxquantity] == 1
+//[name] == grandcharm && [quality] == unique
+//[name] == grandcharm && [quality] == unique # [g378] == 3
+[name] == wingedaxe && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 100
+
+//[name] == grandcharm && [quality] >= magic # [javelinandspearskilltab] >= 1 && [maxhp] >= 30
+//[name] == grandcharm && [quality] >= magic # [lightningskilltab] >= 1 && [maxhp] >= 30
+//[name] == grandcharm && [quality] >= magic # [poisonandboneskilltab] >= 1 && [maxhp] >= 30
+//[name] == grandcharm && [quality] >= magic # [palicombatskilltab] >= 1 && [maxhp] >= 30
+//[name] == grandcharm && [quality] >= magic # [elementalskilltab] >= 1 && [maxhp] >= 30
+//[name] == grandcharm && [quality] >= magic # [trapsskilltab] >= 1 && [maxhp] >= 30
+
+///////////////////////////////////////////////////////////////////////暗 金 猪//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////暗 金 猪//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////暗 金 猪//////////////////////////////////////////////////////////////////////////////////////////////////////////
+[name] == jewel && [quality] == unique # [lifeleech] >= 11 //死神
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 120 //掠墓者
+[name] == jewel && [quality] == unique # [itemslow] >= 75 //减速叉
+[name] == jewel && [quality] == unique # [itemallskills] >= 4//阿里欧克之针
+[name] == jewel && [quality] == unique # [itemallskills] >= 5//梅格之歌的教训
+[name] == jewel && [quality] == unique # [elementalskilltab] >= 7//地覆
+[name] == jewel && [quality] == unique # [itemreqpercent] == -50//劍衛
+[name] == jewel && [quality] == unique # [itemcrushingblow] >= 33//天堂之光
+[name] == jewel && [quality] == unique # [passivepoispierce] >= 40//死亡之网
+[name] == jewel && [quality] == unique # [firemaxdam]+[lightmaxdam]+[coldmaxdam] >= 400//碎片贪噬者
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 300//巫师之刺
+[name] == jewel && [quality] == unique # [itemopenwounds] >= 33 && [ias] >= 30//撕裂者
+[name] == jewel && [quality] == unique # [itemabsorblight] >= 20//黑角面具
+[name] == jewel && [quality] == unique # [damageresist] >= 15//吸血鬼的凝視
+[name] == jewel && [quality] == unique # [itemallskills] >= 3 && [itemmagicbonus] == 50//諧角之冠
+[name] == jewel && [quality] == unique # [itemabsorbcold] >= 5 && [passivecoldmastery] >= 8//夜翼面纱
+[name] == jewel && [quality] == unique # [lifeleech] >= 8 && [strength] >= 25//安达利而的面貌
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 80 && [damageresist] >= 10//年纪之冠
+[name] == jewel && [quality] == unique # [maxhp] >= 45 && [maxfireresist] >= 5 && [dexterity] >= 15//水上飄
+[name] == jewel && [quality] == unique # [itemmanaafterkill] >= 5//紗織
+[name] == jewel && [quality] == unique # [itemmagicbonus] >= 40//戰爭旅者
+[name] == jewel && [quality] == unique # [itemopenwounds] >= 10 && [itemcrushingblow] >= 15 && [itemdeadlystrike] >= 15//蝕肉騎士
+[name] == jewel && [quality] == unique # [strength] >= 10 && [poisonresist] >= 40 && [frw] >= 20//沙暴之旅
+[name] == jewel && [quality] == unique # [dexterity] >= 17 && [strength] >= 10 && [frw] >= 20//骨髓行走
+[name] == jewel && [quality] == unique # [dexterity] >= 15 && [itemreqpercent] == -20 && [frw] >= 30//影舞者
+[name] == jewel && [quality] == unique # [itempierce] >= 33//剃刀之尾
+[name] == jewel && [quality] == unique # [strength] >= 20 && [itemabsorblight] >= 20 && [maxlightresist] >= 10//雷神之力
+[name] == jewel && [quality] == unique # [itemallskills] >= 1 && [fcr] >= 20//蜘蛛之网
+[name] == jewel && [quality] == unique # [damageresist] >= 10 && [vitality] >= 30//维而登戈的心结
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 200//基拉的守护者
+[name] == jewel && [quality] == unique # [fcr] == 25 && [passivefiremastery]+[passiveltngmastery]+[passivecoldmastery]+[passivepoismastery]+[passivemagmastery]+[g359] >= 1//格利风之眼
+[name] == jewel && [quality] == unique # [itemmaxmanapercent] >= 40//霜燃
+[name] == jewel && [quality] == unique # [strength] >= 10 && [lifeleech] >= 7 && [itemopenwounds] >= 25//卓古拉之握
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 120//囚房
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 100 && [fbr] >= 30//摩西祝福之環
+[name] == jewel && [quality] == unique # [damageresist] >= 35//暴風之盾
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 120 && [fbr] >= 25//魂系结果
+[name] == jewel && [quality] == unique # [toblock] >= 25 && [fhr] >= 20 && [ias] >= 20//抽動的掙扎
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 80 && [fcr] >= 30 && [magicdamagereduction] >= 9//蛇魔法師之皮
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 110 && [strength] >= 15 && [itemcannotbefrozen] >= 1//都瑞爾的殼
+[name] == jewel && [quality] == unique # [damageresist] >= 30 && [maxhp] >= 60//謝夫特斯坦布
+[name] == jewel && [quality] == unique # [itemfindmagicperlevel] >= 10 && [itemallskills] >= 1//詩寇蒂的憤怒
+[name] == jewel && [quality] == unique # [maxfireresist] >= 15 && [maxlightresist] >= 15 && [maxcoldresist] >= 15 && [maxpoisonresist] >= 15//守護天使
+[name] == jewel && [quality] == unique # [passivefiremastery] >= 10 && [passiveltngmastery] >= 10 && [passivecoldmastery] >= 10//奥墨斯的长袍
+[name] == jewel && [quality] == unique # [fhr] >= 30 && [itemcannotbefrozen] >= 1 && [normaldamagereduction] >= 15 && [magicdamagereduction] >= 15//鬥士的禍根
+[name] == jewel && [quality] == unique # [fhr] >= 30 && [normaldamagereduction] >= 10 && [itemallskills] >= 1//阿凱尼的榮耀
+[name] == jewel && [quality] == unique # [strength] >= 40 && [damageresist] >= 15//海王利维亚桑
+[name] == jewel && [quality] == unique # [frw] >= 20 && [strength] >= 20 && [itemcannotbefrozen] >= 1 && [itemreqpercent] == -100//泰瑞尔的力量
+[name] == jewel && [quality] == unique # [itemallskills] >= 1 && [strength] >= 10 && [fireresist] >= 10 && [itemaddexperience] >= 5//毁灭
+[name] == jewel && [quality] == unique # [itemallskills] >= 1 && [strength] >= 10 && [fireresist] >= 10 && [itemlightradius] >= 8//地狱火炬
+[name] == jewel && [quality] == unique # [itemallskills] >= 1 && [itemmaxmanapercent] >= 25//喬丹之石
+[name] == jewel && [quality] == unique # [itemallskills] >= 1 && [lifeleech] >= 3//布索凯尔之戒
+[name] == jewel && [quality] == unique # [itemabsorbfirepercent] >= 15 && [maxhp] >= 40//矮人之星
+[name] == jewel && [quality] == unique # [dexterity] >= 15 && [maxmana] >= 40 && [itemcannotbefrozen] >= 1//烏鴉之霜
+[name] == jewel && [quality] == unique # [poisonresist] >= 20 && [normaldamagereduction] >= 7 && [itemrestinpeace] >= 1 && [itempreventheal] >= 1//大自然的和平
+[name] == jewel && [quality] == unique # [itemabsorblightpercent] >= 10 && [itemmagicbonus] >= 10//鬼火投射者
+[name] == jewel && [quality] == unique # [itemabsorbfireperlevel] >= 1//旭日
+[name] == jewel && [quality] == unique # [itemallskills] >= 2 && [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 80//馬拉的萬花筒
+[name] == jewel && [quality] == unique # [itemallskills] >= 1 && [ias] >= 20 && [itemdeadlystrikeperlevel] >= 1//大君之怒
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 100 && [defense] >= 350 && [tohit] >= 400//金属网格
+[name] == jewel && [quality] == unique # [poisonresist] >= 75 && [poisonmindam] >= 1 && [poisonmaxdam] >= 1 && [poisonlength] >= 1 && [itemattackertakesdamage] >= 5 && [itemlightradius] >= 3//亞特瑪的聖甲蟲
+[name] == jewel && [quality] == unique # [druidskills] >= 2 && [strength] >= 20 && [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 120//加尔的长发
+[name] == jewel && [quality] == unique # [elementalskilltab] >= 3 && [skillraven] >= 7 && [passivefirepierce] >= 10//乌鸦之王
+[name] == jewel && [quality] == unique # [cursesskilltab] >= 2 && [necromancerskills] >= 2 && [fbr] >= 30 && [energy] >= 20//侏儒
+[name] == jewel && [quality] == unique # [sorceressskills] >= 3 && [fcr] >= 30 && [itemmagicbonus] >= 50//眼球
+[name] == jewel && [quality] == unique # [passivefiremastery] >= 10 && [passiveltngmastery] >= 10//艾丝屈塔的脾气
+[name] == jewel && [quality] == unique # [passivecoldmastery]+[passivefiremastery]+[passiveltngmastery]+[passivepoismastery] >= 15//死亡深度
+[name] == jewel && [quality] == unique # [strength] >= 20 && [dexterity] >= 20 && [lifeleech] >= 5//Titan
+[name] == jewel && [quality] == unique # [ias] >= 15 && [passiveltngpierce] >= 15//雷击
+[name] == jewel && [quality] == unique # [strength] >= 20 && [dexterity] >= 20 && [barbarianskills] >= 2//亚瑞特的面容
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 200 && [paladinskills] >= 2//饰金盾
+
+[name] == jewel && [quality] == unique # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 80
+[name] == jewel && [quality] == unique # [itemallskills] >= 3
+[name] == jewel && [quality] == unique # [damageresist] >= 1
+[name] == jewel && [quality] == unique # [magicresist] >= 1
+[name] == jewel && [quality] == unique # [convictionaura] >= 1
+[name] == jewel && [quality] == unique # [fbr] >= 1
+[name] == jewel && [quality] == unique # [toblock] >= 1
+[name] == jewel && [quality] == unique # [passivemagpierce] >= 1
+[name] == jewel && [quality] == unique # [g359] >= 10
+//[name] == jewel && [quality] == unique # [itemcrushingblow] >= 10
+[name] == jewel && [quality] == unique # [enhanceddamage] >= 300
+[name] == jewel && [quality] == unique # [maxhp] >= 50
+[name] == jewel && [quality] == unique # [itemhpperlevel] >= 1
+[name] == jewel && [quality] == unique # [itemabsorbfireperlevel]+[itemabsorbfire] >= 1
+[name] == jewel && [quality] == unique # [itemabsorbfirepercent] >= 1
+[name] == jewel && [quality] == unique # [itemabsorbcoldperlevel]+[itemabsorbcold] >= 1
+[name] == jewel && [quality] == unique # [itemabsorbcoldpercent] >= 1
+[name] == jewel && [quality] == unique # [itemabsorbltngperlevel]+[itemabsorblight] >= 1
+[name] == jewel && [quality] == unique # [itemabsorblightpercent] >= 1
+[name] == jewel && [quality] == unique # [itemabsorbpoisperlevel] >= 1
+[name] == jewel && [quality] == unique # [itemabsorbmagicpercent] >= 1
+[name] == jewel && [quality] == unique # [itemabsorbmagicpercent]+[itemabsorbmagic] >= 1
+
+///////////////////////////////////////////////////////////////////////黄 金 装 备//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////黄 金 装 备//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////黄 金 装 备//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//蓝色装备打孔
+//黄色装备打孔
+//[type] == circlet && [quality] == rare && [flag] != ethereal # //前缀 2技能 10-200def 1-90mana 3-20allres 5-40单r 后缀 10-30frw 10-20fcr 10fhr 3-8ll&lm 1-30str 1-20dex 1-60life 回复耐久
+[type] == circlet && [quality] == rare # ([sockets] >= 3 || [sockets] == 0) && [amazonskills]+[sorceressskills]+[necromancerskills]+[paladinskills]+[barbarianskills]+[druidskills]+[assassinskills] >= 2 && [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 80 && [strength]+[dexterity] >= 20
+[type] == circlet && [quality] == rare # ([sockets] >= 3 || [sockets] == 0) && [amazonskills]+[sorceressskills]+[necromancerskills]+[paladinskills]+[barbarianskills]+[druidskills]+[assassinskills] >= 2 && [strength]+[dexterity] >= 20 && [maxhp] >= 40
+[type] == circlet && [quality] == rare # ([sockets] >= 3 || [sockets] == 0) && [strength]+[dexterity] >= 40 && [maxhp] >= 40
+//[name] == archonplate && [quality] == rare && [flag] != ethereal # //前缀 10-200def 1-40mana 5-30单r 后缀 10-24fhr 1-20str 2-9dex 1-60life 25-75plr 回复耐久
+[name] == archonplate && [quality] == rare # ([sockets] >= 4 || [sockets] == 0) && [defense] >= 1000 && [strength]+[dexterity] >= 15 && [maxhp] >= 40
+([name] == sacredarmor || [name] == archonplate) && [quality] == rare # ([sockets] >= 4 || [sockets] == 0) && [enhanceddefense] >= 150 && [maxhp] >= 40
+//[name] == spiderwebsash && [quality] == rare && [flag] != ethereal #//前缀 10-200def 1-20mana 5-30单r 后缀 10-24fhr 1-30str 1-60life 25plr 回复耐久
+[name] == spiderwebsash && [quality] == rare # [enhanceddefense] >= 150 && [strength] >= 20 && [maxhp] >= 40
+//([name] == vampirebonegloves || [name] == bramblemitts) && [quality] == rare//前缀 1-2标枪 10-200def 11-40mana 30单r 后缀 10-20ias 3ll&lm 1-15str 1-15dex 回复耐久
+([name] == vampirebonegloves || [name] == bramblemitts) && [quality] == rare # [enhanceddefense] >= 150 && [strength]+[dexterity] >= 15
+([name] == vampirebonegloves || [name] == bramblemitts) && [quality] == rare # [enhanceddefense] >= 150 && [ias] >= 20 && [lifeleech] >= 3
+//([name] == crystalsword || [name] == flail) && [quality] == rare # [paladinskills] >= 2//前缀 1-2bar&pal 11-20mana 30单r 1-5ek 后缀10-40ias 4-9ll&lm 1-15str
+[name] == flail && [quality] == rare # [paladinskills] >= 2 && ([sockets] >= 5 || [sockets] == 0) && [fireresist]+[coldresist]+[lightresist] >= 30 && [strength] >= 10
+[name] == sacredtarge && [quality] == rare && [flag] != ethereal # ([sockets] >= 4 || [sockets] == 0) && [paladinskills] >= 2 && [fbr] >= 30 && [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 140 // 材料特色35r 前缀1-2pal 10-200def 1-20mana 30单r 3-20r 后缀10-17fhr 15-30fbr 1-40life 1-9str
+[name] == monarch && [quality] == rare # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 60 && [fbr] >= 30 && [maxhp] >= 20//前缀10-200def 30单r 3-20r 后缀10-17fhr 15-30fbr 1-9str 1-40life 25-75plr 20-30req 回复耐久
+[name] == giantthresher && [quality] >= magic # [enhanceddamage] >= 300 //&& [lifeleech] >= 1//前缀10-300dam 10-150dam 30单r 后缀 10-40ias 4-9ll
+//[name] == phaseblade && [quality] == rare # [paladinskills] >= 2 && ([sockets] >= 6 || [sockets] == 0) && [ias] >= 20
+///////////////////////////////////////////////////////////////////////常 规 拾 取//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////常 规 拾 取//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////常 规 拾 取//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[name] == greatermanapotion
+//[name] == greaterhealingpotion
+[name] == supermanapotion
+[name] == superhealingpotion
+//[name] == RejuvenationPotion
+[name] == FullRejuvenationPotion
+
+[name] == PerfectAmethyst
+[name] == PerfectDiamond
+[name] == PerfectEmerald
+[name] == PerfectRuby
+[name] == PerfectSkull
+[name] == PerfectTopaz
+[name] == PerfectSapphire
+
+[name] == keyofhate
+[name] == keyofterror
+[name] == keyofdestruction
+[name] == diablo'shorn || [name] == mephisto'sbrain || [name] == baal'seye
+
+[name] == twistedessenceofsuffering //## [maxquantity] == 5
+[name] == chargedessenceofhatred //## [maxquantity] == 5
+[name] == burningessenceofterror //## [maxquantity] == 5
+[name] == festeringessenceofdestruction //## [maxquantity] == 5
+[name] == toa
+
+//符文----------------------------------------------------------------------
+//[type] >= shield && [quality] == unique && [class] >= elite //# [fireresist] >= 2100
+//[name] >= r01 && [name] <= r12 ## [maxquantity] == 1
+//[name] == r03 ## [maxquantity] == 1
+//[name] == r06 ## [maxquantity] == 1
+//[name] == r07
+//[name] == r08 //## [maxquantity] == 5
+//[name] == r09
+//[name] == r10 //## [maxquantity] == 1
+//[name] == r11 //## [maxquantity] == 1
+//[name] == r12
+//[name] == r13
+//[name] == r15 ## [maxquantity] == 5
+//[name] == r18 //## [maxquantity] == 1
+//[name] == r19 //# [fireresist] >= 210
+//[name] == r20 //# [fireresist] >= 210
+[name] == r21
+[name] == r22
+[name] == r23
+[name] == r24
+[name] == r25
+[name] == r26
+[name] == r27
+[name] == r28
+[name] == r29
+[name] == r30
+[name] == r31
+[name] == r32
+[name] == r33
+[name] >= pulrune && [name] <= zodrune
+//[name] >= r15 && [name] <= r33
+
+//暗金装备----------------------------------------------------------------------
+//暗金戒指
+//[type] == ring && [quality] == unique
+
+//[type] == ring && [quality] == unique # [itemmagicbonus] >= 30
+//拿各的戒指 mf>20
+//[type] == ring && [quality] == unique # [itemallskills] >= 1
+//乔丹和婚戒
+//[type] == ring && [quality] == unique # [magicdamagereduction] >= 15
+//矮人
+//[type] == ring && [quality] == unique # [dexterity] >= 20 && [tohit] >= 200
+//乌鸦
+//[type] == ring && [quality] == unique # [poisonresist] >= 55 
+//腐肉之风
+//[type] == ring && [quality] == unique # [poisonresist] >= 30 && [normaldamagereduction] >= 11
+//大自然的和平
+//[type] == ring && [quality] == unique # [itemabsorblightpercent] >= 20
+//鬼火
+
+//暗金项链
+//[type] == amulet && [quality] == unique # [strength] >= 5 && [lightresist] >= 20 && [itemallskills] >= 1
+//马拉的万花筒
+//[type] == amulet && [quality] == unique # [lightresist] == 35
+//大君之怒
+//[type] == amulet && [quality] == unique # [dexterity] == 25 
+//猫眼
+//[type] == amulet && [quality] == unique # [tohit] >= 400 && [plusdefense] >= 300 && [fireresist] >= 25 
+//金属网络
+
+//角色专用装备
+//[name] == swirlingcrystal && [quality] == unique # [sorceressskills] >= 1
+//眼球
+//[name] == eldritchorb && [quality] == unique # [sorceressskills] == 3 && [passivefiremastery] == 20
+//怪异
+//[name] == dimensionalshard && [quality] == unique # [fireresist] >= 1
+//次元碎片
+//[name] == gildedshield && [quality] == unique # [paladinskills] >= 1 && [enhanceddefense] >= 100
+//饰金盾
+//[name] == hierophanttrophy && [quality] == unique # [enhanceddefense] >= 200
+//侏儒
+//[name] == bloodlordskull && [quality] == unique //# [poisonandboneskilltab] == 3
+//血王之骨
+//[name] == succubusskull && [quality] == unique //# [necromancerskills] == 3
+//女妖之骨
+//[name] == greatertalons && [quality] == unique //# [enhanceddamage] == 200 && [lifeleech] == 9
+//巴特克的猛击（极品）
+//[name] == slayerguard && [quality] == unique # [lifeleech] >= 3
+//亚瑞特的面容
+//[name] == ceremonialjavelin && [quality] == unique && [flag] != ethereal # [lifeleech] >= 5
+//[name] == ceremonialjavelin && [quality] == unique && [flag] == ethereal # [lifeleech] >= 5
+//TT(无形)
+//[name] == totemicmask && [quality] == unique && [flag] != ethereal # [strength] >= 2 //&& [enhanceddamage] == 200
+//加尔的长发
+
+//手套&盾牌
+//[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [strength] >= 10 && [lifeleech] >= 7
+//卓古拉之握
+//[name] == ogregauntlets && [quality] == unique # [strength] >= 15
+//碎钢
+//[name] == battlegauntlets && [quality] == unique # [ias] == 20
+//熔岩角羊 
+//[name] == heavygloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 
+//血拳
+//[name] == chaingloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 10 && [itemmagicbonus] >= 40
+//运气手套
+//[name] == lightgauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 30
+//法拳
+//[name] == monarch && [quality] == unique # [lightresist] >= 25 //&& [defense] >= 148
+//统治者大盾
+//[name] == roundshield && [quality] == unique # [sockets] >= 1
+//摩西祝福之环
+//[name] == trollnest && [quality] == unique # [sockets] >= 3 && [fireresist] >= 30 && [poisonresist] >= 40 && [itemmanaafterkill] >= 7
+//猎头人的荣耀 Head Hunter's Glory
+
+//鞋子
+//[name] == meshboots && [quality] == unique # [frw] == 30
+//纱织(Silkweave)织网之靴(Mesh Boots)
+//[name] == sharkskinboots && [quality] == unique && [flag] != ethereal # [maxhp] >= 60
+//水上漂
+//[name] == warboots && [quality] == unique && [flag] != ethereal # [frw] == 30 # [maxquantity] == 1
+//[蚀肉骑士]（巨战之靴）Gore Rider[War Boots]
+//[name] == battleboots && [quality] == unique && [flag] != ethereal # [itemmagicbonus] >= 50
+//[战争之旅]（战场之靴）War Traveler [Battle Boots]
+//[name] == scarabshellboots && [quality] == unique && [flag] != ethereal # [strength] == 15
+//[name] == scarabshellboots && [quality] == unique && [flag] == ethereal # [strength] >= 1
+//[沙暴之旅]（圣甲壳虫靴）Sandstorm Trek[Scarabshell Boots]
+//[name] == boneweaveboots && [quality] == unique # [skillskeletonmastery] >= 2 && [strength] >= 20
+//[骨髓行走]（骸骨靴）Marrowwalk[Boneweave Boots]
+//[name] == myrmidongreaves && [quality] == unique && [flag] != ethereal # [shadowdisciplinesskilltab] == 2 && [dexterity] >= 20 // shadow dancer
+//[影舞者]（急速靴）Shadow Dancer[Myrmidon Greaves]
+//[name] == lightplatedboots && [quality] == unique # [itemcrushingblow] == 20
+//小妖精腳趾
+//[name] == demonhideboots && [quality] == unique && [flag] != ethereal # [itemgoldbonus] >= 70
+//地獄闊步
+//[name] == boots && [quality] == unique && [flag] != ethereal # [fireresist] == 45
+//热刺
+
+//腰带
+//[name] == spiderwebsash && [quality] == unique && [flag] != ethereal # [fcr] >= 20 && [enhanceddefense] >= 10
+//技能腰带
+//[name] == mithrilcoil && [quality] == unique && [flag] != ethereal # [damageresist] >= 15 && [vitality] >= 40 
+//维而登戈的心结
+[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 100
+//雷神之力
+//[name] == heavybelt && [quality] == unique && [flag] != ethereal # [itemgoldbonus] >= 80 
+//金色包袱
+
+//武器
+//[name] == wingedaxe && [quality] == unique # [enhanceddamage] >= 100
+//翼斧
+//[name] == tombwand && [quality] == unique # [fcr] == 10
+//李尔王
+//[name] == lichwand && [quality] == unique # [fcr] == 25
+//白骨阴影
+//[name] == devilstar && [quality] == unique # [strength] == 15
+//恶魔流星锤
+//[name] == boneknife && [quality] == unique # [fcr] == 50
+//骸骨小刀
+//[name] == tulwar && [quality] == unique
+//阿里巴巴
+//[name] == hydrabow && [quality] == unique # [manaleech] >= 8
+//九头蛇
+//[name] == unearthedwand && [quality] == unique # [itemallskills] == 2
+//[死亡之网]（破隐法杖）Death's Web[Unearthed Wand]
+//[name] == burntwand && [quality] == unique # [itemallskills] >= 1
+//自殺支系
+//[name] == elderstaff && [quality] == unique # [itemallskills] >= 2
+//经验杖
+//[name] == mightyscepter && [quality] == unique # [enhanceddamage] >= 290 && [paladinskills] >= 3 && [sockets] >= 2
+//[天堂之光]（强威权杖）Heaven's Light[Mighty Scepter]
+//[name] == fuscina && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 140
+//减速叉
+//[name] == yari && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 100 
+//[宏-森丹]（三叉长枪）Hone Sundan[Yari]
+//[name] == thresher && [quality] == unique && [flag] != ethereal # [enhanceddamage] >= 100
+//[name] == thresher && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 100 
+//[死神的丧钟]（锐利之斧）The Reaper's Toll[Thresher]
+//[name] == crypticaxe && [quality] == unique //&& [flag] == ethereal # [sockets] == 3
+//[盗墓者]（神秘之斧）Tomb Reaver[Cyrptic Axe]
+//[name] == hyperionspear && [quality] == unique //&& [flag] == ethereal # [itemallskills] >= 2
+//[爱里欧克之针]（亥伯龙之矛）Arioc's Needle[Hyperion Spear](无形)
+
+//头环&头盔
+//[name] == sallet && [quality] == unique && [flag] == ethereal # [fhr] == 30
+//岩石制動器
+//[name] == grandcrown && [quality] == unique && [flag] == ethereal # [lifeleech] >= 9
+//盜賊皇冠
+//[name] == grimhelm && [quality] == unique && [flag] != ethereal //# [lifeleech] >= 8 && [normaldamagereduction] >= 20 && [magicdamagereduction] >= 15
+//[name] == grimhelm && [quality] == unique && [flag] == ethereal # [lifeleech] >= 6 && [normaldamagereduction] >= 10 && [magicdamagereduction] >= 10
+//吸血鬼的凝視
+//[name] == shako && [quality] == unique && [flag] != ethereal # [itemallskills] >= 3 //&& [defense] == 141
+//军帽
+//[name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15 
+//夜翼面纱
+//[name] == demonhead && [quality] == unique && [flag] != ethereal # [strength] >= 25 && [lifeleech] >= 8
+//[name] == demonhead && [quality] == unique && [flag] == ethereal # [strength] >= 25 && [lifeleech] >= 8
+//安达利而的面貌
+//[name] == corona && [quality] == unique # [sockets] >= 2
+//年纪之冠 
+//[name] == bonevisage && [quality] == unique # [sockets] == 2 && [strength] >= 25
+//巨骷髅
+//[name] == tiara && [quality] == unique && [flag] == ethereal # [lightresist] >= 50
+//基拉的守护者
+//[name] == diadem && [quality] == unique # [passiveltngpierce] >= 1
+//格利风之眼
+
+//盔甲
+//[name] == duskshroud && [quality] == unique && [flag] != ethereal # [passivecoldmastery] == 15 && [skillblizzard] == 3
+//奥墨斯的长袍15cd,3BLZ
+//[name] == duskshroud && [quality] == unique && [flag] != ethereal # [passivefiremastery] == 15 && [skillfireball] == 3 
+//奥墨斯的长袍15Fd,3FB
+//[name] == duskshroud && [quality] == unique && [flag] != ethereal # [passiveltngmastery] == 15 && [skilllightning] == 3
+//奥墨斯的长袍15LD,3LN,3NOVE
+//[name] == duskshroud && [quality] == unique && [flag] != ethereal # [passivefiremastery] >= 15 && [skillenchant] == 3 
+//奥墨斯的长袍15Fd,3QH
+//[name] == wirefleece && [quality] == unique && [flag] != ethereal # [fhr] == 30
+//[name] == wirefleece && [quality] == unique && [flag] == ethereal # [fhr] == 30
+//鬥士的禍根
+//[name] == balrogskin && [quality] == unique && [flag] != ethereal # [itemallskills] >= 2 
+//[name] == balrogskin && [quality] == unique && [flag] == ethereal # [itemallskills] >= 2
+//阿凱尼的榮耀
+//[name] == krakenshell && [quality] == unique # [enhanceddefense] >= 200 && [damageresist] == 25 && [plusdefense] == 150 && [strength] == 50 
+//[name] == krakenshell && [quality] == unique && [flag] == ethereal # [damageresist] >= 1
+//海王利维亚桑
+//[name] == shadowplate && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 220 && [coldresist] == 60 && [normaldamagereduction] == 14 
+//钢铁铠甲
+//[name] == sacredarmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 220 
+//圣堂武士的力量 
+//[name] == sacredarmor && [quality] == unique # [strength] >= 20 
+//泰瑞尔的力量
+//[name] == serpentskinarmor && [quality] == unique # [fireresist] >= 35
+//[name] == wyrmhide && [quality] == unique # [defense] >= 1000
+//蛇魔法師之皮 
+//[name] == demonhidearmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 190 
+//剝皮者之皮 
+//[name] == linkedmail && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 160
+//靈魂熔爐 
+//[name] == cuirass && [quality] == unique && [flag] == ethereal # [strength] == 15
+//都瑞爾的殼 (无形) 
+//[name] == tigulatedmail && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 180 
+//鴉鳴
+//[name] == mesharmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 1
+//謝夫特斯坦布 (无形)
+//[name] == russetarmor && [quality] == unique && [flag] != ethereal # [itemallskills] >= 1
+//[name] == russetarmor && [quality] == unique && [flag] == ethereal # [itemallskills] >= 1
+//詩寇蒂的憤怒
+//[name] == templarcoat && [quality] == unique && [flag] != ethereal //# [enhanceddefense] >= 200 
+//[name] == templarcoat && [quality] == unique && [flag] == ethereal //# [enhanceddefense] >= 200
+//守護天使
+//[name] == sharktootharmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 220 
+//排齒
+//[name] == chaosarmor && [quality] == unique && [flag] == ethereal # [sockets] == 3
+//黑色黑帝斯(无形)
+
+[name] == smallcharm && [quality] == unique # [fireresist] >= 10 && [strength] >= 10
+
+[name] == jewel && [quality] == unique # [passivefirepierce] >= 10 && [passivefiremastery] >= 10
+[name] == jewel && [quality] == unique # [passiveltngpierce] >= 10 && [passiveltngmastery] >= 10
+[name] == jewel && [quality] == unique # [passivecoldpierce] >= 10 && [passivecoldmastery] >= 10
+[name] == jewel && [quality] == unique # [passivepoispierce] >= 10 && [passivepoismastery] >= 10
+[name] == jewel && [quality] == unique # [g359] >= 10 && [g383] >= 2
+
+//材料----------------------------------------------------------------------
+[name] == sacredtarge && [quality] <= superior && [flag] != ethereal # ([sockets] == 4 || [sockets] == 0) && [fireresist] >= 45
+([name] == vortexshield || [name] == sacredtarge) && [quality] == normal && [flag] == ethereal # [fireresist] >= 44 && ([sockets] == 4 || [sockets] == 0)

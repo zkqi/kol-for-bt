@@ -1,0 +1,87 @@
+loxxol'map 說明
+1.可用的熱鍵：
+快速移動：見屏幕下方提示
+del--切換自動拾取
+backspace--回城
+F12--退出遊戲
+F11--讓其他人退出遊戲
+X--壹鍵開寶盒/合成，打開腰帶則自動放藥
+=--城外為開門，城內可吸引鼠標指向的npc
+[--使用前置技能
+]--顯示地圖信息和其他信息
+ctrl--自動清怪，以及自動殺6boss
+end--把裝備輸出到bot程序界面
+ins--暫停/繼續map
+break--停止/重開始map
+- --設置當前技能到主要攻擊技能
+PgUp:說出"keyin",做任務用
+PgDown:說出"keyback",做任務用
+num0:說出"go.",成為隊長
+num1-4,num6-7:說出對應數字,用於指揮小弟
+num5--強制所有人物到身邊
+菜單鍵--顯示/隱藏場景列表(-move用)
+==========================================
+2.指令：
+-@@緊跟函數名：所有人執行該函數
+-##緊跟函數名：自己執行該函數
+go.:說話者成為隊長，可以使用隊長指令
+-npc:所有人訪問npc
+-bo:所有人使用前置技能
+-en:強化範圍內所有人和隨從，城內可用
+-len:強化範圍內未強化的成員，城內可用
+-pick:所有人切換自動拾取
+-corp:所有人撿屍體
+-res:所有死亡者復活
+-s2:設置當前技能到次要攻擊技能
+-rush:說話者自動帶其他人完成rush
+-quest:說話者自動帶其他人完成獎勵任務
+next game:說話者建下壹遊戲，其他人加入
+-join 房間名/密碼:全體加入某個遊戲房間
+-ng:全體加入當前遊戲名+1的房間
+-wp:說話者把本章的小站分享給其他人
+==========================================
+以下指令僅說話者執行：
+-clear:清除本地圖所有怪
+-mark:記錄當前人物所有裝備，bot界面查看
+-skey:匯報人物身上三種鑰匙數量
+-shop:開始對正在交易的npc進行shopbot
+(事先改好拾取:kolbot\pickit\shopbot.nip)
+-load 腳本名:運行bots裏的腳本,註意大小寫
+例如：-load Questing,完成全部獎勵任務
+-move 場景代碼:自動移動到該場景
+kkk:說話者成為跟班(做任務跑腿)
+-tp:關閉/打開 使用傳送技能
+-dia:在diablo房間自動升級，並會跟隨房間
+-ndia:關閉diablo房間自動升級
+-baal:在baal房間自動升級，並會跟隨房間
+-nbaal:關閉baal房間自動升級
+-dropt:扔掉鼠標所持裝備和同類型所有裝備
+-dropc:扔掉鼠標所持裝備和同名稱所有裝備
+-dropc 數量:扔掉指定數量鼠標所持裝備和
+            同名稱裝備
+-drops:扔掉儲物箱內全部裝備
+-dropi:扔掉隨身包內全部裝備
+-dropa:扔掉隨身包內全部裝備,不含藥水護符
+       以及回城書、鑒定書以及寶盒
+-dropg:扔掉儲物箱和身上全部寶石
+-putin:將背包裝備入箱,站在城內無需打開箱
+       子就可執行,藥水護身符書卷不會入箱
+-take:寫好裝備列表takelist後召喚自動發貨
+具體用法查閱:tools\autotake\readme.txt
+==========================================
+以下隊長指令僅小弟們執行：
+1:進隊長的傳送門
+2:從隊長的門回城
+3:取得最近的小站
+4:自己開門回城
+5:來隊長身邊
+6:貼身跟隨隊長並幫忙殺怪
+7:停止跟隨隊長
+8:尾隨隊長，但不出手
+9:去城內開門處
+a:強制小弟自動出手（跟隨狀態下)
+na:關掉小弟自動出手
+p:撿起地上有用裝備
+pass:完成當前跨幕任務
+pass1,2,3,4:完成指定章節過關任務
+-come:來隊長的地圖，無小站則來同壹幕

@@ -1,0 +1,6 @@
+lastgamename='Zzz4';
+lastgamepass='';
+lastdiff=1;
+lasttime=0;
+autocreate=false;
+autojoin=false;
