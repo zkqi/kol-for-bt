@@ -39,7 +39,7 @@
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
 	Config.UseMercRejuv = 10; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
 	Config.HPBuffer = 1; // Number of healing potions to keep in inventory.
-	Config.MPBuffer = 0; // Number of mana potions to keep in inventory.
+	Config.MPBuffer = 1; // Number of mana potions to keep in inventory.
 	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
@@ -94,6 +94,7 @@
 	 */
 	Config.Cubing = true; // Set to true to enable cubing.
 	Config.Recipes.push([Recipe.Zkqia, 743]); // 抽奖
+	Config.Recipes.push([Recipe.Zkqia, 768]); // 技能转换石
 	//Config.Recipes.push([Recipe.Zkqib, 300]); // 回收cy
 	Config.Recipes.push([Recipe.Zkqib, 209]); // 回收py
 	Config.Recipes.push([Recipe.Zkqib, 428]); // 回收tg
@@ -104,7 +105,9 @@
 	Config.Recipes.push([Recipe.Zkqie, 611]); // 回收不要的ulc
 	Config.Recipes.push([Recipe.Zkqie, 612]); // 回收不要的ugc
 	Config.Recipes.push([Recipe.Zkqid]); //合成旗帜
-
+	Config.Recipes.push([Recipe.Zkqig]); //合成技能石碎片
+	Config.Recipes.push([Recipe.Zkqif]); //回收不要的技能石
+	
 	/* Runeword config. All recipes are available in Templates/Runewords.txt
 	 * Keep lines follow pickit format and any given runeword is tested vs ALL lines so you don't need to repeat them
 	 */
