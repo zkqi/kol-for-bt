@@ -23,8 +23,8 @@
 [name] == jewel && [quality] == unique # [fireresist] >= 350//捡取回收
 [name] == standardofheroes//英雄旗帜
 [name] == s306
-[name] >= s514 && [name] <= s519
-[name] >= s666 && [name] != s768 && [name] != s745 && [name] != s744 && [name] != s741 && [name] != s770 && [name] != s713 && [name] != s712 && [name] != s723 && [name] != s724 && [name] != s725 && [name] != s726 && [name] != s727 && [name] != s728 && [name] != s729 && [name] != s730 && [name] != s731 && [name] != s732 && [name] != s733 && [name] != s734 && [name] != s735 && [name] != s736 && [name] != s746
+[name] >= s514 && [name] <= s520
+[name] >= s667 && [name] != s769 && [name] != s746 && [name] != s745 && [name] != s742 && [name] != s771 && [name] != s714 && [name] != s713 && [name] != s724 && [name] != s725 && [name] != s726 && [name] != s727 && [name] != s728 && [name] != s729 && [name] != s730 && [name] != s731 && [name] != s732 && [name] != s733 && [name] != s734 && [name] != s735 && [name] != s736 && [name] != s737 && [name] != s747
  ///////////////////////////////////////////////////////////////////////新 增 套 装//////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////新 增 套 装//////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////新 增 套 装//////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -42,8 +42,8 @@
 [name] == colossusblade && [quality] == unique # [sockets] >= 1//20-40fcr 300-450ed 1-6socket
 [name] == sacredarmor && [quality] == unique # [plusskillteleport] >= 1
 [name] == ring && [quality] == unique # [convictionaura] >= 1
-[name] == s744 && [quality] == unique #//新戒指 灵气+6系伤害
-[name] == s745 && [quality] == unique #//新项链
+[name] == s745 && [quality] == unique #//新戒指 灵气+6系伤害
+[name] == s746 && [quality] == unique #//新项链
 //新暗金物品和首饰
 
 //蛋蛋
@@ -51,7 +51,7 @@
 [name] == smallcharm && [quality] == unique # [plus54]+[plus61]+[plus63]+[plus65]+[plus66]+[plus78]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus226]+[plus235]+[plus267] >= 1//ugc ulc usc +26 附魔
 [name] == grandcharm && [quality] == unique # [plus66]+[plus78]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus226]+[plus235]+[plus267] >= 1//ugc ulc usc +26 附魔
 [name] == largecharm && [quality] == unique # [fireresist] >= 10 && [strength] >= 10 && [g378] == 3 # [maxquantity] == 20
-[name] == largecharm && [quality] == unique # [fireresist] >= 10 && [strength] >= 10 && [g378] < 3
+[name] == largecharm && [quality] == unique # [fireresist] >= 10 && [strength] >= 10 && [g378] < 3 && [g378] >= 1
 [name] == largecharm && [quality] == unique # [fireresist]+[strength] >= 38 && [g378] == 3
 [name] == largecharm && [quality] == unique # [amazonskills] >= 1 && [plus78]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus226]+[plus235]+[plus267] >= 2
 [name] == largecharm && [quality] == unique # [sorceressskills] >= 1 && [plus78]+[plus91]+[plus117]+[plus123]+[plus138]+[plus145]+[plus154]+[plus226]+[plus235]+[plus267] >= 2
@@ -66,33 +66,33 @@
 //[name] == corona && [quality] == unique
 [name] == diadem && [quality] == unique
 //cy py tg glf 要溶解药水回收
-[name] == s712 && [quality] == unique # [g382] >= 1//蛋蛋猪
-[name] == s713 && [quality] == unique # [g381] >= 1//逼王碎片
+[name] == s713 && [quality] == unique # [g382] >= 1//蛋蛋猪
+[name] == s714 && [quality] == unique # [g381] >= 1//逼王碎片
 //娃娃
 //[name] == archonstaff && [quality] == unique
 [name] == sacredarmor && [quality] == unique # [fireresist] >= 20
 //梅格之杖 和鸟甲 +溶解 ==33#
-//[name] == s723 # [g401] >= 1//暴风范围强化石 45上限
-//[name] == s724 # [g402] >= 1//冲击频率强化石 40上限
-//[name] == s725 # [g403] >= 1//圣冰频率强化石 40上限
-//[name] == s726 # [g404] >= 1//圣火频率强化石 40上限
-//[name] == s727 # [g405] >= 1//暴风雪cd强化石 500上限
-//[name] == s728 # [g406] >= 1//冰封球cd强化石 500上限
-[name] == s729 # [g407] >= 1//陨石cd强化石 500上限
-//[name] == s730 # [g408] >= 1//雷云频率强化石 40上限
-[name] == s731 # [g409] >= 1//锤子范围强化石 每次5点 45上限
-[name] == s732 # [g414] >= 1//审判范围强化石 每次5点 45上限
-//[name] == s733 # [g415] >= 1//手雷范围强化石 每次2点 15上限
-//[name] == s734 # [g416] >= 1//陨石范围强化石 15上限
-//[name] == s735 # [g417] >= 1//飞镖数量强化石 24上限
-//[name] == s736 # [g418] >= 1//手雷数量强化石 10上限
-//[name] == s746 # [g424] >= 1//骨矛数量强化石 24上限
-[name] == s770 # [g436] >= 1//闪电之怒强化石 10上限
-[name] == s768//技能转化石
+//[name] == s724 # [g401] >= 1//暴风范围强化石 45上限
+//[name] == s725 # [g402] >= 1//冲击频率强化石 40上限
+//[name] == s726 # [g403] >= 1//圣冰频率强化石 40上限
+//[name] == s727 # [g404] >= 1//圣火频率强化石 40上限
+//[name] == s728 # [g405] >= 1//暴风雪cd强化石 500上限
+//[name] == s729 # [g406] >= 1//冰封球cd强化石 500上限
+[name] == s730 # [g407] >= 1//陨石cd强化石 500上限
+//[name] == s731 # [g408] >= 1//雷云频率强化石 40上限
+[name] == s732 # [g409] >= 1//锤子范围强化石 每次5点 45上限
+[name] == s733 # [g414] >= 1//审判范围强化石 每次5点 45上限
+//[name] == s734 # [g415] >= 1//手雷范围强化石 每次2点 15上限
+//[name] == s735 # [g416] >= 1//陨石范围强化石 15上限
+//[name] == s736 # [g417] >= 1//飞镖数量强化石 24上限
+//[name] == s737 # [g418] >= 1//手雷数量强化石 10上限
+//[name] == s747 # [g424] >= 1//骨矛数量强化石 24上限
+[name] == s771 # [g436] >= 1//闪电之怒强化石 10上限
+[name] == s769//技能转化石
 //技能强化石
 [type] >= shield && ([quality] == unique || [quality] == set) && [class] >= elite # [g419] >= 1//幸运奖牌
 //超级进阶物品
-[name] == s741//a5永久传送卷轴
+[name] == s742//a5永久传送卷轴
 //直达
 //镜子
 
@@ -104,7 +104,7 @@
 [name] == smallcharm && [quality] == magic # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 20//5res
 //[name] == largecharm && [quality] == magic # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 28//8res
 [name] == grandcharm && [quality] == magic # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 56//15res
-[name] == jewel && [quality] == magic # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 60//15res magic 10res rare
+//[name] == jewel && [quality] == magic # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 60//15res magic 10res rare
 
 //[name] == archonplate && [quality] == normal # [sockets] == 0
 //[name] == giantthresher && [quality] == normal # [sockets] == 0
@@ -219,6 +219,7 @@
 [name] == jewel && [quality] == unique # [damageresist] >= 1
 [name] == jewel && [quality] == unique # [magicresist] >= 1
 [name] == jewel && [quality] == unique # [convictionaura] >= 1
+[name] == jewel && [quality] == unique # [holyshockaura]+[holyfireaura]+[holyfreezeaura] >= 1
 [name] == jewel && [quality] == unique # [fbr] >= 1
 [name] == jewel && [quality] == unique # [toblock] >= 1
 //[name] == jewel && [quality] == unique # [passivemagpierce] >= 1
@@ -258,9 +259,6 @@
 ([name] == sacredarmor || [name] == archonplate) && [quality] == rare # ([sockets] >= 4 || [sockets] == 0) && [enhanceddefense] >= 150 && [maxhp] >= 40
 //[name] == spiderwebsash && [quality] == rare && [flag] != ethereal #//前缀 10-200def 1-20mana 5-30单r 后缀 10-24fhr 1-30str 1-60life 25plr 回复耐久
 [name] == spiderwebsash && [quality] == rare # [enhanceddefense] >= 150 && [strength] >= 20 && [maxhp] >= 40
-//([name] == vampirebonegloves || [name] == bramblemitts) && [quality] == rare//前缀 1-2标枪 10-200def 11-40mana 30单r 后缀 10-20ias 3ll&lm 1-15str 1-15dex 回复耐久
-([name] == vampirebonegloves || [name] == bramblemitts) && [quality] == rare # [enhanceddefense] >= 150 && [strength]+[dexterity] >= 15
-([name] == vampirebonegloves || [name] == bramblemitts) && [quality] == rare # [enhanceddefense] >= 150 && [ias] >= 20 && [lifeleech] >= 3
 //([name] == crystalsword || [name] == flail) && [quality] == rare # [paladinskills] >= 2//前缀 1-2bar&pal 11-20mana 30单r 1-5ek 后缀10-40ias 4-9ll&lm 1-15str
 [name] == flail && [quality] == rare # [paladinskills] >= 2 && ([sockets] >= 5 || [sockets] == 0) && [fireresist]+[coldresist]+[lightresist] >= 30 && [strength] >= 10
 [name] == sacredtarge && [quality] == rare && [flag] != ethereal # ([sockets] >= 4 || [sockets] == 0) && [paladinskills] >= 2 && [fbr] >= 30 && [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 140 // 材料特色35r 前缀1-2pal 10-200def 1-20mana 30单r 3-20r 后缀10-17fhr 15-30fbr 1-40life 1-9str
@@ -431,7 +429,7 @@
 //技能腰带
 //[name] == mithrilcoil && [quality] == unique && [flag] != ethereal # [damageresist] >= 15 && [vitality] >= 40 
 //维而登戈的心结
-[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 100
+//[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 100
 //雷神之力
 //[name] == heavybelt && [quality] == unique && [flag] != ethereal # [itemgoldbonus] >= 80 
 //金色包袱

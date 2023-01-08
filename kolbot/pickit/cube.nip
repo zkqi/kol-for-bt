@@ -1,8 +1,8 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-[type] == circlet && [quality] == rare # ([sockets] >= 3 || [sockets] == 0) && [amazonskills]+[sorceressskills]+[necromancerskills]+[paladinskills]+[barbarianskills]+[druidskills]+[assassinskills] >= 2 && [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 64 && [strength]+[dexterity] >= 20
-[type] == circlet && [quality] == rare # ([sockets] >= 3 || [sockets] == 0) && [amazonskills]+[sorceressskills]+[necromancerskills]+[paladinskills]+[barbarianskills]+[druidskills]+[assassinskills] >= 2 && [strength]+[dexterity] >= 20 && [maxhp] >= 40
+[type] == circlet && [quality] == rare # ([sockets] >= 3 || [sockets] == 0) && [amazonskills]+[javelinandspearskilltab]+[sorceressskills]+[fireskilltab]+[necromancerskills]+[poisonandboneskilltab]+[paladinskills]+[palicombatskilltab]+[barbarianskills]+[warcriesskilltab]+[druidskills]+[elementalskilltab]+[assassinskills]+[trapsskilltab] >= 2 && [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 64 && [strength]+[dexterity] >= 20
+[type] == circlet && [quality] == rare # ([sockets] >= 3 || [sockets] == 0) && [amazonskills]+[javelinandspearskilltab]+[sorceressskills]+[fireskilltab]+[necromancerskills]+[poisonandboneskilltab]+[paladinskills]+[palicombatskilltab]+[barbarianskills]+[warcriesskilltab]+[druidskills]+[elementalskilltab]+[assassinskills]+[trapsskilltab] >= 2 && [strength]+[dexterity] >= 20 && [maxhp] >= 40
 [type] == circlet && [quality] == rare # ([sockets] >= 3 || [sockets] == 0) && [strength]+[dexterity] >= 40 && [maxhp] >= 40
 
 
@@ -29,6 +29,3 @@
 [name] == sacredtarge && [quality] == rare && [flag] != ethereal # ([sockets] >= 4 || [sockets] == 0) && [paladinskills] >= 2 && [fbr] >= 30 && [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 140 // 材料特色35r 前缀1-2pal 10-200def 1-20mana 30单r 3-20r 后缀10-17fhr 15-30fbr 1-40life 1-9str
 [name] == monarch && [quality] == rare # [fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 60 && [fbr] >= 30 && [maxhp] >= 20//前缀10-200def 30单r 3-20r 后缀10-17fhr 15-30fbr 1-9str 1-40life 25-75plr 20-30req 回复耐久
 [name] == giantthresher && [quality] >= magic # [enhanceddamage] >= 300 //&& [lifeleech] >= 1//前缀10-300dam 10-150dam 30单r 后缀 10-40ias 4-9ll
-
-
-
