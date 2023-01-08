@@ -100,7 +100,7 @@ function pickItems() {
 	if (items) {
 		for (i = 0; i < items.length; i += 1) {
 			if (items[i].mode === 0 && items[i].location === 3 && Town.ignoredItemTypes.indexOf(items[i].itemType) > -1  // drop trash (id/tp scroll primarily)
-					&& (muleMode === 0 || items[i].classid !== 530)) { // don't drop ID scroll with torch/anni mules
+					&& (muleMode === 0 || items[i].classid !== 538)) { // don't drop ID scroll with torch/anni mules
 				try {
 					items[i].drop();
 				} catch (dropError) {
@@ -134,14 +134,14 @@ function pickItems() {
 				canFit = Storage.Inventory.CanFit(item);
 
 				// Torch handling
-				if (muleMode > 0 && item.classid === 604 && item.quality === 7 && !Pickit.canPick(item)) {
+				if (muleMode > 0 && item.classid === 612 && item.quality === 7 && !Pickit.canPick(item)) {
 					D2Bot.printToConsole("Mule already has a Torch.", 7);
 
 					rval = "next";
 				}
 
 				// Anni handling
-				if (muleMode > 0 && item.classid === 603 && item.quality === 7 && !Pickit.canPick(item)) {
+				if (muleMode > 0 && item.classid === 611 && item.quality === 7 && !Pickit.canPick(item)) {
 					D2Bot.printToConsole("Mule already has an Anni.", 7);
 
 					rval = "next";
@@ -155,6 +155,11 @@ function pickItems() {
 
 				if (canFit) {
 					Pickit.pickItem(item);
+					if ([611,612,613,715,716,717,743,759].indexOf(item.classid) !== -1) {
+						if (!Storage.Stash.MoveTo(item)) {
+							rval = "next";
+						}
+					}
 				} else {
 					rval = "next";
 				}
@@ -347,7 +352,7 @@ function checkAnniTorch() {
 		delay(500);
 	}
 
-	return me.findItem(603, 0, -1, 7) || me.findItem(604, 0, -1, 7);
+	return me.findItem(611, 0, -1, 7) || me.findItem(612, 0, -1, 7);
 }
 
 function foreverAlone() {
