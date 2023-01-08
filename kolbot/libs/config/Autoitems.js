@@ -93,20 +93,35 @@
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
 	Config.Cubing = true; // Set to true to enable cubing.
-	Config.Recipes.push([Recipe.Zkqia, 743]); // 抽奖
-	Config.Recipes.push([Recipe.Zkqia, 768]); // 技能转换石
+	Config.Recipes.push([Recipe.Zkqia, 744]); // 抽奖
+	Config.Recipes.push([Recipe.Zkqia, 769]); // 技能转换石
 	//Config.Recipes.push([Recipe.Zkqib, 300]); // 回收cy
 	Config.Recipes.push([Recipe.Zkqib, 209]); // 回收py
 	Config.Recipes.push([Recipe.Zkqib, 428]); // 回收tg
 	//Config.Recipes.push([Recipe.Zkqib, 422]); // 回收glf
 	Config.Recipes.push([Recipe.Zkqib, 263]); // 回收梅格之杖
-	Config.Recipes.push([Recipe.Zkqic, 612]); // Ugc洗技能
-	Config.Recipes.push([Recipe.Zkqic, 611]); // Ulc洗技能
-	Config.Recipes.push([Recipe.Zkqie, 611]); // 回收不要的ulc
-	Config.Recipes.push([Recipe.Zkqie, 612]); // 回收不要的ugc
+	Config.Recipes.push([Recipe.Zkqic, 613]); // Ugc洗技能
+	Config.Recipes.push([Recipe.Zkqic, 612]); // Ulc洗技能
+	Config.Recipes.push([Recipe.Zkqie, 613]); // 回收不要的ugc
+	Config.Recipes.push([Recipe.Zkqie, 612]); // 回收不要的ulc
 	Config.Recipes.push([Recipe.Zkqid]); //合成旗帜
 	Config.Recipes.push([Recipe.Zkqig]); //合成技能石碎片
-	Config.Recipes.push([Recipe.Zkqif]); //回收不要的技能石
+	Config.Recipes.push([Recipe.Zkqif, 724]); //回收暴风范围强化石
+	Config.Recipes.push([Recipe.Zkqif, 725]); //回收冲击频率强化石
+	Config.Recipes.push([Recipe.Zkqif, 726]); //回收圣冰频率强化石
+	Config.Recipes.push([Recipe.Zkqif, 727]); //回收圣火频率强化石
+	Config.Recipes.push([Recipe.Zkqif, 728]); //回收暴风雪cd强化石
+	Config.Recipes.push([Recipe.Zkqif, 729]); //回收冰封球cd强化石
+	Config.Recipes.push([Recipe.Zkqif, 730]); //回收陨石cd强化石
+	Config.Recipes.push([Recipe.Zkqif, 731]); //回收雷云频率强化石
+	Config.Recipes.push([Recipe.Zkqif, 732]); //回收锤子范围强化石
+	Config.Recipes.push([Recipe.Zkqif, 733]); //回收审判范围强化石
+	Config.Recipes.push([Recipe.Zkqif, 734]); //回收手雷范围强化石
+	Config.Recipes.push([Recipe.Zkqif, 735]); //回收陨石范围强化石
+	Config.Recipes.push([Recipe.Zkqif, 736]); //回收飞镖数量强化石
+	Config.Recipes.push([Recipe.Zkqif, 737]); //回收手雷数量强化石
+	Config.Recipes.push([Recipe.Zkqif, 747]); //回收骨矛数量强化石
+	Config.Recipes.push([Recipe.Zkqif, 771]); //回收闪电之怒强化石
 	
 	/* Runeword config. All recipes are available in Templates/Runewords.txt
 	 * Keep lines follow pickit format and any given runeword is tested vs ALL lines so you don't need to repeat them

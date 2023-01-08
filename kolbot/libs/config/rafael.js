@@ -51,10 +51,10 @@ function LoadConfig() {
 	Config.Inventory[9] =  [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 	Config.Inventory[10] = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 	Config.Inventory[11] = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
-	Config.Inventory[12] = [1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0];
-	Config.Inventory[13] = [1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0];
-	Config.Inventory[14] = [1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0];
-	Config.Inventory[15] = [1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0];
+	Config.Inventory[12] = [1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0];
+	Config.Inventory[13] = [1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0];
+	Config.Inventory[14] = [1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0];
+	Config.Inventory[15] = [1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0];
 
 	/* Potion types for belt columns from left to right.
 	 * Rejuvenation potions must always be rightmost.
