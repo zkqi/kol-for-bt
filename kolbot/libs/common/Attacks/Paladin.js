@@ -112,6 +112,8 @@ var ClassAttack = {
 
 				if (me.getSkill(112, 1) && !me.getState(144)) {
 					Skill.cast(attackSkill, Skill.getHand(attackSkill), unit);
+				} else {
+					delay(100);
 				}
 				
 				return 1;
@@ -141,6 +143,8 @@ var ClassAttack = {
 			for (i = 0; i < 3; i += 1) {
 				if (me.getSkill(112, 1) && !me.getState(144)) {
 					Skill.cast(attackSkill, Skill.getHand(attackSkill), unit);
+				} else {
+					delay(100);
 				}
 
 				if (!Attack.checkMonster(unit) || getDistance(me, unit) > 9 || unit.type === 0) {
