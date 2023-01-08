@@ -245,7 +245,7 @@ function Kulc() {
 
 	while (tkeys > 3) {
 		Town.goToTown();
-		item = me.getItem(654);
+		item = me.getItem(655);
 		if (Town.openStash() && Cubing.emptyCube() && Cubing.openCube() && Storage.Cube.MoveTo(item)) {
 			transmute();
 			delay(100);
@@ -256,7 +256,7 @@ function Kulc() {
 	hkeys = me.findItems("pk2", 0).length || 0;
 	while (hkeys > 3) {
 		Town.goToTown();
-		item = me.getItem(655);
+		item = me.getItem(656);
 		if (Town.openStash() && Cubing.emptyCube() && Cubing.openCube() && Storage.Cube.MoveTo(item)) {
 			transmute();
 			delay(100);
@@ -267,7 +267,7 @@ function Kulc() {
 	dkeys = me.findItems("pk3", 0).length || 0;
 	while (dkeys > 3) {
 		Town.goToTown();
-		item = me.getItem(656);
+		item = me.getItem(657);
 		if (Town.openStash() && Cubing.emptyCube() && Cubing.openCube() && Storage.Cube.MoveTo(item)) {
 			transmute();
 			delay(100);

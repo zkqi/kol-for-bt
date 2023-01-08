@@ -125,16 +125,12 @@ function Baal() {
 	};
 	
 	Config.TownHP = 20;
-	Config.BeltColumn[0] = "hp";
-	Config.BeltColumn[1] = "mp";
-	Config.BeltColumn[2] = "hp";
-	Config.BeltColumn[3] = "mp";
 	
 	Town.doChores();
-	if (me.getItem(741)) {
+	if (me.getItem(742)) {
 		me.cancel();
 		while (me.area !== 132) {
-			clickItem(1, me.getItem(741));
+			clickItem(1, me.getItem(742));
 			delay(500);
 			if (me.area == 132) {
 				break;
