@@ -170,7 +170,7 @@ var Cubing = {
 				Misc.openChest(chest);
 
 				for (i = 0; i < 5; i += 1) {
-					cube = getUnit(4, 556);
+					cube = getUnit(4, 557);
 
 					if (cube) {
 						Pickit.pickItem(cube);
@@ -185,7 +185,7 @@ var Cubing = {
 
 		Town.goToTown();
 
-		cube = me.getItem(556);
+		cube = me.getItem(557);
 
 		if (cube) {
 			return Storage.Stash.MoveTo(cube);
@@ -573,7 +573,7 @@ var Cubing = {
 
 				break;
 			case Recipe.Token:
-				this.recipes.push({Ingredients: [661, 662, 663, 664], Index: Recipe.Token, AlwaysEnabled: true});
+				this.recipes.push({Ingredients: [662, 663, 664, 665], Index: Recipe.Token, AlwaysEnabled: true});
 
 				break;
 			case Recipe.Zkqia:
@@ -581,34 +581,31 @@ var Cubing = {
 
 				break;
 			case Recipe.Zkqib:
-				this.recipes.push({Ingredients: [Config.Recipes[i][1], 524], Index: Recipe.Zkqib});
+				this.recipes.push({Ingredients: [Config.Recipes[i][1], 525], Index: Recipe.Zkqib});
 
 				break;
 			case Recipe.Zkqic:
-				this.recipes.push({Ingredients: [Config.Recipes[i][1], 642, 524], Index: Recipe.Zkqic});
+				this.recipes.push({Ingredients: [Config.Recipes[i][1], 643, 525], Index: Recipe.Zkqic});
 
 				break;
 			case Recipe.Zkqid:
-				this.recipes.push({Ingredients: [665,665,665,665,665,665,665,665,665,665,
-												 665,665,665,665,665,665,665,665,665,665,
-												 665,665,665,665,665,665,665,665,665,665,
-												 665,665,665,665,665,665,665,665,665,665,
-												 665,665,665,665,665,665,665,665,665,665], Index: Recipe.Zkqid, AlwaysEnabled: true});
+				this.recipes.push({Ingredients: [666,666,666,666,666,666,666,666,666,666,
+												 666,666,666,666,666,666,666,666,666,666,
+												 666,666,666,666,666,666,666,666,666,666,
+												 666,666,666,666,666,666,666,666,666,666,
+												 666,666,666,666,666,666,666,666,666,666], Index: Recipe.Zkqid, AlwaysEnabled: true});
 
 				break;
 			case Recipe.Zkqie:
-				this.recipes.push({Ingredients: [Config.Recipes[i][1], 598], Index: Recipe.Zkqie});
+				this.recipes.push({Ingredients: [Config.Recipes[i][1], 599], Index: Recipe.Zkqie, AlwaysEnabled: true});
 
 				break;
 			case Recipe.Zkqif:
-				this.recipes.push({Ingredients: ["jineng", 603], Index: Recipe.Zkqif,
-				NeedPickupSet: true,
-				NeedPickupItems:[723,724,725,726,727,728,729,730,731,732,733,734,735,736,746]
-				});
+				this.recipes.push({Ingredients: [Config.Recipes[i][1], 604], Index: Recipe.Zkqif, AlwaysEnabled: true});
 
 				break;
 			case Recipe.Zkqig:
-				this.recipes.push({Ingredients: [769, 769, 769], Index: Recipe.Zkqig, AlwaysEnabled: true});
+				this.recipes.push({Ingredients: [770, 770, 770], Index: Recipe.Zkqig, AlwaysEnabled: true});
 
 				break;
 			}	
@@ -622,7 +619,7 @@ var Cubing = {
 	getrune: function (rune) {
 		var i,j
 		if (!me.getItem(rune)) {
-			for (i = rune; i < 650; i+= 1) {
+			for (i = rune; i < 651; i+= 1) {
 				//say(i);
 				if (me.getItem(i)) {
 					j = i;
@@ -664,8 +661,7 @@ IngredientLoop:
 				for (k = 0; k < items.length; k += 1) {
 					if (((this.recipes[i].Ingredients[j] === "pgem" && this.gemList.indexOf(items[k].classid) > -1) ||
 						(this.recipes[i].Ingredients[j] === "cgem" && [557, 562, 567, 572, 577, 582, 597].indexOf(items[k].classid) > -1) ||
-						items[k].classid === this.recipes[i].Ingredients[j]) && this.validItem(items[k], this.recipes[i]) ||
-						(this.recipes[i].Ingredients[j] === "jineng" && this.recipes[i].NeedPickupItems.indexOf(items[k].classid) > -1)) {
+						items[k].classid === this.recipes[i].Ingredients[j]) && this.validItem(items[k], this.recipes[i])) {
 
 						// push the item's info into the valid ingredients array. this will be used to find items when checking recipes
 						this.validIngredients.push({classid: items[k].classid, gid: items[k].gid});
@@ -681,12 +677,13 @@ IngredientLoop:
 						}
 						
 						if (this.recipes[i].Index === Recipe.Zkqic) {
-							this.getrune(642);
+							this.getrune(643);
 						}
 						
 						continue IngredientLoop;
 					}
 				}
+				
 
 				// add the item to needed list - enable pickup
 				this.neededIngredients.push({classid: this.recipes[i].Ingredients[j], recipe: this.recipes[i]});
@@ -873,7 +870,7 @@ IngredientLoop:
 		}
 
 		// Gems and runes
-		if ((unit.itemType >= 96 && unit.itemType <= 102) || unit.itemType === 74 || unit.itemType === 81 || unit.classid === 598 || unit.classid === 603) {
+		if ((unit.itemType >= 96 && unit.itemType <= 102) || unit.itemType === 74 || unit.itemType === 81 || unit.classid === 599 || unit.classid === 604) {
 			if (!recipe.Enabled && recipe.Ingredients[0] !== unit.classid && recipe.Ingredients[1] !== unit.classid) {
 				return false;
 			}
@@ -1037,7 +1034,7 @@ IngredientLoop:
 			return false;
 		}
 
-		if (!me.getItem(556) && !this.getCube()) {
+		if (!me.getItem(557) && !this.getCube()) {
 			return false;
 		}
 
@@ -1089,7 +1086,7 @@ IngredientLoop:
 
 							break;
 						case 1:
-							if ([568,573,578,583,588,593,608,637,638,639,640,641,642,643,644,645,646,647,648,769].indexOf(items[j].classid) > -1) {
+							if ([569,574,579,584,589,594,609,638,639,640,641,642,643,644,645,646,647,648,649,770].indexOf(items[j].classid) > -1) {
 								break;
 							}
 							Misc.itemLogger("Cubing Kept", items[j]);
@@ -1153,7 +1150,7 @@ IngredientLoop:
 
 	openCube: function () {
 		var i, tick,
-			cube = me.getItem(556);
+			cube = me.getItem(557);
 
 		if (!cube) {
 			return false;
@@ -1183,7 +1180,7 @@ IngredientLoop:
 	},
 
 	emptyCube: function () {
-		var cube = me.getItem(556),
+		var cube = me.getItem(557),
 			items = me.findItems(-1, -1, 6);
 
 		if (!cube) {

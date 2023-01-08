@@ -693,7 +693,7 @@ var Item = {
 				for (j = 0; j < bodyLoc.length; j += 1) {
 					if ([3, 7].indexOf(items[0].location) > -1 && tier > this.getEquippedItem(bodyLoc[j]).tier && this.getEquippedItem(bodyLoc[j]).classid !== 174) { // khalim's will adjustment
 						if (!items[0].getFlag(0x10)) { // unid
-							tome = me.findItem(519, 0, 3);
+							tome = me.findItem(527, 0, 3);
 
 							if (tome && tome.getStat(70) > 0) {
 								if (items[0].location === 7) {
@@ -848,7 +848,7 @@ var Misc = {
 		}
 
 		// locked chest, no keys
-		if (me.classid !== 6 && unit.islocked && !me.findItem(543, 0, 3)) {
+		if (me.classid !== 6 && unit.islocked && !me.findItem(551, 0, 3)) {
 			return false;
 		}
 

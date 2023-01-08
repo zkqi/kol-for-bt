@@ -31,7 +31,7 @@ var Pickit = {
 	checkItem: function (unit) {
 		var rval = NTIP.CheckItem(unit, false, true);
 
-		if ((unit.classid === 624 || unit.classid === 625) && Town.repairIngredientCheck(unit)) {
+		if ((unit.classid === 625 || unit.classid === 626) && Town.repairIngredientCheck(unit)) {
 			return {
 				result: 6,
 				line: null
@@ -70,7 +70,7 @@ var Pickit = {
 		// square to sell in town.
 		if (rval.result === 0 && Town.ignoredItemTypes.indexOf(unit.itemType) === -1 && me.gold < Config.LowGold && unit.itemType !== 39) {
 			// Gold doesn't take up room, just pick it up
-			if (unit.classid === 530) {
+			if (unit.classid === 531) {
 				return {
 					result: 4,
 					line: null
@@ -87,7 +87,7 @@ var Pickit = {
 		
 		if (rval.result === 0 && Town.ignoredItemTypes.indexOf(unit.itemType) === -1 && me.gold < Config.LowGoldA && unit.itemType !== 39) {
 			// Gold doesn't take up room, just pick it up
-			if (unit.classid === 530) {
+			if (unit.classid === 531) {
 				return {
 					result: 4,
 					line: null
@@ -300,7 +300,7 @@ MainLoop:
 			while (getTickCount() - tick < 1000) {
 				item = copyUnit(item);
 
-				if (stats.classid === 530) {
+				if (stats.classid === 531) {
 					if (!item.getStat(14) || item.getStat(14) < stats.gold) {
 						print("ÿc7Picked up " + stats.color + (item.getStat(14) ? (item.getStat(14) - stats.gold) : stats.gold) + " " + stats.name);
 
@@ -310,13 +310,13 @@ MainLoop:
 
 				if (item.mode !== 3 && item.mode !== 5) {
 					switch (stats.classid) {
-					case 550: // Key
+					case 551: // Key
 						print("ÿc7Picked up " + stats.color + stats.name + " ÿc7(" + Town.checkKeys() + "/12)");
 
 						return true;
-					case 536: // Scroll of Town Portal
-					case 537: // Scroll of Identify
-						print("ÿc7Picked up " + stats.color + stats.name + " ÿc7(" + Town.checkScrolls(stats.classid === 536 ? "tbk" : "ibk") + "/20)");
+					case 537: // Scroll of Town Portal
+					case 538: // Scroll of Identify
+						print("ÿc7Picked up " + stats.color + stats.name + " ÿc7(" + Town.checkScrolls(stats.classid === 537 ? "tbk" : "ibk") + "/20)");
 
 						return true;
 					}
@@ -353,7 +353,7 @@ MainLoop:
 						break;
 					}
 					
-					if ([568,573,578,583,588,593,608,637,638,639,640,641,642,643,644,645,646,647,648,664,671].indexOf(item.classid) > -1) {
+					if ([569,574,579,584,589,594,609,638,639,640,641,642,643,644,645,646,647,648,649,665,672].indexOf(item.classid) > -1) {
 						break;
 					}
 
@@ -436,14 +436,14 @@ MainLoop:
 		switch (unit.classid) {
 		case 92: // Staff of Kings
 		case 173: // Khalim's Flail
-		case 528: // Viper Amulet
-		case 553: // Jade Figurine
-		case 556: // Cube
-		case 558: // Mephisto's Soulstone
-		case 559: // Book of Skill
-		case 560: // Khalim's Eye
-		case 561: // Khalim's Heart
-		case 562: // Khalim's Brain
+		case 529: // Viper Amulet
+		case 554: // Jade Figurine
+		case 557: // Cube
+		case 559: // Mephisto's Soulstone
+		case 560: // Book of Skill
+		case 561: // Khalim's Eye
+		case 562: // Khalim's Heart
+		case 563: // Khalim's Brain
 			if (me.getItem(unit.classid)) {
 				return false;
 			}
@@ -477,7 +477,7 @@ MainLoop:
 				return false;
 			}
 
-			myKey = me.getItem(550, 0);
+			myKey = me.getItem(551, 0);
 			key = getUnit(4, -1, -1, unit.gid); // Passed argument isn't an actual unit, we need to get it
 
 			if (myKey && key) {

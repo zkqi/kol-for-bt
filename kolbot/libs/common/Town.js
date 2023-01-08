@@ -95,10 +95,10 @@ var Town = {
 		this.heal();
 		this.identify();
 		this.shopItems();
-		this.fillTome(525);
+		this.fillTome(526);
 
 		if (Config.FieldID) {
-			this.fillTome(526);
+			this.fillTome(527);
 		}
 
 		this.buyPotions();
@@ -130,32 +130,34 @@ var Town = {
 	
 	back: function () {
 		var i,j;
-		if (me.getItem(666)) {
-			clickItem(1, me.getItem(666));
-			delay(500);
-		}
-		if (me.getItem(673)) {
-			clickItem(1, me.getItem(673));
+		if (me.getItem(667)) {
+			clickItem(1, me.getItem(667));
 			delay(500);
 		}
 		if (me.getItem(674)) {
 			clickItem(1, me.getItem(674));
+			delay(500);
 		}
-		if (me.findItems(637).length >= 2 || me.findItems(638).length >= 2 || me.findItems(639).length >= 2 || me.findItems(640).length >= 2 || me.findItems(641).length >= 2 || me.findItems(642) >= 2 || 
-			me.findItems(643).length >= 2 || me.findItems(644).length >= 2 || me.findItems(645).length >= 2 || me.findItems(646).length >= 2 || me.findItems(647).length >= 2 || me.findItems(648).length >= 2)
+		if (me.getItem(675)) {
+			clickItem(1, me.getItem(675));
+		}
+		if (me.findItems(638).length >= 2 || me.findItems(639).length >= 2 || me.findItems(640).length >= 2 || me.findItems(641).length >= 2 || me.findItems(642) >= 2 || me.findItems(643).length >= 2 || 
+			me.findItems(644).length >= 2 || me.findItems(645).length >= 2 || me.findItems(646).length >= 2 || me.findItems(647).length >= 2 || me.findItems(648).length >= 2 || me.findItems(649).length >= 2)
 		{
 			if (Town.openStash()) {
-				for (i = 637; i < 649; i++) {
+				for (i = 638; i < 650; i++) {
 					var item = me.findItems(i);
 					if (item) {
 						for(j = 0; j < item.length; j++) {
-							Storage.Inventory.MoveTo(item[j]);
+							if (item[j].location !== 3) {
+								Storage.Inventory.MoveTo(item[j]);
+							}
 						}
 					}
 				}
 				delay(500);
-				if (me.getItem(674)) {
-					clickItem(1, me.getItem(674));
+				if (me.getItem(675)) {
+					clickItem(1, me.getItem(675));
 				}
 			}
 		}
@@ -167,7 +169,7 @@ var Town = {
 		var i, npc, item;
 
 		// golden bird stuff
-		if (me.getItem(553)) {
+		if (me.getItem(554)) {
 			this.goToTown(3);
 			this.move("meshif");
 
@@ -179,7 +181,7 @@ var Town = {
 			}
 		}
 
-		if (me.getItem(554)) {
+		if (me.getItem(555)) {
 			this.goToTown(3);
 			this.move("alkor");
 
@@ -193,8 +195,8 @@ var Town = {
 			}
 		}
 
-		if (me.getItem(552)) {
-			item = me.getItem(552);
+		if (me.getItem(553)) {
+			item = me.getItem(553);
 
 			if (item.location > 3) {
 				this.openStash();
@@ -509,8 +511,8 @@ var Town = {
 
 		delay(500);
 
-		if (code === 525 && !me.findItem(525, 0, 3)) {
-			tome = npc.getItem(525);
+		if (code === 526 && !me.findItem(526, 0, 3)) {
+			tome = npc.getItem(526);
 
 			if (tome && Storage.Inventory.CanFit(tome)) {
 				try {
@@ -526,7 +528,7 @@ var Town = {
 			}
 		}
 
-		scroll = npc.getItem(code === 525 ? 536 : 537);
+		scroll = npc.getItem(code === 526 ? 537 : 538);
 
 		if (!scroll) {
 			return false;
@@ -548,10 +550,10 @@ var Town = {
 
 		if (!tome) {
 			switch (id) {
-			case 526:
+			case 527:
 			case "ibk":
 				return 20; // Ignore missing ID tome
-			case 525:
+			case 526:
 			case "tbk":
 				return 0; // Force TP tome check
 			}
@@ -590,10 +592,10 @@ var Town = {
 			return false;
 		}
 
-		tome = me.findItem(526, 0, 3);
+		tome = me.findItem(527, 0, 3);
 
 		if (tome && tome.getStat(70) < list.length) {
-			this.fillTome(526);
+			this.fillTome(527);
 		}
 
 MainLoop:
@@ -620,11 +622,11 @@ MainLoop:
 					if (tome) {
 						this.identifyItem(item, tome);
 					} else {
-						scroll = npc.getItem(537);
+						scroll = npc.getItem(538);
 
 						if (scroll) {
 							if (!Storage.Inventory.CanFit(scroll)) {
-								tpTome = me.findItem(525, 0, 3);
+								tpTome = me.findItem(526, 0, 3);
 
 								if (tpTome) {
 									tpTomePos = {x: tpTome.x, y: tpTome.y};
@@ -641,7 +643,7 @@ MainLoop:
 							}
 						}
 
-						scroll = me.findItem(537, 0, 3);
+						scroll = me.findItem(538, 0, 3);
 
 						if (!scroll) {
 							break MainLoop;
@@ -662,8 +664,8 @@ MainLoop:
 						if (result.result === 1 && Config.AutoEquip && !item.getFlag(0x10) && Item.autoEquipCheck(item)) {
 							break;
 						}
-						
-						if ([568,573,578,583,588,593,608,637,638,639,640,641,642,643,644,645,646,647,648].indexOf(item.classid) > -1) {
+							 
+						if ([569,574,579,584,589,594,609,638,639,640,641,642,643,644,645,646,647,648,649].indexOf(item.classid) > -1) {
 							break;
 						}
 
@@ -705,7 +707,7 @@ MainLoop:
 			}
 		}
 
-		this.fillTome(525); // Check for TP tome in case it got sold for ID scrolls
+		this.fillTome(526); // Check for TP tome in case it got sold for ID scrolls
 
 		return true;
 	},
@@ -772,7 +774,7 @@ MainLoop:
 
 					break;
 				case 1:
-					if ([568,573,578,583,588,593,608,637,638,639,640,641,642,643,644,645,646,647,648].indexOf(unids[i].classid) > -1) {
+					if ([569,574,579,584,589,594,609,638,639,640,641,642,643,644,645,646,647,648,649].indexOf(unids[i].classid) > -1) {
 						break;
 					}
 					Misc.itemLogger("Kept", unids[i]);
@@ -797,7 +799,7 @@ MainLoop:
 			return false;
 		}
 
-		tome = me.findItem(526, 0, 3);
+		tome = me.findItem(527, 0, 3);
 
 		if (!tome || tome.getStat(70) < list.length) {
 			return false;
@@ -965,9 +967,9 @@ CursorLoop:
 			if ((result.result === 1 && Item.autoEquipCheck(items[i])) || (result.result == 2)) {
 				try {
 					if (Storage.Inventory.CanFit(items[i]) && me.getStat(14) + me.getStat(15) >= items[i].getItemCost(0)) {
-						if ([666,673,674].indexOf(items[i].classid) === -1) {
+						if ([667,674,675].indexOf(items[i].classid) === -1) {
 							Misc.itemLogger("Shopped", items[i]);
-							if ([524].indexOf(items[i].classid) === -1) {
+							if ([525].indexOf(items[i].classid) === -1) {
 								Misc.logItem("Shopped", items[i], result.line);
 							}
 							items[i].buy();
@@ -1167,7 +1169,7 @@ CursorLoop:
 
 		var i,
 			count = 0,
-			key = me.findItems(550, 0, 3);
+			key = me.findItems(551, 0, 3);
 
 		if (key) {
 			for (i = 0; i < key.length; i += 1) {
@@ -1220,14 +1222,14 @@ CursorLoop:
 		}
 
 		switch (item.classid) {
-		case 624:
-			if (needRal && (!me.findItems(624) || me.findItems(624) < needRal)) {
+		case 625:
+			if (needRal && (!me.findItems(625) || me.findItems(625) < needRal)) {
 				return true;
 			}
 
 			break;
-		case 625:
-			if (needOrt && (!me.findItems(625) || me.findItems(625) < needOrt)) {
+		case 626:
+			if (needOrt && (!me.findItems(626) || me.findItems(626) < needOrt)) {
 				return true;
 			}
 
@@ -1238,7 +1240,7 @@ CursorLoop:
 	},
 
 	cubeRepair: function () {
-		if (!Config.CubeRepair || !me.getItem(556)) {
+		if (!Config.CubeRepair || !me.getItem(557)) {
 			return false;
 		}
 
@@ -1274,11 +1276,11 @@ CursorLoop:
 		case 71:
 		case 72:
 		case 75:
-			rune = me.getItem(624); // Ral rune
+			rune = me.getItem(625); // Ral rune
 
 			break;
 		default:
-			rune = me.getItem(625); // Ort rune
+			rune = me.getItem(626); // Ort rune
 
 			break;
 		}
@@ -1605,7 +1607,7 @@ MainLoop:
 						}
 					}
 
-					if (result && [568,573,578,583,588,593,608,664,671].indexOf(items[i].classid) === -1) {
+					if (result && [569,574,579,584,589,594,609,665,672,638,639,640,641,642,643,644,645,646,647,648,649].indexOf(items[i].classid) === -1) {
 						Misc.itemLogger("Stashed", items[i]);
 						Storage.Stash.MoveTo(items[i]);
 					}
@@ -1953,27 +1955,27 @@ MainLoop:
 		for (i = 0; !!items && i < items.length; i += 1) {
 			if ([18, 41, 76, 77, 78].indexOf(items[i].itemType) === -1 && // Don't drop tomes, keys or potions
 					// Keep some quest items
-					items[i].classid !== 531 && // Scroll of Inifuss
-					items[i].classid !== 532 && // Key to Cairn Stones
-					items[i].classid !== 556 && // Horadric Cube
+					items[i].classid !== 532 && // Scroll of Inifuss
+					items[i].classid !== 533 && // Key to Cairn Stones
+					items[i].classid !== 557 && // Horadric Cube
 					items[i].classid !== 92 && // Staff of Kings
-					items[i].classid !== 528 && // Viper Amulet
+					items[i].classid !== 529 && // Viper Amulet
 					items[i].classid !== 91 && // Horadric Staff
-					items[i].classid !== 559 && // Book of Skill
-					items[i].classid !== 552 && // Potion of Life
-					items[i].classid !== 553 && // A Jade Figurine
-					items[i].classid !== 554 && // The Golden Bird
-					items[i].classid !== 555 && // Lam Esen's Tome
-					items[i].classid !== 560 && // Khalim's Eye
-					items[i].classid !== 561 && // Khalim's Heart 
-					items[i].classid !== 562 && // Khalim's Brain
+					items[i].classid !== 560 && // Book of Skill
+					items[i].classid !== 553 && // Potion of Life
+					items[i].classid !== 554 && // A Jade Figurine
+					items[i].classid !== 555 && // The Golden Bird
+					items[i].classid !== 556 && // Lam Esen's Tome
+					items[i].classid !== 561 && // Khalim's Eye
+					items[i].classid !== 562 && // Khalim's Heart 
+					items[i].classid !== 563 && // Khalim's Brain
 					items[i].classid !== 173 && // Khalim's Flail
 					items[i].classid !== 174 && // Khalim's Will
-					items[i].classid !== 651 && // Malah's Potion
-					items[i].classid !== 653 && // Scroll of Resistance
+					items[i].classid !== 652 && // Malah's Potion
+					items[i].classid !== 654 && // Scroll of Resistance
 					//
-					(items[i].code !== 536 || !!me.findItem(525, 0, 3)) && // Don't throw scrolls if no tome is found (obsolete code?)
 					(items[i].code !== 537 || !!me.findItem(526, 0, 3)) && // Don't throw scrolls if no tome is found (obsolete code?)
+					(items[i].code !== 538 || !!me.findItem(527, 0, 3)) && // Don't throw scrolls if no tome is found (obsolete code?)
 					!Cubing.keepItem(items[i]) && // Don't throw cubing ingredients
 					!Runewords.keepItem(items[i]) && // Don't throw runeword ingredients
 					!CraftingSystem.keepItem(items[i]) // Don't throw crafting system ingredients

@@ -391,7 +391,7 @@ var Attack = {
 			} while (target.getNext());
 		}
 
-		while (start && monsterList.length > 0 && attackCount < 300) {
+		while (start && monsterList.length > 0 && attackCount < 600) {
 			if (boss) {
 				orgx = boss.x;
 				orgy = boss.y;
@@ -551,7 +551,7 @@ var Attack = {
 			sortFunc = this.sortMonsters;
 		}
 
-		while (monsterList.length > 0 && attackCount < 300) {
+		while (monsterList.length > 0 && attackCount < 600) {
 			if (refresh && attackCount > 0 && attackCount % refresh === 0) {
 				monsterList = mainArg.call();
 			}
