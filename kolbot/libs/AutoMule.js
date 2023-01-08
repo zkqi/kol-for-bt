@@ -421,11 +421,14 @@ MainLoop:
 			do {
 				if (Town.ignoredItemTypes.indexOf(item.itemType) === -1 &&
 						(Pickit.checkItem(item).result > 0 || (item.location === 7 && info.muleInfo.hasOwnProperty("muleOrphans") && info.muleInfo.muleOrphans)) &&
-						item.classid !== 549 && // Don't drop Horadric Cube
-						(item.classid !== 603 || item.quality !== 7) && // Don't drop Annihilus
-						(item.classid !== 604 || item.quality !== 7) && // Don't drop Hellfire Torch
+						item.classid !== 557 && // Don't drop Horadric Cube
+						//(item.classid !== 603 || item.quality !== 7) && // Don't drop Annihilus
+						//(item.classid !== 604 || item.quality !== 7) && // Don't drop Hellfire Torch
+						[638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649].indexOf(item.classid) === -1 && // Don't drop 21-32#
+						[655, 656, 657].indexOf(item.classid) === -1 && // Don't drop Keys
+						[666, 667, 674, 675, 742, 769, 770,].indexOf(item.classid) === -1 && // Don't drop 菊花特色物品
 						(item.location === 7 || (item.location === 3 && !Storage.Inventory.IsLocked(item, Config.Inventory))) && // Don't drop items in locked slots
-						((!TorchSystem.getFarmers() && !TorchSystem.isFarmer()) || [647, 648, 649].indexOf(item.classid) === -1) && // Don't drop Keys if part of TorchSystem
+						((!TorchSystem.getFarmers() && !TorchSystem.isFarmer()) || [655,656,657].indexOf(item.classid) === -1) && // Don't drop Keys if part of TorchSystem
 						!this.cubingIngredient(item) && !this.runewordIngredient(item) && !this.utilityIngredient(item)) { // Don't drop Runeword/Cubing/CraftingSystem ingredients
 					items.push(copyUnit(item));
 				}
@@ -487,7 +490,7 @@ MainLoop:
 		var item;
 
 		if (dropAnni) {
-			item = me.findItem(603, 0, -1, 7);
+			item = me.findItem(611, 0, -1, 7);
 
 			if (item && !Storage.Inventory.IsLocked(item, Config.Inventory)) {
 				D2Bot.printToConsole("AutoMule: Transfering Anni.", 7);
@@ -501,7 +504,7 @@ MainLoop:
 			return false;
 		}
 
-		item = me.findItem(604, 0, -1, 7);
+		item = me.findItem(612, 0, -1, 7);
 
 		if (item) {
 			D2Bot.printToConsole("AutoMule: Transfering Torch.", 7);
