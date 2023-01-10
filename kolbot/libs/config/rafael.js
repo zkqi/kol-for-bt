@@ -21,9 +21,10 @@ function LoadConfig() {
 	
 	// Boss/area scripts
 	Scripts.Questing = false;
-	Scripts.Pit = true;
+	Scripts.Pit = false;
 		Config.Pit.ClearPit1 = true;
-	Scripts.Baal = true;
+	Scripts.Baal = false;
+	Scripts.MagicHole = true;
 
 	/* ### leeching section ###
 	* Unless stated otherwise, leader's character name isn't needed on order to run.
@@ -52,9 +53,9 @@ function LoadConfig() {
 	Config.Inventory[10] = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 	Config.Inventory[11] = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 	Config.Inventory[12] = [1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0];
-	Config.Inventory[13] = [1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0];
-	Config.Inventory[14] = [1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0];
-	Config.Inventory[15] = [1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0];
+	Config.Inventory[13] = [1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0];
+	Config.Inventory[14] = [1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0];
+	Config.Inventory[15] = [1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0];
 
 	/* Potion types for belt columns from left to right.
 	 * Rejuvenation potions must always be rightmost.

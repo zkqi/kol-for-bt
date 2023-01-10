@@ -20,6 +20,7 @@ function LoadConfig() {
 	include("config/Autoitems.js");	
 	
 	// Boss/area scripts
+	Scripts.Pass = false;
 	Scripts.Questing = false;
 	Scripts.Pit = true;
 		Config.Pit.ClearPit1 = true;

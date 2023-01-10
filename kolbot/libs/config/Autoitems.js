@@ -38,8 +38,8 @@
 	Config.UseRejuvMP = 0; // Drink a rejuvenation potion if mana is under designated percent.
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
 	Config.UseMercRejuv = 10; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
-	Config.HPBuffer = 1; // Number of healing potions to keep in inventory.
-	Config.MPBuffer = 1; // Number of mana potions to keep in inventory.
+	Config.HPBuffer = 2; // Number of healing potions to keep in inventory.
+	Config.MPBuffer = 2; // Number of mana potions to keep in inventory.
 	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
@@ -95,15 +95,17 @@
 	Config.Cubing = true; // Set to true to enable cubing.
 	Config.Recipes.push([Recipe.Zkqia, 744]); // 抽奖
 	Config.Recipes.push([Recipe.Zkqia, 769]); // 技能转换石
-	//Config.Recipes.push([Recipe.Zkqib, 300]); // 回收cy
+	Config.Recipes.push([Recipe.Zkqib, 300]); // 回收cy
 	Config.Recipes.push([Recipe.Zkqib, 209]); // 回收py
 	Config.Recipes.push([Recipe.Zkqib, 428]); // 回收tg
-	//Config.Recipes.push([Recipe.Zkqib, 422]); // 回收glf
+	Config.Recipes.push([Recipe.Zkqib, 422]); // 回收glf
 	Config.Recipes.push([Recipe.Zkqib, 263]); // 回收梅格之杖
 	Config.Recipes.push([Recipe.Zkqic, 613]); // Ugc洗技能
 	Config.Recipes.push([Recipe.Zkqic, 612]); // Ulc洗技能
+	Config.Recipes.push([Recipe.Zkqic, 716]); // 娃娃洗技能
 	Config.Recipes.push([Recipe.Zkqie, 613]); // 回收不要的ugc
 	Config.Recipes.push([Recipe.Zkqie, 612]); // 回收不要的ulc
+	Config.Recipes.push([Recipe.Zkqie, 716]); // 回收不要的娃娃
 	Config.Recipes.push([Recipe.Zkqid]); //合成旗帜
 	Config.Recipes.push([Recipe.Zkqig]); //合成技能石碎片
 	Config.Recipes.push([Recipe.Zkqif, 724]); //回收暴风范围强化石
