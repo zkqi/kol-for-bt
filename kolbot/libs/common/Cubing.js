@@ -990,7 +990,13 @@ IngredientLoop:
 		}
 		
 		
-		if (recipe.Index === Recipe.Zkqic) {//Ï´ugc ulc usc
+		if (recipe.Index === Recipe.Zkqic) {//Ï´ugc ulc usc ÍÞÍÞ
+			if (unit.classid == 716) {
+				if (unit.getStat(378) < 3 && NTIP.CheckItem(unit) === 1) {
+					return true;
+				}
+				return false;
+			}
 			if (unit.getStat(378) == 0 && unit.quality === 7) {
 				if (NTIP.CheckItem(unit) === 0) {
 					return true;
@@ -1011,6 +1017,12 @@ IngredientLoop:
 		}
 		
 		if (recipe.Index === Recipe.Zkqie) {//»ØÊÕugc ulc usc
+			if (unit.classid == 716 && unit.getStat(378) == 0) {
+				if (NTIP.CheckItem(unit) === 0) {
+					return true;
+				}
+				return false;
+			}
 			if (unit.quality === 7 && NTIP.CheckItem(unit) === 0 && unit.getStat(378) >= 3) {
 				return true;
 			}

@@ -292,6 +292,17 @@ var Town = {
 	},
 
 	buyPotions: function () {
+		var pluspotions = [525,599,604],
+	        pluspotionsnum = 2;
+	
+		if (pluspotions.length > 0) {
+			for (i = 0; i < pluspotions.length; i += 1) {
+				if (me.findItems(pluspotions[i], 0).length >= pluspotionsnum) {
+					needpluspotions = false;
+				}
+			}
+		}
+
 		if (me.gold < 1000) { // Ain't got money fo' dat shyt
 			return false;
 		}
@@ -299,6 +310,7 @@ var Town = {
 		var i, j, npc, useShift, col, beltSize, pot,
 			needPots = false,
 			needBuffer = true,
+			needpluspotions = true,
 			buffer = {
 				hp: 0,
 				mp: 0
@@ -354,7 +366,7 @@ var Town = {
 		}
 
 		// No columns to fill
-		if (!needPots && !needBuffer) {
+		if (!needPots && !needBuffer && !needpluspotions) {
 			return true;
 		}
 
@@ -406,6 +418,16 @@ var Town = {
 
 				if (Storage.Inventory.CanFit(pot)) {
 					pot.buy(false);
+				}
+			}
+		}
+		
+		if (pluspotions.length > 0) {
+			for (i = 0; i < pluspotions.length; i += 1) {
+				pot = npc.getItem(pluspotions[i]);
+			while (Storage.Inventory.CanFit(pot) && (me.findItems(pluspotions[i], 0).length < pluspotionsnum || !me.findItems(pluspotions[i], 0))) {
+					pot.buy(true);
+					delay(100);
 				}
 			}
 		}
@@ -1617,7 +1639,7 @@ MainLoop:
 
 		// Stash gold
 		if (stashGold) {
-			if (me.getStat(14) >= Config.StashGold && me.getStat(15) < 3e7 && this.openStash()) {
+			if (me.getStat(14) >= Config.StashGold && me.getStat(15) < 3e8 && this.openStash()) {
 				gold(me.getStat(14), 3);
 				delay(1000);
 				me.cancel();
@@ -1628,7 +1650,7 @@ MainLoop:
 	},
 
 	needStash: function () {
-		if (Config.StashGold && me.getStat(14) >= Config.StashGold && me.getStat(15) < 3e7) {
+		if (Config.StashGold && me.getStat(14) >= Config.StashGold && me.getStat(15) < 3e8) {
 			return true;
 		}
 

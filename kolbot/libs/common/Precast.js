@@ -139,12 +139,42 @@ var Precast = new function () {
 
 		return true;
 	};
+	
+	this.plusskills = function (force) {
+		if ((!me.getState(159) || force) && me.getSkill(267, 1)) {
+			Skill.cast(267, 0); // Fade
+		}
+		
+		if ((!me.getState(88) || force) && me.getSkill(50, 1)) {
+			Skill.cast(50, 0); // Shiver Armor
+		}
+
+		if ((!me.getState(38) || force) && me.getSkill(57, 1)) {
+			Skill.cast(57, 0); // Thunder Storm
+		}
+		
+		if ((!me.getState(14) || force) && me.getSkill(68, 1)) {
+			Skill.cast(68, 0);//bonearmor
+		}
+		
+		if ((!me.getState(101) || force) && me.getSkill(117, 1)) {
+			this.precastSkill(117); // Holy Shield
+		}
+		
+		if ((!me.getState(151) || force) && me.getSkill(235, 1)) {
+			Skill.cast(235, 0); // Cyclone Armor
+		}
+
+		return true;
+	};
 
 	this.doPrecast = function (force) {
 		var buffSummons = false;
 
 		// Force BO 15 seconds before it expires
 		this.precastCTA(!me.getState(32) || force || (getTickCount() - this.BOTick >= this.BODuration - 15000));
+		
+		this.plusskills(force);//¶îÍâ¼¼ÄÜ
 
 		switch (me.classid) {
 		case 0: // Amazon
@@ -154,10 +184,6 @@ var Precast = new function () {
 
 			break;
 		case 1: // Sorceress
-			if (!me.getState(38) || force) { // ts
-				Skill.cast(57, 0); // Thunder Storm
-			}
-
 			if (!me.getState(30) || force) {
 				Skill.cast(58, 0); // Energy Shield
 			}
@@ -176,10 +202,6 @@ var Precast = new function () {
 
 			break;
 		case 2: // Necromancer
-			if (!me.getState(14) || force) {
-				Skill.cast(68, 0);
-			}
-
 			switch (Config.Golem) {
 			case 0:
 			case "None":
@@ -200,14 +222,9 @@ var Precast = new function () {
 
 			break;
 		case 3: // Paladin
-			if (!me.getState(101) || force) {
-				this.precastSkill(117); // Holy Shield
+			if ((!me.getState(144) || force) && me.getSkill(112, 1)) {
+				Skill.cast(112, 1); // Blessed Hammer
 			}
-			
-			if (!me.getState(144) || force) {
-				Skill.cast(112, 1); // Hurricane
-			}
-
 			break;
 		case 4: // Barbarian - TODO: BO duration
 			if (!me.getState(32) || !me.getState(51) || !me.getState(26) || force) {
@@ -234,10 +251,6 @@ var Precast = new function () {
 
 			break;
 		case 5: // Druid
-			if (!me.getState(151) || force) {
-				Skill.cast(235, 0); // Cyclone Armor
-			}
-
 			if (Config.SummonRaven) {
 				this.summon(221); // Raven
 			}
