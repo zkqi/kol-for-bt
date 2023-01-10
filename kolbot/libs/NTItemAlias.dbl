@@ -612,10 +612,6 @@ NTIPAliasClassID["ned"] = 506;    NTIPAliasClassID["overseerskull"] = 506;//
 NTIPAliasClassID["nee"] = 507;    NTIPAliasClassID["succubusskull"] = 507;//
 NTIPAliasClassID["nef"] = 508;    NTIPAliasClassID["bloodlordskull"] = 508;//
 NTIPAliasClassID["elx"] = 509;    NTIPAliasClassID["elixir"] = 509;//
-NTIPAliasClassID["hpo"] = 510;    NTIPAliasClassID["hpo"] = 510;//
-NTIPAliasClassID["mpo"] = 511;    NTIPAliasClassID["mpo"] = 511;//
-NTIPAliasClassID["hpf"] = 512;    NTIPAliasClassID["hpf"] = 512;//
-NTIPAliasClassID["mpf"] = 513;    NTIPAliasClassID["mpf"] = 513;//
 
 NTIPAliasClassID["vps"] = 521;    NTIPAliasClassID["staminapotion"] = 521;//
 NTIPAliasClassID["yps"] = 522;    NTIPAliasClassID["antidotepotion"] = 522;//
@@ -770,6 +766,10 @@ NTIPAliasType["t103"] = 103;//
 NTIPAliasType["t104"] = 104;//
 
 NTIPAliasClassID["s306"] = 306; //
+NTIPAliasClassID["s510"] = 510; //
+NTIPAliasClassID["s511"] = 511; //
+NTIPAliasClassID["s512"] = 512; //
+NTIPAliasClassID["s513"] = 513; //
 NTIPAliasClassID["s514"] = 514; //
 NTIPAliasClassID["s515"] = 515; //
 NTIPAliasClassID["s516"] = 516; //
@@ -882,7 +882,7 @@ NTIPAliasClassID["s768"] = 768; //
 NTIPAliasClassID["s769"] = 769; //技能转换石
 NTIPAliasClassID["s770"] = 770; //技能石碎片
 NTIPAliasClassID["s771"] = 771; //闪电之怒强化石
-NTIPAliasClassID["s772"] = 772; //新技能强化石？？？
+NTIPAliasClassID["s772"] = 772; //脚踢强化石
 NTIPAliasClassID["s773"] = 773; //
 NTIPAliasClassID["s774"] = 774; //
 NTIPAliasClassID["s775"] = 775; //
@@ -1676,3 +1676,4 @@ NTIPAliasStat["g418"] = 418;//手雷数量强化石
 NTIPAliasStat["g419"] = 419;//抽奖属性
 NTIPAliasStat["g424"] = 424;//骨矛数量强化石
 NTIPAliasStat["g436"] = 436;//闪电之怒强化石
+NTIPAliasStat["g439"] = 439;//脚踢强化石
